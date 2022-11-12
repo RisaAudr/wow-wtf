@@ -1,0 +1,92 @@
+
+CrossGambling = {
+	["enabledState"] = true,
+	["AddPlayer"] = nil --[[ skipped inline function ]],
+	["profileKeys"] = {
+		["Genericzombi - Atiesh"] = "Default",
+		["Taravangían - Atiesh"] = "Default",
+		["Risabanktwo - Atiesh"] = "Default",
+		["Rylanbankalt - Atiesh"] = "Default",
+		["Tensoón - Atiesh"] = "Default",
+		["Risabankthre - Atiesh"] = "Default",
+		["Elhokár - Atiesh"] = "Default",
+	},
+	["orderedModules"] = {
+	},
+	["RemovePlayer"] = nil --[[ skipped inline function ]],
+	["modules"] = {
+	},
+	["baseName"] = "CrossGambling",
+	["defaultModuleState"] = true,
+	["game"] = {
+		["players"] = {
+		},
+		["PlayerName"] = "Taravangían",
+		["chatframeOption"] = true,
+		["state"] = "START",
+		["house"] = false,
+		["PlayerClass"] = "MAGE",
+		["mode"] = "Classic",
+		["host"] = false,
+		["chatMethod"] = "PARTY",
+	},
+	["db"] = {
+		["callbacks"] = {
+			["events"] = {
+			},
+			["recurse"] = 0,
+		},
+		["global"] = {
+			["themechoice"] = 0,
+		},
+		["keys"] = {
+			["global"] = true,
+			["class"] = "MAGE",
+			["profiles"] = true,
+			["char"] = "Taravangían - Atiesh",
+			["race"] = "BloodElf",
+			["locale"] = "enus",
+			["faction"] = "Horde",
+			["profile"] = "Default",
+			["factionrealm"] = "Horde - Atiesh",
+			["factionrealmregion"] = "Horde - Atiesh - US",
+			["realm"] = "Atiesh",
+		},
+	},
+	["defaultModuleLibraries"] = {
+	},
+	["name"] = "CrossGambling",
+	["global"] = {
+		["stats"] = {
+			["Rinessa"] = -44,
+			["Aìne"] = -26,
+			["Sgtsprings"] = 528,
+			["Dïvinus"] = -77,
+			["Clairh"] = -9,
+			["Lilanger"] = -58,
+			["Mutaforma"] = -111,
+			["Elhokár"] = 4469,
+			["Leashed"] = -88,
+			["Judithbutler"] = -69,
+			["Madmoocow"] = 42,
+			["Guccigank"] = 132,
+			["Taravangían"] = 80,
+			["Jojobo"] = -78,
+			["Tatama"] = 20,
+			["Macksadin"] = 101,
+			["Bíshie"] = -5069,
+			["Zenixx"] = 156,
+			["Sòlas"] = -63,
+			["Vâlkyr"] = 120,
+			["Nopenope"] = 65,
+			["Lungbuter"] = 31,
+			["Thâdamned"] = -129,
+			["Busbus"] = 77,
+		},
+		["wager"] = 100,
+		["minimap"] = {
+			["minimapPos"] = 63.33358414205409,
+		},
+		["themechoice"] = 0,
+	},
+}

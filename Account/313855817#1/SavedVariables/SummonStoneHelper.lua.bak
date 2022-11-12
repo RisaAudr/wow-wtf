@@ -1,0 +1,17 @@
+
+SummonStoneHelper__DB = {
+	["profileKeys"] = {
+		["Genericzombi - Atiesh"] = "Default",
+		["Risaaudr - Atiesh"] = "Default",
+		["Taravangían - Atiesh"] = "Default",
+		["Elhokár - Atiesh"] = "Default",
+		["Rylanbankalt - Atiesh"] = "Default",
+		["Tensoón - Atiesh"] = "Default",
+		["Risabankthre - Atiesh"] = "Default",
+		["Risabanktwo - Atiesh"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

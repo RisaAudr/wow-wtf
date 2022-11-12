@@ -1,0 +1,194 @@
+
+PallyPowerDB = {
+	["profileKeys"] = {
+		["Risabankthre - Atiesh"] = "Other",
+		["Risabanktwo - Atiesh"] = "Other",
+		["Taravangían - Atiesh"] = "Other",
+		["Risaaudr - Atiesh"] = "Other",
+		["Rylanbankalt - Atiesh"] = "Other",
+		["Tensoón - Atiesh"] = "Other",
+		["Elhokár - Atiesh"] = "Default",
+		["Genericzombi - Atiesh"] = "Other",
+	},
+	["profiles"] = {
+		["Other"] = {
+			["enable"] = true,
+			["freeassign"] = true,
+			["WrathTransition"] = true,
+			["minimap"] = {
+				["minimapPos"] = 107.6396514667529,
+			},
+		},
+		["Default"] = {
+			["buffscale"] = 0.75,
+			["seal"] = 0,
+			["rfbuff"] = false,
+			["display"] = {
+				["buffDuration"] = false,
+				["frameLocked"] = true,
+			},
+			["freeassign"] = true,
+			["mainTank"] = true,
+			["enable"] = true,
+			["minimap"] = {
+				["minimapPos"] = 105.2170303943821,
+			},
+			["mainTankSpellsDP"] = 6,
+			["hideHighGroups"] = true,
+			["WrathTransition"] = true,
+			["mainTankSpellsW"] = 6,
+			["rf"] = false,
+		},
+	},
+}
+PallyPower_Assignments = {
+	["Elhokár"] = {
+		2, -- [1]
+		0, -- [2]
+		1, -- [3]
+		1, -- [4]
+		4, -- [5]
+		2, -- [6]
+		0, -- [7]
+		0, -- [8]
+		0, -- [9]
+		0, -- [10]
+	},
+	["Goldensword"] = {
+		3, -- [1]
+		3, -- [2]
+		3, -- [3]
+		3, -- [4]
+		3, -- [5]
+		3, -- [6]
+		3, -- [7]
+		3, -- [8]
+		3, -- [9]
+		3, -- [10]
+	},
+}
+PallyPower_NormalAssignments = {
+}
+PallyPower_AuraAssignments = {
+	["Caeleb"] = 2,
+	["Captntoast"] = 3,
+	["Darkalmighty-Faerlina"] = 0,
+	["Rydergood-Whitemane"] = 0,
+	["Seajack-Whitemane"] = 2,
+	["Rawrxtwo"] = 6,
+	["Cupps"] = 0,
+	["Tor"] = 1,
+	["Kyndray"] = 0,
+	["Trabacita"] = 2,
+	["Lilfoxylou"] = 2,
+	["Leashed"] = 4,
+	["Raiddmg"] = 0,
+	["Hoorah-Whitemane"] = 0,
+	["Almatriste-Faerlina"] = 0,
+	["Zimskee"] = 0,
+	["Taiju"] = 0,
+	["Cellumin-Ashkandi"] = 0,
+	["Titusbalzac-Faerlina"] = 0,
+	["Vâlkyr"] = 1,
+	["Hashidan-Faerlina"] = 1,
+	["Venerette-Grobbulus"] = 1,
+	["Zealhogg"] = 1,
+	["Cellumin"] = 0,
+	["Grubill"] = 4,
+	["Rrico-Grobbulus"] = 0,
+	["Crabbyman"] = 3,
+	["Lillyminx"] = 1,
+	["Yyap-Faerlina"] = 0,
+	["Cherri"] = 1,
+	["Lvcius"] = 0,
+	["Palatin"] = 2,
+	["Caruzie-Grobbulus"] = 3,
+	["Guccigank"] = 2,
+	["Herbessence-Myzrael"] = 1,
+	["Dralepal"] = 2,
+	["Levski"] = 2,
+	["Retnwet"] = 2,
+	["Zyllek-Faerlina"] = 0,
+	["Sueysydal-Azuresong"] = 1,
+	["Sunjer"] = 0,
+	["Darknêss"] = 1,
+	["Holyquickill"] = 2,
+	["Jaams"] = 1,
+	["Scheesh"] = 2,
+	["Jackinthabox-Sulfuras"] = 0,
+	["Newhook"] = 4,
+	["Leeky"] = 0,
+	["Bubblebabe-Faerlina"] = 0,
+	["Thathia"] = 3,
+	["Smashliquor"] = 1,
+	["Matilyn"] = 5,
+	["Starkarri-Grobbulus"] = 0,
+	["Malliciouss"] = 0,
+	["Katabolic-Sulfuras"] = 0,
+	["Majinpew-Grobbulus"] = 0,
+	["Phatchode"] = 6,
+	["Arbitter"] = 1,
+	["Shazan-Whitemane"] = 2,
+	["Goldensword"] = 2,
+	["Kytçh"] = 1,
+	["Gluggah-Whitemane"] = 6,
+	["Beaconbit"] = 1,
+	["Kawasakikyle"] = 1,
+	["Immabloodelf"] = 0,
+	["Ayaxa"] = 1,
+	["Lightdawns"] = 2,
+	["Nixxé"] = 2,
+	["Whitechocola-Whitemane"] = 0,
+	["Gnomegood-Grobbulus"] = 0,
+	["Kyô"] = 0,
+	["Trappaladin-Skyfury"] = 1,
+	["Reppally"] = 3,
+	["Delucia"] = 1,
+	["Tyllathine"] = 2,
+	["Belomich"] = 0,
+	["Hèrby-Whitemane"] = 0,
+	["Pneumadin-Sulfuras"] = 0,
+	["Nuvela"] = 4,
+	["Marybopins-Skyfury"] = 0,
+	["Salmarnir"] = 0,
+	["Paladinfoo-Sulfuras"] = 1,
+	["Holyspot"] = 2,
+	["Faevia-Grobbulus"] = 0,
+	["Angryazian"] = 3,
+	["Rieze-Whitemane"] = 0,
+	["Metheny-Whitemane"] = 2,
+	["Hawttdawg"] = 2,
+	["Elhokár"] = 2,
+	["Üriel"] = 0,
+	["Kimipossible"] = 0,
+	["Bublbutt"] = 3,
+	["Holyjosh"] = 1,
+	["Reflectable-Faerlina"] = 0,
+	["Tarritha"] = 0,
+	["Kiyotaka-Grobbulus"] = 0,
+	["Vindicavus-Mankrik"] = 0,
+	["Sefforia-Skyfury"] = 2,
+	["Macksadin"] = 6,
+	["Megalodawn"] = 0,
+	["Menphu"] = 3,
+	["Sethian"] = 2,
+	["Dzw-Faerlina"] = 0,
+	["Maudlebowski"] = 2,
+	["Isadoro"] = 5,
+	["Turbosloth-Grobbulus"] = 0,
+}
+PallyPower_SavedPresets = {
+	["PallyPower_Assignments"] = {
+		[0] = {
+		},
+	},
+	["PallyPower_NormalAssignments"] = {
+		[0] = {
+		},
+	},
+}
+PallyPower_ChanNames = {
+	[0] = "None",
+}
+LCD_Data = nil
+LCD_GUIDAccess = nil

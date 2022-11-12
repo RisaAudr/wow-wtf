@@ -1,0 +1,31 @@
+
+ACDXZ = {
+	["profileKeys"] = {
+		["Genericzombi - Atiesh"] = "Genericzombi - Atiesh",
+		["Risabanktwo - Atiesh"] = "Risabanktwo - Atiesh",
+		["Taravangían - Atiesh"] = "Taravangían - Atiesh",
+		["Risaaudr - Atiesh"] = "Risaaudr - Atiesh",
+		["Rylanbankalt - Atiesh"] = "Rylanbankalt - Atiesh",
+		["Tensoón - Atiesh"] = "Tensoón - Atiesh",
+		["Risabankthre - Atiesh"] = "Risabankthre - Atiesh",
+		["Elhokár - Atiesh"] = "Elhokár - Atiesh",
+	},
+	["profiles"] = {
+		["Genericzombi - Atiesh"] = {
+		},
+		["Risabanktwo - Atiesh"] = {
+		},
+		["Taravangían - Atiesh"] = {
+		},
+		["Risaaudr - Atiesh"] = {
+		},
+		["Rylanbankalt - Atiesh"] = {
+		},
+		["Tensoón - Atiesh"] = {
+		},
+		["Risabankthre - Atiesh"] = {
+		},
+		["Elhokár - Atiesh"] = {
+		},
+	},
+}

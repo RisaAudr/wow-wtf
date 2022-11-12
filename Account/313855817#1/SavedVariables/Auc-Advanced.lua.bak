@@ -1,0 +1,37 @@
+
+AucAdvancedConfig = {
+	["profile.Default"] = {
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+				["upgraded32"] = true,
+			},
+		},
+		["util"] = {
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["SavedMailButtons"] = {
+				},
+			},
+		},
+	},
+	["users.Pagle.Risaaudr"] = "Default",
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["Stats"] = {
+	},
+}
+AucAdvancedServers = {
+	["Version"] = 1,
+	["Timestamp"] = 1620869920,
+	["KnownServerKeys"] = {
+		["Pagle"] = 1620869924,
+		["Atiesh"] = 1621302412,
+	},
+	["KnownRealms"] = {
+		["Pagle"] = "Pagle",
+		["Atiesh"] = "Atiesh",
+	},
+}
