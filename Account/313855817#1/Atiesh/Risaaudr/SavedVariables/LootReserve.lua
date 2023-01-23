@@ -1,9 +1,0 @@
-
-LootReserveCharacterSave = {
-	["Server"] = {
-	},
-	["Client"] = {
-		["CharacterFavorites"] = {
-		},
-	},
-}
