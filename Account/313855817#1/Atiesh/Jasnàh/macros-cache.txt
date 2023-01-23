@@ -1,0 +1,19 @@
+VER 3 0000000001000003 "Corrupt/Pet" "INV_MISC_QUESTIONMARK"
+#showtooltip Corruption
+/cast Corruption
+/petattack
+END
+VER 3 0000000001000004 "Drain" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast Drain Soul
+/ss sort
+END
+VER 3 0000000001000005 "follow sav" "132156"
+/follow Wÿsp
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1LR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]0__
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+NWÿs[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Jas[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Zha
+END

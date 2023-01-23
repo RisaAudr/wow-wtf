@@ -1,0 +1,89 @@
+VER 3 000000000100000C "ArcaneBlast" "135735"
+#showtooltip Arcane Blast
+/cast Arcane Blast
+END
+VER 3 0000000001000006 "Blizzard" "135857"
+#showtooltip Blizzard
+/cast Blizzard
+END
+VER 3 0000000001000005 "Cspell" "INV_MISC_QUESTIONMARK"
+#showtooltip Counterspell
+/stopcasting
+/cast Counterspell
+END
+VER 3 0000000001000009 "EleFreeze" "135862"
+#showtooltip
+/cast Summon Water Elemental
+/cast !freeze
+/petattack
+END
+VER 3 0000000001000010 "Fireball" "135810"
+#showtooltip Fireball
+/cast Fireball
+END
+VER 3 0000000001000015 "FishEquip" "132147"
+/equip [noequipped:Fishing Pole,mod:alt] Nat's Lucky Fishing Pole; [mod:alt] The Turning Tide
+/equip [mod:alt] Surplus Limb
+/use [mod:shift] Sharpened Fish Hook
+/use [mod:shift] 16
+/cast Fishing
+END
+VER 3 000000000100000D "FrostBolt+Trink" "135846"
+#showtooltip Frostbolt
+/cast Frostbolt
+END
+VER 3 0000000001000018 "Frostfire" "INV_MISC_QUESTIONMARK"
+#showtooltip Frostfire Bolt
+/cast Frostfire Bolt
+END
+VER 3 0000000001000016 "Gas" "INV_MISC_QUESTIONMARK"
+#showtooltip Combustion
+/cast Mirror Image
+/cast Combustion
+/use Mana Sapphire
+/use 10
+/cast Icy Veins
+/cast Arcane Power
+END
+VER 3 0000000001000004 "IceBlock" "135841"
+#showtooltip Ice Block
+/stopcasting
+/cast Ice Block
+END
+VER 3 0000000001000012 "ManaTable" "135739"
+#showtooltip Ritual of Refreshment
+/cast Ritual of Refreshment
+/ra Fresh baked Mana Strudel, get it while it's hot!
+/p Fresh baked Mana Strudel, get it while it's hot!
+END
+VER 3 0000000001000014 "Polymorph" "INV_MISC_QUESTIONMARK"
+#showtooltip Polymorph
+/cast Presence of Mind
+/cast [target=focus, exists] Polymorph; Polymorph;
+END
+VER 3 0000000001000017 "Pyro" "INV_MISC_QUESTIONMARK"
+#showtooltip Pyroblast
+/cqs
+/cast Pyroblast
+/cqs
+END
+VER 3 0000000001000013 "Spellsteal" "135729"
+#showtooltip Spellsteal
+/stopcasting
+/cast [target=focus, exists] Spellsteal; Spellsteal
+END
+VER 3 0000000001000011 "Splosion" "136116"
+#showtooltip Arcane Explosion
+/cast Arcane Explosion
+END
+VER 3 000000000100000F "TK equip" "132090"
+/equip [combat] Staff of Disintegration
+/equip [nocombat] The Turning Tide
+/equip [nocombat] Surplus Limb
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Tar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

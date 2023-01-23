@@ -1,0 +1,15 @@
+Version: 1
+Frame: SinStatsFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 174
+Y: 15
+W: 200
+H: 15
+Frame: AtlasLoot_GUI-Frame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 920
+H: 600

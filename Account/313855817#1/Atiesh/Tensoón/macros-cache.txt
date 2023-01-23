@@ -1,0 +1,20 @@
+VER 3 0000000001000004 "form2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [swimming] !Aquatic Form;[outdoors] !Travel Form; !Cat Form
+END
+VER 3 0000000001000003 "forms" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [nocombat, noform:2] Flight Form
+/cast [combat] !Catform; Cat Form
+END
+VER 3 0000000001000005 "Inner-Mel" "INV_MISC_QUESTIONMARK"
+#showtooltip Innervate
+/target Mel
+/cast Innervate
+END
+VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ten[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
