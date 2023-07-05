@@ -14,13 +14,13 @@ VER 3 0000000000000006 "atarget-find-npc" "132092"
 /script SetRaidTarget("target",8);
 END
 VER 3 000000000000001E "B&C pug spam" "136120"
-/1 Hyjal Speed (2 hr) run tomorrow @ noon server. One rogue/mage/druid helm token on HR, everything else 1SR>MS>OS. Gems open roll at end. Please pst or visit the B&C discord for more info https://discord.gg/HsPBwxEG
+/1  LF1M DPS for Ulduar 25 tonight with B&C. 2SR>MS>OS, Skipping optional bosses. only HM is FL.  Please have gearscore of 4k or better. 5:30-9:30 server time.  PST if interested for more details :)
 END
 VER 3 000000000000001B "B&C raid" "135714"
 /1 BT Progression hosted by <Broke&Confused> Monday 5:30-9:30 server. Need DPS! Minimum T4/T5 gear (pst for check). Must have SR gear / bring mats. First 4 bosses+council pulls. Pst or visit the B&C discord for more info https://discord.gg/gQWtVP35
 END
 VER 3 000000000000001C "B&C Recruit" "135697"
-/1 LFM all BT Illidan only kill, 1SR>MS>OS, no HR (yes glaves are fair game). Need 1 more FR tank, MT, heals, dps. Starting soon as we fill. Reset is tomorrow morning, come get your gear!
+/1 Hi all :) <B&C> Is recruiting for our main 25man raid team! We raid Sun night 6-9 server, and Monday 6-9:30. We're a midcore+ raiding guild, in need of pumper caster dps.
 END
 VER 3 000000000000001D "blink" "135736"
 #showtooltip blink
@@ -40,15 +40,15 @@ VER 3 0000000000000027 "cables" "INV_MISC_QUESTIONMARK"
 /y Clear!!!
 /use Goblin Jumper Cables
 END
+VER 3 000000000000003F "cancelSaraonite" "237437"
+#showtooltip Saronite Vapors
+/cancelaura Saronite Vapors
+END
 VER 3 0000000000000010 "Chat spam" "133240"
-/3 WTS valor badge BOE bracers, your choice of any wrist, pst
+/1 LFM heals / dps for first 4 bosses Uldauar 25 normal modes
 END
 VER 3 0000000000000016 "Circle" "136222"
 /script SetRaidTarget("target",2);
-END
-VER 3 0000000000000036 "CivSlow" "136173"
-/target Civmon
-/cast Slow Fall
 END
 VER 3 0000000000000005 "dance" "135898"
 /dance
@@ -62,6 +62,11 @@ VER 3 000000000000000A "Diamond" "135998"
 END
 VER 3 0000000000000035 "dismiss DI" "136227"
 /cancelaura Divine Intervention
+END
+VER 3 000000000000003D "EngSkipUlda" "134400"
+#showtooltip Target Dummy
+/use [@player] Target Dummy
+/cast blink
 END
 VER 3 0000000000000033 "FM" "INV_MISC_QUESTIONMARK"
 #showtooltip Focus Magic
@@ -80,6 +85,22 @@ VER 3 000000000000002C "Gasssss" "INV_MISC_QUESTIONMARK"
 END
 VER 3 000000000000000C "GhettoHearth" "132160"
 /run InviteUnit("a");C_Timer.After(1,function()LeaveParty() end)
+END
+VER 3 0000000000000032 "GL Award" "133202"
+/gl award
+END
+VER 3 000000000000003B "GL Roll" "237480"
+/gl roll
+END
+VER 3 0000000000000041 "GRM_Tool" "INV_MISC_QUESTIONMARK"
+END
+VER 3 000000000000003C "innerv" "136048"
+/w Jojobo Innervate please :)
+END
+VER 3 000000000000003E "invis" "134400"
+#showtooltip
+/cancelaura Invisibility
+/cast Invisibility
 END
 VER 3 0000000000000012 "LadyVash" "132090"
 /use tainted core
@@ -106,6 +127,9 @@ END
 VER 3 0000000000000009 "Moon" "135728"
 /script SetRaidTarget("target",5);
 END
+VER 3 0000000000000040 "MoonMe" "135786"
+/script SetRaidTarget("player",5);
+END
 VER 3 0000000000000028 "muru dispell" "INV_MISC_QUESTIONMARK"
 #showtooltip Dispel Magic
 /target dark fiend
@@ -125,9 +149,6 @@ VER 3 0000000000000026 "QuestTurninSpam" "134072"
 /script SelectGossipAvailableQuest(1)
 /script CompleteQuest()
 /script GetQuestReward()
-END
-VER 3 0000000000000032 "RC Award" "133202"
-/rc award
 END
 VER 3 0000000000000031 "RC Trade" "135828"
 /rc trade

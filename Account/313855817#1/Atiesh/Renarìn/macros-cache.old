@@ -2,6 +2,11 @@ VER 3 0000000001000005 "BuffFishing" "136148"
 /use Bright Baubles
 /use Strong Fishing Pole
 END
+VER 3 0000000001000015 "Dispersion" "134400"
+#showtooltip Dispersion
+/cancelaura Dispersion
+/cast Dispersion
+END
 VER 3 000000000100000F "focus+plague" "136123"
 #showtooltip Devouring Plague
 /use 14
@@ -18,15 +23,6 @@ VER 3 000000000100000E "KT Weapon equip" "132155"
 /equip [combat] Fetish of the Primal Gods
 /equip [nocombat] Staff of Immaculate Recovery
 END
-VER 3 0000000001000004 "ManaTargetKill" "136188"
-/cast Mind Flay(Rank 3)
-/script SetRaidTarget("target",3)
-END
-VER 3 0000000001000010 "mb+trink" "INV_MISC_QUESTIONMARK"
-#showtooltip Mind Blast
-/use 14
-/cast Mind Blast
-END
 VER 3 0000000001000011 "MD" "INV_MISC_QUESTIONMARK"
 #showtooltip Mass Dispel
 /stopcasting
@@ -34,10 +30,9 @@ VER 3 0000000001000011 "MD" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000012 "PainSupress" "135936"
 #showtooltip Pain Suppression
-/cast [@target,nodead]Pain Suppression
+/cast [@target,nodead] Pain Suppression
 /y >> Pain Supress on %T <<
 /ra >> Pain Supress on %T <<
-/script SendChatMessage(""! Pain Supress used on you !"", ""WHISPER"", nil, UnitName(""target""));
 END
 VER 3 0000000001000013 "PI" "135939"
 #showtooltip
@@ -59,6 +54,11 @@ VER 3 000000000100000C "Shacle" "136091"
 #showtooltip Shackle Undead
 /cast [target=focus, exists] Shackle Undead; Shackle Undead;
 END
+VER 3 0000000001000010 "SWP" "136207"
+#showtooltip Shadow Word: Pain
+/cast Inner Focus
+/cast Shadow Word: Pain
+END
 VER 3 0000000001000014 "tag" "136047"
 #showtooltip shadow word: Death
 /target Goramosh
@@ -79,8 +79,8 @@ VER 3 0000000001000003 "VampTarget" "136230"
 /script SetRaidTarget("target",3)
 END
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1IR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1EM1ET1PT2SM2HR2DR2SR2PT3MR3MR3LR3LR3DR4IH4DR4SR[x]5PH5DH5IH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]4IH[x][x][x][x][x][x][x][x][x][x]0__0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ren[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NVolBauKylJiiAssFooTroMosTorLeeDotGinWilCadShaSma[x]SplDruJae[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ren[x][x][x][x][x][x][x][x][x][x]AkrGza[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

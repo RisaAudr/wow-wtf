@@ -6,12 +6,13 @@ Details_StreamerDB = {
 		["Risaaudr - Atiesh"] = "Genericzombi - Atiesh",
 		["Rylanbankalt - Atiesh"] = "Genericzombi - Atiesh",
 		["Tensoón - Atiesh"] = "Genericzombi - Atiesh",
+		["Ironeyés - Atiesh"] = "Genericzombi - Atiesh",
 		["Taravangían - Atiesh"] = "Genericzombi - Atiesh",
 		["Elhokár - Atiesh"] = "Genericzombi - Atiesh",
-		["Risatailrbnk - Atiesh"] = "Genericzombi - Atiesh",
-		["Genericzombi - Atiesh"] = "Genericzombi - Atiesh",
-		["Risabanktwo - Atiesh"] = "Genericzombi - Atiesh",
 		["Renarìn - Atiesh"] = "Genericzombi - Atiesh",
+		["Risabanktwo - Atiesh"] = "Genericzombi - Atiesh",
+		["Genericzombi - Atiesh"] = "Genericzombi - Atiesh",
+		["Risatailrbnk - Atiesh"] = "Genericzombi - Atiesh",
 	},
 	["profiles"] = {
 		["Genericzombi - Atiesh"] = {
@@ -24,9 +25,11 @@ Details_StreamerDB = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["main_frame_size"] = {
-				300, -- [1]
-				500.0000305175781, -- [2]
+			["font_color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
 			},
 			["arrow_anchor_y"] = 0,
 			["minimap"] = {
@@ -34,22 +37,17 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["main_frame_locked"] = false,
+			["row_height"] = 20,
 			["arrow_anchor_x"] = 0,
-			["author"] = "Details! Team",
+			["scale"] = 1,
 			["row_texture"] = "Details Serenity",
 			["square_grow_direction"] = "right",
-			["font_size"] = 10,
-			["row_color"] = {
-				0.1, -- [1]
-				0.1, -- [2]
-				0.1, -- [3]
-				0.4, -- [4]
-			},
+			["point"] = "CENTER",
+			["main_frame_strata"] = "LOW",
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
+			["font_size"] = 10,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -57,7 +55,12 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
+			["row_color"] = {
+				0.1, -- [1]
+				0.1, -- [2]
+				0.1, -- [3]
+				0.4, -- [4]
+			},
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
 			["per_second"] = {
 				["enabled"] = false,
@@ -66,23 +69,21 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = -1.52587890625e-05,
 				["x"] = -3.0517578125e-05,
-				["attribute_type"] = 1,
-				["update_speed"] = 0.05,
 				["size"] = 32,
+				["update_speed"] = 0.05,
+				["attribute_type"] = 1,
 			},
-			["y"] = -1.52587890625e-05,
+			["use_spark"] = true,
 			["x"] = 3.0517578125e-05,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["point"] = "CENTER",
-			["font_color"] = {
-				1, -- [1]
-				1, -- [2]
-				1, -- [3]
-				1, -- [4]
+			["y"] = -1.52587890625e-05,
+			["author"] = "Details! Team",
+			["main_frame_locked"] = false,
+			["main_frame_size"] = {
+				300, -- [1]
+				500.0000305175781, -- [2]
 			},
-			["row_height"] = 20,
-			["scale"] = 1,
 		},
 	},
 }

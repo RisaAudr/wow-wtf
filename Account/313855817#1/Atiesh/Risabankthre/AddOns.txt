@@ -84,3 +84,4 @@ DBM-VoA: enabled
 DBM-VPVEM: enabled
 DBM-ZulAman: enabled
 DBM-ZG: enabled
+WeakAurasCompanion: enabled

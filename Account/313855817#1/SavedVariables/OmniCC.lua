@@ -1,15 +1,21 @@
 
 OmniCCDB = {
-	["profileKeys"] = {
-		["Renarìn - Atiesh"] = "Default",
-		["Taravangían - Atiesh"] = "Default",
-		["Elhokár - Atiesh"] = "Default",
-		["Tensoón - Atiesh"] = "Default",
-		["Jasnàh - Atiesh"] = "Default",
-	},
 	["global"] = {
 		["dbVersion"] = 6,
-		["addonVersion"] = "10.0.3",
+		["addonVersion"] = "10.1.1",
+	},
+	["profileKeys"] = {
+		["Risabankthre - Atiesh"] = "Default",
+		["Jasnàh - Atiesh"] = "Default",
+		["Risatailrbnk - Atiesh"] = "Default",
+		["Rylanbankalt - Atiesh"] = "Default",
+		["Tensoón - Atiesh"] = "Default",
+		["Ironeyés - Atiesh"] = "Default",
+		["Taravangían - Atiesh"] = "Default",
+		["Elhokár - Atiesh"] = "Default",
+		["Risabanktwo - Atiesh"] = "Default",
+		["Renarìn - Atiesh"] = "Default",
+		["Risaaudr - Atiesh"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -44,11 +50,11 @@ OmniCCDB = {
 			["themes"] = {
 				["Default"] = {
 					["textStyles"] = {
-						["seconds"] = {
+						["soon"] = {
 						},
 						["minutes"] = {
 						},
-						["soon"] = {
+						["seconds"] = {
 						},
 					},
 				},

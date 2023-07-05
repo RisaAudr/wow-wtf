@@ -2,6 +2,7 @@
 LBISSettings = {
 	["SelectedZoneNumber"] = "All",
 	["SelectedZone"] = "All",
+	["OpenTab"] = "ItemList",
 	["Tooltip"] = {
 		["BloodDeath Knight"] = true,
 		["FuryWarrior"] = true,
@@ -37,10 +38,11 @@ LBISSettings = {
 	},
 	["SelectedSpec"] = "",
 	["minimap"] = {
-		["minimapPos"] = 180,
+		["minimapPos"] = 150.5463234927867,
 		["hide"] = false,
 	},
 	["PhaseTooltip"] = {
+		["Phase 3"] = true,
 		["Phase 1"] = true,
 		["Phase 2"] = true,
 		["PreRaid"] = true,

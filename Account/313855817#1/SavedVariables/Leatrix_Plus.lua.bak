@@ -9,94 +9,85 @@ LeaPlusDB = {
 	["TimerY"] = -96,
 	["MusicContinent"] = "Zones",
 	["ClassColPlayer"] = "On",
+	["ManageFocus"] = "Off",
+	["ViewPortTop"] = 0,
 	["minimapPos"] = 42.72802366667222,
-	["ShowMinimapIcon"] = "Off",
 	["TipCursorY"] = 0,
 	["FlightBarContribute"] = "On",
 	["InvKey"] = "inv",
-	["DurabilityX"] = 0,
-	["MinimapSize"] = 140,
+	["ManageWidget"] = "Off",
+	["MuteBikes"] = "Off",
 	["FlightBarY"] = -66,
-	["VehicleR"] = "TOPRIGHT",
-	["TipCursorX"] = 0,
-	["MinimapR"] = "TOPRIGHT",
-	["NoGryphons"] = "Off",
-	["ChatHistory6"] = {
-		"|cff40ff40Guild Message of the Day: Ulduar raids starting on Monday watch boss fight videos and be prepared!", -- [1]
-	},
-	["FrmEnabled"] = "Off",
 	["HideErrorMessages"] = "Off",
-	["ChatHistoryTime"] = 1674438109,
-	["InviteFriendsOnly"] = "Off",
-	["HideMacroText"] = "Off",
-	["LeaStartPage"] = 1,
+	["FocusScale"] = 1,
+	["MinimapR"] = "TOPRIGHT",
+	["MinimapSize"] = 140,
+	["MuteFizzle"] = "Off",
+	["FrmEnabled"] = "Off",
+	["TipCursorX"] = 0,
+	["ChatHistoryTime"] = 1688448715,
+	["DressupItemButtons"] = "On",
+	["DurabilityScale"] = 1,
+	["LeaStartPage"] = 3,
 	["FriendlyGuild"] = "On",
 	["WidgetA"] = "TOP",
-	["AhBuyoutOnly"] = "Off",
+	["MinimapX"] = -17,
 	["DismountNoTaxi"] = "On",
 	["InviteFromWhisper"] = "Off",
 	["MinimapScale"] = 1,
 	["TimerScale"] = 1,
-	["NoCooldownDuration"] = "On",
+	["NoHitIndicators"] = "Off",
 	["AutoReleasePvP"] = "Off",
-	["MuteYawns"] = "Off",
+	["HideMacroText"] = "Off",
 	["EnhanceQuestTaller"] = "On",
-	["ChatHistory5"] = {
-		"|cff40ff40Guild Message of the Day: Ulduar raids starting on Monday watch boss fight videos and be prepared!", -- [1]
+	["TimerA"] = "TOP",
+	["AhBuyoutOnly"] = "Off",
+	["ChatTemp6"] = {
+		"|cff40ff40Guild Message of the Day: Happy NewYear! Joyous Journeys until January 16th. Raid on Monday, sign up!", -- [1]
 	},
-	["AutoResNoCombat"] = "On",
-	["WowheadLinkComments"] = "Off",
 	["VanityAltLayout"] = "Off",
 	["MuteGyrocopters"] = "Off",
 	["UseArrowKeysInChat"] = "On",
 	["ManageDurability"] = "Off",
 	["AcceptPartyFriends"] = "Off",
-	["ShowCooldownID"] = "On",
+	["TipShowOtherRank"] = "Off",
 	["WidgetX"] = 0,
-	["AutoReleaseNoAlterac"] = "Off",
+	["NoSharedQuests"] = "Off",
 	["FlightBarWidth"] = 230,
 	["RestoreChatMessages"] = "On",
 	["FirstRunMessageSeen"] = true,
-	["ChatTemp4"] = {
-		"|cff40ff40Guild Message of the Day: Happy NewYear! Joyous Journeys until January 16th. Raid on Monday, sign up!", -- [1]
-	},
-	["MainPanelY"] = 14.666748046875,
-	["SetWeatherDensity"] = "Off",
+	["NoCooldownDuration"] = "On",
+	["WidgetScale"] = 1,
+	["HideKeybindText"] = "Off",
 	["SquareMinimap"] = "Off",
-	["FocusA"] = "CENTER",
-	["DismountShowFormBtn"] = "On",
+	["hide"] = true,
+	["SetWeatherDensity"] = "Off",
 	["DurabilityY"] = -192,
 	["TipHideInCombat"] = "Off",
-	["ChatHistory4Count"] = 12,
+	["HideDressupStats"] = "Off",
 	["NoRestedEmotes"] = "Off",
 	["NoPartyInvites"] = "Off",
 	["CombatPlates"] = "Off",
 	["FocusX"] = 0,
 	["EnhanceQuestHeaders"] = "On",
-	["TipHideShiftOverride"] = "On",
+	["ChatHistory4Count"] = 12,
 	["HideZoneText"] = "Off",
 	["TimerX"] = -5,
-	["BlockSpellLinks"] = "Off",
-	["MuteBrooms"] = "Off",
+	["MinimapModder"] = "On",
+	["LeaPlusTipSize"] = 1,
 	["EnhanceDressup"] = "Off",
 	["CustomAddonButtons"] = {
 		["Lib_GPI_Minimap_LFGBulletinBoard"] = {
-			["minimapPos"] = 119.3384209742005,
+			["minimapPos"] = 105.4513904506819,
 			["hide"] = false,
 		},
 	},
-	["MuteNetherdrakes"] = "Off",
-	["AutoQuestKeyMenu"] = 1,
+	["ShowVanityControls"] = "On",
+	["BuffFrameScale"] = 1,
 	["MuteReady"] = "Off",
+	["ManageVehicle"] = "Off",
 	["MuteRipper"] = "Off",
-	["ShowWhoPinged"] = "On",
 	["ChatHistory5Count"] = 12,
-	["BlockDuelSpam"] = "Off",
-	["UseEasyChatResizing"] = "On",
-	["MoreFontSizes"] = "Off",
-	["MuteAdal"] = "Off",
-	["AutoQuestShift"] = "On",
-	["AutomateQuests"] = "On",
 	["Cooldowns"] = {
 		["HUNTER"] = {
 		},
@@ -112,40 +103,46 @@ LeaPlusDB = {
 			["S1R1Idn"] = "",
 			["S1R3Pet"] = false,
 			["S1R3Idn"] = "",
-			["S1R5Pet"] = false,
-			["S1R2Idn"] = "",
 			["S1R4Pet"] = false,
+			["S1R2Idn"] = "",
+			["S1R5Pet"] = false,
 		},
 		["PRIEST"] = {
 		},
 		["WARLOCK"] = {
 		},
-		["DEATHKNIGHT"] = {
+		["ROGUE"] = {
 		},
 		["DRUID"] = {
 		},
 		["PALADIN"] = {
 		},
-		["ROGUE"] = {
+		["DEATHKNIGHT"] = {
 		},
 	},
-	["TipOffsetY"] = 94,
+	["UseEasyChatResizing"] = "On",
+	["BlockDuelSpam"] = "Off",
+	["UnivGroupColor"] = "Off",
+	["AutoQuestShift"] = "On",
+	["ShowReadyTimer"] = "Off",
+	["HideMiniAddonButtons"] = "On",
+	["FlightBarA"] = "TOP",
 	["LeaPlusQuestFontSize"] = 12,
 	["TipShowTarget"] = "On",
 	["CharAddonList"] = "Off",
 	["FocusR"] = "CENTER",
 	["MainPanelX"] = 112.8889846801758,
-	["AutomateGossip"] = "On",
+	["MuteChimes"] = "Off",
 	["NoDuelRequests"] = "Off",
 	["MainPanelR"] = "CENTER",
 	["CooldownsOnPlayer"] = "Off",
-	["MuteScreech"] = "Off",
-	["ChatHistory6Count"] = 17,
+	["ManageTimer"] = "Off",
+	["AutoRepairGear"] = "On",
 	["QuestFontChange"] = "Off",
-	["AutoQuestAvailable"] = "On",
-	["ChatHistoryName"] = "Elhokár-Atiesh",
+	["VehicleX"] = -100,
+	["AutoSellJunk"] = "On",
 	["TipOffsetX"] = -13,
-	["MuteGameSounds"] = "Off",
+	["NoChatFade"] = "Off",
 	["ChatTemp1"] = {
 		"|cffffff00<Cross Gambling> loaded /cg to use", -- [1]
 		"|cff967FD2Gargul v5.0.13|r by Zhorax@Firemaw. Type |cff967FD2/gl|r or |cff967FD2/gargul|r to get started!", -- [2]
@@ -158,167 +155,669 @@ LeaPlusDB = {
 		"|cff40ff40Guild Message of the Day: Happy NewYear! Joyous Journeys until January 16th. Raid on Monday, sign up!", -- [9]
 		"|cffff00ff[Attune]|r v309 by Cixi@Remulos. Type /attune to start.", -- [10]
 	},
-	["FlightBarSpeech"] = "Off",
+	["MinimapA"] = "TOPRIGHT",
 	["DismountNoResource"] = "On",
-	["TipNoHealthBar"] = "Off",
-	["ShowPlayerChain"] = "Off",
+	["AhGoldOnly"] = "Off",
+	["ShowTrainAllBtn"] = "On",
 	["FlightBarDestination"] = "On",
 	["ChatHistory4"] = {
-		"|cff40ff40Guild Message of the Day: Ulduar raids starting on Monday watch boss fight videos and be prepared!", -- [1]
+		"|cffffff00Madmoocow has left the raid group.", -- [1]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3696:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: don't have to get up for work either so can hang for a bit hehe", -- [2]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3705:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: ooooh", -- [3]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3706:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: nice", -- [4]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3707:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: hell ya", -- [5]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3709:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: mabye we finish AOE2?", -- [6]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3711:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: def hehe :3 <3", -- [7]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3712:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: sure!!", -- [8]
+		"|cffff8040|Hplayer:Gojirah:0:TEXT_EMOTE:|h|cffff7c0aGojirah|r|h thanks Shiztoid.", -- [9]
+		"|cffffff00Zippyman has left the raid group.", -- [10]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3721:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: oop I think Jojo's showing me the new gear rq", -- [11]
+		"|cffffff00Ironguy has left the raid group.", -- [12]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Lilanger-Atiesh:3726:GUILD:|h[|cffc69b6dLilanger|r]|h: howd it go?", -- [13]
+		"|cffffff00Wrekker has left the raid group.", -- [14]
+		"|cffff8040You cheer at Jojobo.", -- [15]
+		"|cffff8040|Hplayer:Jojobo:0:TEXT_EMOTE:|h|cffff7c0aJojobo|r|h bows before you.", -- [16]
+		"|cffff8040|Hplayer:Jojobo:0:TEXT_EMOTE:|h|cffff7c0aJojobo|r|h cheers at you.", -- [17]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:3755:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: grats on the mace :)", -- [18]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:3756:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: thanks man", -- [19]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:3758:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: Pretty chuffed with that", -- [20]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3789:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: admin meeting", -- [21]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3790:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: hehe", -- [22]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3791:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: oh yeah no worries <3", -- [23]
+		"|cffffff00Aìne has left the raid group.", -- [24]
+		"|cffffff00Jojobo has left the raid group.", -- [25]
+		"|cffffff00Madmoocow has gone offline.", -- [26]
+		"|cffffff00Preciousbrat has left the raid group.", -- [27]
+		"|cffffff00Falanala looks tipsy.", -- [28]
+		"|cffffff00Dïvinus has left the raid group.", -- [29]
+		"|cffffff00Falanala seems to be sobering up.", -- [30]
+		"|cffff80ff|Hplayer:Maxiheals-Atiesh:3930:WHISPER:MAXIHEALS-ATIESH|h[|cffffffffMaxiheals|r]|h whispers: how did it go bud?", -- [31]
+		"|cffffff00|Hplayer:Xhibit|h[Xhibit]|h has come online.", -- [32]
+		"|cffffff00You are now Away: Away", -- [33]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4104:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: hey, you want this |cffa335ee|Hitem:47301::::::::80:::::::::|h[Skyweaver Vestments]|h|r?", -- [34]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:4107:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: hey love! could you use |cffa335ee|Hitem:47301::::::::80:::::::::|h[Skyweaver Vestments]|h|r?", -- [35]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4108:GUILD:|h[|cfffff468Nicklethief|r]|h: whats the daily H today?", -- [36]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Preciousbrat-Atiesh:4117:GUILD:|h[|cfff48cbaPreciousbrat|r]|h: hos", -- [37]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Maxiheals-Atiesh:4118:GUILD:|h[|cffffffffMaxiheals|r]|h: hos", -- [38]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4129:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: I jsut got enough badges and that trophy for my new tier chest so won't be using it", -- [39]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4132:GUILD:|h[|cfffff468Nicklethief|r]|h: oh nice, not too bad at all", -- [40]
+		"|cffffff00You are no longer Away.", -- [41]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4143:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: ah nice! Hmm... same SP I have rn", -- [42]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4149:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: but has hit? I think I'd probably pass?", -- [43]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4160:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: ok, no. just don't want to waste it.", -- [44]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4168:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: Totally :)", -- [45]
+		"|cffff8040|Hplayer:Boommilk:0:TEXT_EMOTE:|h|cffff7c0aBoommilk|r|h hugs Spispy.", -- [46]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4379:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: Hey, if you have a sec, I could use a few gems", -- [47]
+		"|cffffff00|Hplayer:Rimbosa|h[Rimbosa]|h has come online.", -- [48]
+		"|cffff8040|Hplayer:Nakashi:0:TEXT_EMOTE:|h|cff3fc6eaNakashi|r|h blows Dogeta a kiss.", -- [49]
+		"|cffffff00Falanala looks tipsy.", -- [50]
+		"|cffffff00Falanala seems to be sobering up.", -- [51]
+		"|cffffff00You are now Away: Away", -- [52]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Jojobo-Atiesh:4779:GUILD:|h[|cffff7c0aJojobo|r]|h: Good night gang!", -- [53]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq4|k:8:4780:BN_INLINE_TOAST_ALERT:0|h[|Kq4|k] (|T-2:10:10:0:0:32:32:0:32:0:32|t Drakonias)|h has come online.", -- [54]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4784:GUILD:|h[|cfffff468Nicklethief|r]|h: night jojo", -- [55]
+		"|cffffff00You are no longer Away.", -- [56]
+		"|cffffff00You are now Away: Away", -- [57]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Goldencat-Atiesh:4813:GUILD:|h[|cffff7c0aGoldencat|r]|h: night!", -- [58]
+		"|cffffff00Aìne has gone offline.", -- [59]
+		"|cffffff00Headlines has defeated Xecca in a duel", -- [60]
+		"|cffffff00Falanala looks tipsy.", -- [61]
+		"|cffffff00Falanala seems to be sobering up.", -- [62]
+		"|cffff8040You wave at Greenballs.", -- [63]
+		"|cffffff00Xhibit has gone offline.", -- [64]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5062:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: how's it going", -- [65]
+		"|cffffff00|Hplayer:Madmoocow|h[Madmoocow]|h has come online.", -- [66]
+		"|cffffff00You are no longer Away.", -- [67]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5103:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: hey :) Pretty okay. Life's been supe busy. Been a while man, how've you been?", -- [68]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5112:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm deck out to kills alliance", -- [69]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5128:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: nice", -- [70]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq27|k:18:5157:BN_INLINE_TOAST_ALERT:0|h[|Kq27|k]|h has gone offline.", -- [71]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5165:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm 17-8 in arena this season", -- [72]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5175:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: dagum", -- [73]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq22|k:7:5191:BN_INLINE_TOAST_ALERT:0|h[|Kq22|k]|h has gone offline.", -- [74]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5195:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: yea 5169 gs very nice", -- [75]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5219:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: my rogie and priest are about the same", -- [76]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5239:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: rogue", -- [77]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5304:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm about to move all my toons to a pvp server", -- [78]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5316:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: oh dang", -- [79]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5325:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: yea seems like this side is loosing horde", -- [80]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5337:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: this server is dead for horde no guild", -- [81]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5355:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: only reason I haven't left already is that I can queue cross realm for arena", -- [82]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5371:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: my rogue does like 9k dps in raids he's stupid", -- [83]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq17|k:23:5594:BN_INLINE_TOAST_ALERT:0|h[|Kq17|k]|h has gone offline.", -- [84]
+		"|cffffff00Astreauxx has defeated Baalbuddy in a duel", -- [85]
+		"|cffff4800[Raid Warning] |Hplayer:Vâlkyr-Atiesh:5792:RAID:|h[|cfff48cbaVâlkyr|r]|h: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tJeeves placed on the ground by Balroux.", -- [86]
+		"|cffff4040|Hplayer:Arthaxx-Atiesh:5803:YELL:|h[|cffc41e3aArthaxx|r]|h yells: [Common] MOD BORNE ", -- [87]
+		"|cffffff00You are now Away: Away", -- [88]
+		"|cffff8040|Hplayer:Supacritz:0:TEXT_EMOTE:|h|cffc69b6dSupacritz|r|h sniffs Dolan.", -- [89]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [90]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [91]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6026:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [92]
+		"|cffffff00Macdaddy rolls 5 (1-6)", -- [93]
+		"|cffffff00Macdaddy rolls 3 (1-6)", -- [94]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6035:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [95]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [96]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [97]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6038:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [98]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h licks Mesowetoddid.", -- [99]
+		"|cffffff00Macdaddy rolls 1 (1-6)", -- [100]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [101]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6047:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [102]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [103]
+		"|cffffff00Macdaddy rolls 3 (1-6)", -- [104]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6069:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [105]
+		"|cffffff00Goldencat is now the group leader.", -- [106]
+		"|cffffff00Madmoocow has gone offline.", -- [107]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq12|k:6:6100:BN_INLINE_TOAST_ALERT:0|h[|Kq12|k]|h has gone offline.", -- [108]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h licks Wrekker.", -- [109]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h sniffs Wrekker.", -- [110]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h hugs Wrekker.", -- [111]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h loves Wrekker.", -- [112]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h cuddles up against Wrekker.", -- [113]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h flirts with Wrekker.", -- [114]
+		"|cffffff00Herhero has defeated Ragebones in a duel", -- [115]
+		"|cffff8040|Hplayer:Mesowetoddid:0:TEXT_EMOTE:|h|cffaad372Mesowetoddid|r|h licks Poorva.", -- [116]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h hugs Mesowetoddid.", -- [117]
+		"|cffffffff|Hplayer:Mesowetoddid-Atiesh:6126:SAY:|h[|cffaad372Mesowetoddid|r]|h says: hes tabbed out were having a guild meeting", -- [118]
+		"|cffffff00You are no longer Away.", -- [119]
+		"|cffffff00You are now Away: Away", -- [120]
+		"|cffffff00You are no longer Away.", -- [121]
+		"|cffffff00You are now Away: Away", -- [122]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq4|k:8:6275:BN_INLINE_TOAST_ALERT:0|h[|Kq4|k]|h has gone offline.", -- [123]
+		"|cffffff00Rimbosa has gone offline.", -- [124]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Abatwa-Atiesh:6394:GUILD:|h[|cffc41e3aAbatwa|r]|h: night peeps", -- [125]
+		"|cffffff00You are now the group leader.", -- [126]
+		"|cffffff00Goldencat has left the raid group.", -- [127]
+		"|cffffff00You are no longer Away.", -- [128]
 	},
 	["AutoRepairGuildFunds"] = "On",
-	["MuteEvents"] = "Off",
-	["FlightBarFillBar"] = "Off",
+	["TipNoHealthBar"] = "Off",
+	["TipModEnable"] = "Off",
 	["DressupAnimControl"] = "On",
 	["NoClassBar"] = "Off",
 	["VehicleA"] = "TOPRIGHT",
-	["BuffFrameR"] = "TOPRIGHT",
-	["ManageBuffs"] = "Off",
-	["MaxCameraZoom"] = "On",
+	["AhExtras"] = "Off",
+	["FlightBarFillBar"] = "Off",
+	["ChatHistory1"] = {
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Lilanger-Atiesh:3726:GUILD:|h[|cffc69b6dLilanger|r]|h: howd it go?", -- [1]
+		"|cffffff00Wrekker has left the raid group.", -- [2]
+		"|cffff8040You cheer at Jojobo.", -- [3]
+		"|cffff8040|Hplayer:Jojobo:0:TEXT_EMOTE:|h|cffff7c0aJojobo|r|h bows before you.", -- [4]
+		"|cffff8040|Hplayer:Jojobo:0:TEXT_EMOTE:|h|cffff7c0aJojobo|r|h cheers at you.", -- [5]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:3755:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: grats on the mace :)", -- [6]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:3756:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: thanks man", -- [7]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:3758:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: Pretty chuffed with that", -- [8]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3789:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: admin meeting", -- [9]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3790:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: hehe", -- [10]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3791:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: oh yeah no worries <3", -- [11]
+		"|cffffff00Aìne has left the raid group.", -- [12]
+		"|cffffff00Jojobo has left the raid group.", -- [13]
+		"|cffffff00Madmoocow has gone offline.", -- [14]
+		"|cffffff00Preciousbrat has left the raid group.", -- [15]
+		"|cffffff00Falanala looks tipsy.", -- [16]
+		"|cffffff00Dïvinus has left the raid group.", -- [17]
+		"|cffffff00Falanala seems to be sobering up.", -- [18]
+		"|cffff80ff|Hplayer:Maxiheals-Atiesh:3930:WHISPER:MAXIHEALS-ATIESH|h[|cffffffffMaxiheals|r]|h whispers: how did it go bud?", -- [19]
+		"|cffffff00|Hplayer:Xhibit|h[Xhibit]|h has come online.", -- [20]
+		"|cffffff00You are now Away: Away", -- [21]
+		"|cffff780aDISCOVERY!   Bluzcluz has discovered a new transmutation!", -- [22]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4104:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: hey, you want this |cffa335ee|Hitem:47301::::::::80:::::::::|h[Skyweaver Vestments]|h|r?", -- [23]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:4107:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: hey love! could you use |cffa335ee|Hitem:47301::::::::80:::::::::|h[Skyweaver Vestments]|h|r?", -- [24]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4108:GUILD:|h[|cfffff468Nicklethief|r]|h: whats the daily H today?", -- [25]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Preciousbrat-Atiesh:4117:GUILD:|h[|cfff48cbaPreciousbrat|r]|h: hos", -- [26]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Maxiheals-Atiesh:4118:GUILD:|h[|cffffffffMaxiheals|r]|h: hos", -- [27]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4129:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: I jsut got enough badges and that trophy for my new tier chest so won't be using it", -- [28]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4132:GUILD:|h[|cfffff468Nicklethief|r]|h: oh nice, not too bad at all", -- [29]
+		"|cffffff00You are no longer Away.", -- [30]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4143:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: ah nice! Hmm... same SP I have rn", -- [31]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4149:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: but has hit? I think I'd probably pass?", -- [32]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4160:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: ok, no. just don't want to waste it.", -- [33]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4168:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: Totally :)", -- [34]
+		"|cffff8040|Hplayer:Boommilk:0:TEXT_EMOTE:|h|cffff7c0aBoommilk|r|h hugs Spispy.", -- [35]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4379:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: Hey, if you have a sec, I could use a few gems", -- [36]
+		"|cffffff00|Hplayer:Rimbosa|h[Rimbosa]|h has come online.", -- [37]
+		"|cffff8040|Hplayer:Nakashi:0:TEXT_EMOTE:|h|cff3fc6eaNakashi|r|h blows Dogeta a kiss.", -- [38]
+		"|cffffff00Falanala looks tipsy.", -- [39]
+		"|cffffff00Falanala seems to be sobering up.", -- [40]
+		"|cffffff00You are now Away: Away", -- [41]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Jojobo-Atiesh:4779:GUILD:|h[|cffff7c0aJojobo|r]|h: Good night gang!", -- [42]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq4|k:8:4780:BN_INLINE_TOAST_ALERT:0|h[|Kq4|k] (|T-2:10:10:0:0:32:32:0:32:0:32|t Drakonias)|h has come online.", -- [43]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4784:GUILD:|h[|cfffff468Nicklethief|r]|h: night jojo", -- [44]
+		"|cffffff00You are no longer Away.", -- [45]
+		"|cffffff00You are now Away: Away", -- [46]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Goldencat-Atiesh:4813:GUILD:|h[|cffff7c0aGoldencat|r]|h: night!", -- [47]
+		"|cffffff00Aìne has gone offline.", -- [48]
+		"|cffffff9fBlood Elf Commoner says: The Horde fires will never be extinguished!", -- [49]
+		"|cffffff00Headlines has defeated Xecca in a duel", -- [50]
+		"|cffffff00Falanala looks tipsy.", -- [51]
+		"|cffffff00Falanala seems to be sobering up.", -- [52]
+		"|cff40ff40|Hplayer:Nicklethief-Atiesh|h[Nicklethief]|h has earned the achievement |cffffff00|Hachievement:1031:Player-4372-019D1DC9:1:7:3:23:4294967295:4294967295:4294967295:4294967295|h[Extinguishing Eastern Kingdoms]|h|r!", -- [53]
+		"|cff40ff40|Hplayer:Nicklethief-Atiesh|h[Nicklethief]|h has earned the achievement |cffffff00|Hachievement:1037:Player-4372-019D1DC9:1:7:3:23:4294967295:4294967295:4294967295:4294967295|h[Desecration of the Alliance]|h|r!", -- [54]
+		"|cffff8040You wave at Greenballs.", -- [55]
+		"|cffffff00Xhibit has gone offline.", -- [56]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5062:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: how's it going", -- [57]
+		"|cffffff00|Hplayer:Madmoocow|h[Madmoocow]|h has come online.", -- [58]
+		"|cffffff00You are no longer Away.", -- [59]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5103:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: hey :) Pretty okay. Life's been supe busy. Been a while man, how've you been?", -- [60]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5112:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm deck out to kills alliance", -- [61]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5128:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: nice", -- [62]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq27|k:18:5157:BN_INLINE_TOAST_ALERT:0|h[|Kq27|k]|h has gone offline.", -- [63]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5165:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm 17-8 in arena this season", -- [64]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5175:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: dagum", -- [65]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq22|k:7:5191:BN_INLINE_TOAST_ALERT:0|h[|Kq22|k]|h has gone offline.", -- [66]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5195:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: yea 5169 gs very nice", -- [67]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5219:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: my rogie and priest are about the same", -- [68]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5239:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: rogue", -- [69]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5304:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm about to move all my toons to a pvp server", -- [70]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5316:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: oh dang", -- [71]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5325:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: yea seems like this side is loosing horde", -- [72]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5337:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: this server is dead for horde no guild", -- [73]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5355:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: only reason I haven't left already is that I can queue cross realm for arena", -- [74]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5371:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: my rogue does like 9k dps in raids he's stupid", -- [75]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq17|k:23:5594:BN_INLINE_TOAST_ALERT:0|h[|Kq17|k]|h has gone offline.", -- [76]
+		"|cffffff00Astreauxx has defeated Baalbuddy in a duel", -- [77]
+		"|cff40ff40|Hplayer:Maxiheals-Atiesh|h[Maxiheals]|h has earned the achievement |cffffff00|Hachievement:18598:Player-4372-02E30A37:1:7:3:23:4294967295:4294967295:4294967295:4294967295|h[Defense Protocol Beta: Halls of Lightning]|h|r!", -- [78]
+		"|cff40ff40|Hplayer:Nicklethief-Atiesh|h[Nicklethief]|h has earned the achievement |cffffff00|Hachievement:1025:Player-4372-019D1DC9:1:7:3:23:4294967295:4294967295:4294967295:4294967295|h[Flame Keeper of Eastern Kingdoms]|h|r!", -- [79]
+		"|cff40ff40|Hplayer:Nicklethief-Atiesh|h[Nicklethief]|h has earned the achievement |cffffff00|Hachievement:1036:Player-4372-019D1DC9:1:7:3:23:4294967295:4294967295:4294967295:4294967295|h[The Fires of Azeroth]|h|r!", -- [80]
+		"|cff40ff40|Hplayer:Nicklethief-Atiesh|h[Nicklethief]|h has earned the achievement |cffffff00|Hachievement:1039:Player-4372-019D1DC9:1:7:3:23:4294967295:4294967295:4294967295:4294967295|h[The Flame Keeper]|h|r!", -- [81]
+		"|cffff4800[Raid Warning] |Hplayer:Vâlkyr-Atiesh:5792:RAID:|h[|cfff48cbaVâlkyr|r]|h: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tJeeves placed on the ground by Balroux.", -- [82]
+		"|cffff4040|Hplayer:Arthaxx-Atiesh:5803:YELL:|h[|cffc41e3aArthaxx|r]|h yells: [Common] MOD BORNE ", -- [83]
+		"|cffffff9fBlood Elf Commoner says: The Horde fires will never be extinguished!", -- [84]
+		"|cffffff00You are now Away: Away", -- [85]
+		"|cff40ff40|Hplayer:Coastalforce-Atiesh|h[Coastalforce]|h has earned the achievement |cffffff00|Hachievement:546:Player-4372-0376DC6A:1:7:3:23:4294967295:4294967295:4294967295:4294967295|h[Safe Deposit]|h|r!", -- [86]
+		"|cffff8040|Hplayer:Supacritz:0:TEXT_EMOTE:|h|cffc69b6dSupacritz|r|h sniffs Dolan.", -- [87]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [88]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [89]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6026:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [90]
+		"|cffffff00Macdaddy rolls 5 (1-6)", -- [91]
+		"|cffffff00Macdaddy rolls 3 (1-6)", -- [92]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6035:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [93]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [94]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [95]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6038:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [96]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h licks Mesowetoddid.", -- [97]
+		"|cffffff00Macdaddy rolls 1 (1-6)", -- [98]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [99]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6047:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [100]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [101]
+		"|cffffff00Macdaddy rolls 3 (1-6)", -- [102]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6069:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [103]
+		"|cffffff00Goldencat is now the group leader.", -- [104]
+		"|cffffff00Madmoocow has gone offline.", -- [105]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq12|k:6:6100:BN_INLINE_TOAST_ALERT:0|h[|Kq12|k]|h has gone offline.", -- [106]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h licks Wrekker.", -- [107]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h sniffs Wrekker.", -- [108]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h hugs Wrekker.", -- [109]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h loves Wrekker.", -- [110]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h cuddles up against Wrekker.", -- [111]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h flirts with Wrekker.", -- [112]
+		"|cffffff00Herhero has defeated Ragebones in a duel", -- [113]
+		"|cffff8040|Hplayer:Mesowetoddid:0:TEXT_EMOTE:|h|cffaad372Mesowetoddid|r|h licks Poorva.", -- [114]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h hugs Mesowetoddid.", -- [115]
+		"|cffffffff|Hplayer:Mesowetoddid-Atiesh:6126:SAY:|h[|cffaad372Mesowetoddid|r]|h says: hes tabbed out were having a guild meeting", -- [116]
+		"|cffffff00You are no longer Away.", -- [117]
+		"|cffffff00You are now Away: Away", -- [118]
+		"|cffffff00You are no longer Away.", -- [119]
+		"|cffffff00You are now Away: Away", -- [120]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq4|k:8:6275:BN_INLINE_TOAST_ALERT:0|h[|Kq4|k]|h has gone offline.", -- [121]
+		"|cffffff00Rimbosa has gone offline.", -- [122]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Abatwa-Atiesh:6394:GUILD:|h[|cffc41e3aAbatwa|r]|h: night peeps", -- [123]
+		"|cffffff00You are now the group leader.", -- [124]
+		"|cffffff00Goldencat has left the raid group.", -- [125]
+		"|cffffb233|cffffe566{VuhDo}|r Number of Party members has changed to 5. Auto-engaging arrangement: \"|cffffffffMage_Generic|r\"", -- [126]
+		"|cffffb233|cffffe566{VuhDo}|r Profile successfully loaded: Mage_Generic", -- [127]
+		"|cffffff00You are no longer Away.", -- [128]
+	},
 	["EnhanceQuestDifficulty"] = "On",
 	["TooltipAnchorMenu"] = 1,
 	["NoScreenEffects"] = "Off",
 	["ShowVendorPrice"] = "On",
 	["MuteTravelers"] = "Off",
 	["EnhanceProfessions"] = "On",
-	["RecentChatSize"] = 170,
+	["DismountNoMoving"] = "On",
 	["AutoSellExcludeList"] = "",
-	["MinimapNoScale"] = "Off",
+	["EnhanceQuestLog"] = "On",
 	["ShowRaidToggle"] = "Off",
-	["NoAlerts"] = "Off",
-	["WidgetY"] = -15,
 	["FasterLooting"] = "On",
-	["FlightBarX"] = 0,
-	["MuteVaults"] = "Off",
+	["WidgetY"] = -15,
+	["FasterMovieSkip"] = "Off",
 	["MaxChatHstory"] = "On",
+	["DurabilityA"] = "TOPRIGHT",
+	["ShowCooldowns"] = "Off",
 	["MuteCustomSounds"] = "Off",
-	["HideMiniMapButton"] = "On",
+	["MuteVaults"] = "Off",
 	["FlightBarScale"] = 2,
-	["LeaPlusBookFontSize"] = 15,
+	["FilterChatMessages"] = "Off",
 	["MuteStriders"] = "Off",
-	["ClassColTarget"] = "On",
-	["ViewPortAlpha"] = 0,
-	["BuffFrameA"] = "TOPRIGHT",
-	["WeatherLevel"] = 3,
+	["EasyItemDestroy"] = "Off",
+	["FlightBarBackground"] = "On",
+	["FlightBarR"] = "TOP",
+	["DurabilityR"] = "TOPRIGHT",
 	["AutoSellShowSummary"] = "On",
 	["ChatTemp5"] = {
 		"|cff40ff40Guild Message of the Day: Happy NewYear! Joyous Journeys until January 16th. Raid on Monday, sign up!", -- [1]
 	},
 	["AutoQuestCompleted"] = "On",
 	["ShowWowheadLinks"] = "On",
-	["CombineAddonButtons"] = "Off",
+	["NoBagAutomation"] = "Off",
 	["UnclampChat"] = "On",
-	["MuteTrains"] = "Off",
-	["PlusPanelScale"] = 1,
-	["NoCombatLogTab"] = "Off",
+	["FocusY"] = 0,
+	["TimerR"] = "TOP",
+	["ShowFlightTimes"] = "On",
 	["NoConfirmLoot"] = "Off",
-	["ClassColFrames"] = "On",
-	["ViewPortLeft"] = 0,
+	["CombineAddonButtons"] = "Off",
+	["NoScreenGlow"] = "Off",
 	["NoStickyChat"] = "Off",
 	["ViewPortResizeBottom"] = 0,
-	["LeaPlusMailFontSize"] = 15,
+	["MuteTrains"] = "Off",
 	["ViewPortResizeTop"] = 0,
 	["WidgetR"] = "TOP",
 	["StandAndDismount"] = "Off",
 	["NoFriendRequests"] = "Off",
 	["AutoRepairShowSummary"] = "On",
+	["MuteMechSteps"] = "Off",
 	["PlusPanelAlpha"] = 0,
-	["ShowVolume"] = "Off",
 	["ShowBagSearchBox"] = "Off",
 	["DurabilityStatus"] = "On",
 	["NoChatButtons"] = "On",
 	["EnhanceQuestLevels"] = "On",
 	["MuteLogin"] = "Off",
 	["ViewPortRight"] = 0,
-	["TipShowRank"] = "On",
-	["PlayerChainMenu"] = 2,
-	["ClassColorsInChat"] = "Off",
+	["NoCombatLogTab"] = "Off",
 	["MuteInterface"] = "Off",
-	["MoveChatEditBoxToTop"] = "Off",
+	["ClassColorsInChat"] = "Off",
 	["ViewPortEnable"] = "Off",
-	["EnhanceTrainers"] = "On",
+	["MoveChatEditBoxToTop"] = "Off",
+	["PlayerChainMenu"] = 2,
 	["BlockDrunkenSpam"] = "Off",
-	["ChatTemp6"] = {
-		"|cff40ff40Guild Message of the Day: Happy NewYear! Joyous Journeys until January 16th. Raid on Monday, sign up!", -- [1]
-	},
-	["MinimapY"] = -22.00000190734863,
+	["EnhanceTrainers"] = "On",
+	["MuteRhonin"] = "Off",
+	["ShowVolume"] = "Off",
 	["MiniExcludeList"] = "",
-	["MuteMechSteps"] = "Off",
-	["NoScreenGlow"] = "Off",
-	["ShowFlightTimes"] = "On",
-	["FocusY"] = 0,
-	["TimerR"] = "TOP",
-	["NoBagAutomation"] = "Off",
+	["MinimapY"] = -22.00000190734863,
+	["TipShowRank"] = "On",
+	["ViewPortLeft"] = 0,
+	["LeaPlusMailFontSize"] = 15,
+	["ClassColFrames"] = "On",
+	["PlusPanelScale"] = 1,
 	["AutoAcceptSummon"] = "Off",
 	["VehicleY"] = -192,
-	["DurabilityR"] = "TOPRIGHT",
-	["FlightBarR"] = "TOP",
-	["FlightBarBackground"] = "On",
-	["EasyItemDestroy"] = "Off",
-	["FilterChatMessages"] = "Off",
-	["ShowCooldowns"] = "Off",
+	["WeatherLevel"] = 3,
+	["BuffFrameA"] = "TOPRIGHT",
+	["ViewPortAlpha"] = 0,
+	["ClassColTarget"] = "On",
+	["HideMiniMapButton"] = "On",
+	["LeaPlusBookFontSize"] = 15,
 	["HideMiniZoneText"] = "Off",
 	["MailFontChange"] = "Off",
-	["FasterMovieSkip"] = "Off",
-	["DurabilityA"] = "TOPRIGHT",
+	["FlightBarX"] = 0,
+	["NoAlerts"] = "Off",
 	["MainPanelA"] = "CENTER",
-	["EnhanceQuestLog"] = "On",
-	["DismountNoMoving"] = "On",
-	["ChatHistory1"] = {
-		"|cFFFF1C1C Loaded: LFG Bulletin Board 3.10 by Vyscî-Whitemane", -- [1]
-		"|cff30fc96Questie|r: |cff00bc32Hiding drop-down menus on the World Map.|r This is currently necessary as a workaround for a bug in the default Blizzard UI related to drop-down menus.", -- [2]
-		"To Start witcherTracking, use /swt to enable. To change tracking types use /swt opt", -- [3]
-		"|cff33ff99Talented|r: UNCOMPRESS CLASSDATA PALADIN", -- [4]
-		"|cffffb233|cffffe566{VuhDo}|r VuhDo |cffffe566['vu:du:]|r v3.146-wotlkc (use /vd). Currently maintained by Ivaria@US-Hyjal in honor of Marshy and our two daughters.", -- [5]
-		"|cff40ff40Guild Message of the Day: Ulduar raids starting on Monday watch boss fight videos and be prepared!", -- [6]
-		"|cffff00ff[Attune]|r v311 by Cixi@Remulos. Type /attune to start.", -- [7]
-		"|c00FFAA00ThreatClassic2 v2.47 - Type /tc2 for options.|r", -- [8]
-		"|cffffb233|cffffe566{VuhDo}|r Profile successfully loaded: Elhokar_Generic", -- [9]
-		"|cff59f0dcTacoTip v0.3.5 by kebabstorm loaded. Safe travels!", -- [10]
-		"|cFFffff00[Questie]|r The 'Lunar Festival' world event is active!", -- [11]
-	},
-	["AhExtras"] = "Off",
-	["TipModEnable"] = "Off",
+	["MinimapNoScale"] = "Off",
+	["RecentChatSize"] = 170,
+	["MaxCameraZoom"] = "On",
+	["ManageBuffs"] = "Off",
+	["BuffFrameR"] = "TOPRIGHT",
 	["HideMiniTracking"] = "Off",
-	["ShowTrainAllBtn"] = "On",
-	["AhGoldOnly"] = "Off",
+	["MuteEvents"] = "Off",
+	["ShowPlayerChain"] = "Off",
 	["MiniClusterScale"] = 1,
-	["MinimapA"] = "TOPRIGHT",
-	["NoChatFade"] = "Off",
-	["AutoSellJunk"] = "On",
-	["VehicleX"] = -100,
-	["AutoRepairGear"] = "On",
-	["ManageTimer"] = "Off",
+	["FlightBarSpeech"] = "Off",
+	["AutoQuestAvailable"] = "On",
+	["MuteGameSounds"] = "Off",
+	["ChatHistoryName"] = "Taravangían-Atiesh",
+	["MuteScreech"] = "Off",
+	["ChatHistory6Count"] = 17,
 	["AutoAcceptRes"] = "Off",
-	["MuteChimes"] = "Off",
-	["FlightBarA"] = "TOP",
-	["ShowReadyTimer"] = "Off",
-	["UnivGroupColor"] = "Off",
-	["HideMiniAddonButtons"] = "On",
-	["ManageVehicle"] = "Off",
+	["AutomateGossip"] = "On",
+	["MuteAdal"] = "Off",
+	["TipOffsetY"] = 94,
+	["AutomateQuests"] = "On",
+	["MoreFontSizes"] = "Off",
+	["ShowWhoPinged"] = "On",
 	["BookFontChange"] = "Off",
-	["BuffFrameScale"] = 1,
-	["ShowVanityControls"] = "On",
-	["LeaPlusTipSize"] = 1,
-	["MinimapModder"] = "On",
-	["HideDressupStats"] = "Off",
+	["MuteBrooms"] = "Off",
+	["AutoQuestKeyMenu"] = 1,
+	["MuteNetherdrakes"] = "Off",
+	["TipHideShiftOverride"] = "On",
+	["BlockSpellLinks"] = "Off",
 	["ChatHistory1Count"] = 44,
 	["RecentChatWindow"] = "On",
-	["hide"] = true,
-	["HideKeybindText"] = "Off",
-	["WidgetScale"] = 1,
-	["NoSharedQuests"] = "Off",
-	["TipShowOtherRank"] = "Off",
-	["TimerA"] = "TOP",
-	["NoHitIndicators"] = "Off",
-	["MinimapX"] = -17,
-	["DurabilityScale"] = 1,
-	["DressupItemButtons"] = "On",
-	["MuteFizzle"] = "Off",
-	["FocusScale"] = 1,
+	["DismountShowFormBtn"] = "On",
+	["FocusA"] = "CENTER",
+	["ChatTemp4"] = {
+		"|cff40ff40Guild Message of the Day: Happy NewYear! Joyous Journeys until January 16th. Raid on Monday, sign up!", -- [1]
+	},
+	["MainPanelY"] = 14.666748046875,
+	["AutoReleaseNoAlterac"] = "Off",
+	["ShowCooldownID"] = "On",
+	["ChatHistory5"] = {
+		"|cffffff00Madmoocow has left the raid group.", -- [1]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3696:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: don't have to get up for work either so can hang for a bit hehe", -- [2]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3705:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: ooooh", -- [3]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3706:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: nice", -- [4]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3707:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: hell ya", -- [5]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3709:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: mabye we finish AOE2?", -- [6]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3711:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: def hehe :3 <3", -- [7]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3712:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: sure!!", -- [8]
+		"|cffff8040|Hplayer:Gojirah:0:TEXT_EMOTE:|h|cffff7c0aGojirah|r|h thanks Shiztoid.", -- [9]
+		"|cffffff00Zippyman has left the raid group.", -- [10]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3721:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: oop I think Jojo's showing me the new gear rq", -- [11]
+		"|cffffff00Ironguy has left the raid group.", -- [12]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Lilanger-Atiesh:3726:GUILD:|h[|cffc69b6dLilanger|r]|h: howd it go?", -- [13]
+		"|cffffff00Wrekker has left the raid group.", -- [14]
+		"|cffff8040You cheer at Jojobo.", -- [15]
+		"|cffff8040|Hplayer:Jojobo:0:TEXT_EMOTE:|h|cffff7c0aJojobo|r|h bows before you.", -- [16]
+		"|cffff8040|Hplayer:Jojobo:0:TEXT_EMOTE:|h|cffff7c0aJojobo|r|h cheers at you.", -- [17]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:3755:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: grats on the mace :)", -- [18]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:3756:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: thanks man", -- [19]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:3758:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: Pretty chuffed with that", -- [20]
+		"|cffff80ffTo |Hplayer:Aìne-Atiesh:3789:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h: admin meeting", -- [21]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3790:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: hehe", -- [22]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:3791:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: oh yeah no worries <3", -- [23]
+		"|cffffff00Aìne has left the raid group.", -- [24]
+		"|cffffff00Jojobo has left the raid group.", -- [25]
+		"|cffffff00Madmoocow has gone offline.", -- [26]
+		"|cffffff00Preciousbrat has left the raid group.", -- [27]
+		"|cffffff00Falanala looks tipsy.", -- [28]
+		"|cffffff00Dïvinus has left the raid group.", -- [29]
+		"|cffffff00Falanala seems to be sobering up.", -- [30]
+		"|cffff80ff|Hplayer:Maxiheals-Atiesh:3930:WHISPER:MAXIHEALS-ATIESH|h[|cffffffffMaxiheals|r]|h whispers: how did it go bud?", -- [31]
+		"|cffffff00|Hplayer:Xhibit|h[Xhibit]|h has come online.", -- [32]
+		"|cffffff00You are now Away: Away", -- [33]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4104:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: hey, you want this |cffa335ee|Hitem:47301::::::::80:::::::::|h[Skyweaver Vestments]|h|r?", -- [34]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:4107:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: hey love! could you use |cffa335ee|Hitem:47301::::::::80:::::::::|h[Skyweaver Vestments]|h|r?", -- [35]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4108:GUILD:|h[|cfffff468Nicklethief|r]|h: whats the daily H today?", -- [36]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Preciousbrat-Atiesh:4117:GUILD:|h[|cfff48cbaPreciousbrat|r]|h: hos", -- [37]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Maxiheals-Atiesh:4118:GUILD:|h[|cffffffffMaxiheals|r]|h: hos", -- [38]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4129:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: I jsut got enough badges and that trophy for my new tier chest so won't be using it", -- [39]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4132:GUILD:|h[|cfffff468Nicklethief|r]|h: oh nice, not too bad at all", -- [40]
+		"|cffffff00You are no longer Away.", -- [41]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4143:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: ah nice! Hmm... same SP I have rn", -- [42]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4149:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: but has hit? I think I'd probably pass?", -- [43]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4160:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: ok, no. just don't want to waste it.", -- [44]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4168:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: Totally :)", -- [45]
+		"|cffff8040|Hplayer:Boommilk:0:TEXT_EMOTE:|h|cffff7c0aBoommilk|r|h hugs Spispy.", -- [46]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4379:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: Hey, if you have a sec, I could use a few gems", -- [47]
+		"|cffffff00|Hplayer:Rimbosa|h[Rimbosa]|h has come online.", -- [48]
+		"|cffff8040|Hplayer:Nakashi:0:TEXT_EMOTE:|h|cff3fc6eaNakashi|r|h blows Dogeta a kiss.", -- [49]
+		"|cffffff00Falanala looks tipsy.", -- [50]
+		"|cffffff00Falanala seems to be sobering up.", -- [51]
+		"|cffffff00You are now Away: Away", -- [52]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Jojobo-Atiesh:4779:GUILD:|h[|cffff7c0aJojobo|r]|h: Good night gang!", -- [53]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq4|k:8:4780:BN_INLINE_TOAST_ALERT:0|h[|Kq4|k] (|T-2:10:10:0:0:32:32:0:32:0:32|t Drakonias)|h has come online.", -- [54]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4784:GUILD:|h[|cfffff468Nicklethief|r]|h: night jojo", -- [55]
+		"|cffffff00You are no longer Away.", -- [56]
+		"|cffffff00You are now Away: Away", -- [57]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Goldencat-Atiesh:4813:GUILD:|h[|cffff7c0aGoldencat|r]|h: night!", -- [58]
+		"|cffffff00Aìne has gone offline.", -- [59]
+		"|cffffff00Headlines has defeated Xecca in a duel", -- [60]
+		"|cffffff00Falanala looks tipsy.", -- [61]
+		"|cffffff00Falanala seems to be sobering up.", -- [62]
+		"|cffff8040You wave at Greenballs.", -- [63]
+		"|cffffff00Xhibit has gone offline.", -- [64]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5062:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: how's it going", -- [65]
+		"|cffffff00|Hplayer:Madmoocow|h[Madmoocow]|h has come online.", -- [66]
+		"|cffffff00You are no longer Away.", -- [67]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5103:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: hey :) Pretty okay. Life's been supe busy. Been a while man, how've you been?", -- [68]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5112:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm deck out to kills alliance", -- [69]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5128:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: nice", -- [70]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq27|k:18:5157:BN_INLINE_TOAST_ALERT:0|h[|Kq27|k]|h has gone offline.", -- [71]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5165:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm 17-8 in arena this season", -- [72]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5175:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: dagum", -- [73]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq22|k:7:5191:BN_INLINE_TOAST_ALERT:0|h[|Kq22|k]|h has gone offline.", -- [74]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5195:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: yea 5169 gs very nice", -- [75]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5219:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: my rogie and priest are about the same", -- [76]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5239:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: rogue", -- [77]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5304:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm about to move all my toons to a pvp server", -- [78]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5316:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: oh dang", -- [79]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5325:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: yea seems like this side is loosing horde", -- [80]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5337:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: this server is dead for horde no guild", -- [81]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5355:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: only reason I haven't left already is that I can queue cross realm for arena", -- [82]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5371:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: my rogue does like 9k dps in raids he's stupid", -- [83]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq17|k:23:5594:BN_INLINE_TOAST_ALERT:0|h[|Kq17|k]|h has gone offline.", -- [84]
+		"|cffffff00Astreauxx has defeated Baalbuddy in a duel", -- [85]
+		"|cffff4800[Raid Warning] |Hplayer:Vâlkyr-Atiesh:5792:RAID:|h[|cfff48cbaVâlkyr|r]|h: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tJeeves placed on the ground by Balroux.", -- [86]
+		"|cffff4040|Hplayer:Arthaxx-Atiesh:5803:YELL:|h[|cffc41e3aArthaxx|r]|h yells: [Common] MOD BORNE ", -- [87]
+		"|cffffff00You are now Away: Away", -- [88]
+		"|cffff8040|Hplayer:Supacritz:0:TEXT_EMOTE:|h|cffc69b6dSupacritz|r|h sniffs Dolan.", -- [89]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [90]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [91]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6026:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [92]
+		"|cffffff00Macdaddy rolls 5 (1-6)", -- [93]
+		"|cffffff00Macdaddy rolls 3 (1-6)", -- [94]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6035:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [95]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [96]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [97]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6038:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [98]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h licks Mesowetoddid.", -- [99]
+		"|cffffff00Macdaddy rolls 1 (1-6)", -- [100]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [101]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6047:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [102]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [103]
+		"|cffffff00Macdaddy rolls 3 (1-6)", -- [104]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6069:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [105]
+		"|cffffff00Goldencat is now the group leader.", -- [106]
+		"|cffffff00Madmoocow has gone offline.", -- [107]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq12|k:6:6100:BN_INLINE_TOAST_ALERT:0|h[|Kq12|k]|h has gone offline.", -- [108]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h licks Wrekker.", -- [109]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h sniffs Wrekker.", -- [110]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h hugs Wrekker.", -- [111]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h loves Wrekker.", -- [112]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h cuddles up against Wrekker.", -- [113]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h flirts with Wrekker.", -- [114]
+		"|cffffff00Herhero has defeated Ragebones in a duel", -- [115]
+		"|cffff8040|Hplayer:Mesowetoddid:0:TEXT_EMOTE:|h|cffaad372Mesowetoddid|r|h licks Poorva.", -- [116]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h hugs Mesowetoddid.", -- [117]
+		"|cffffffff|Hplayer:Mesowetoddid-Atiesh:6126:SAY:|h[|cffaad372Mesowetoddid|r]|h says: hes tabbed out were having a guild meeting", -- [118]
+		"|cffffff00You are no longer Away.", -- [119]
+		"|cffffff00You are now Away: Away", -- [120]
+		"|cffffff00You are no longer Away.", -- [121]
+		"|cffffff00You are now Away: Away", -- [122]
+		"|cff82c5ff|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq4|k:8:6275:BN_INLINE_TOAST_ALERT:0|h[|Kq4|k]|h has gone offline.", -- [123]
+		"|cffffff00Rimbosa has gone offline.", -- [124]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Abatwa-Atiesh:6394:GUILD:|h[|cffc41e3aAbatwa|r]|h: night peeps", -- [125]
+		"|cffffff00You are now the group leader.", -- [126]
+		"|cffffff00Goldencat has left the raid group.", -- [127]
+		"|cffffff00You are no longer Away.", -- [128]
+	},
+	["WowheadLinkComments"] = "Off",
+	["AutoResNoCombat"] = "On",
+	["MuteYawns"] = "Off",
+	["InviteFriendsOnly"] = "Off",
+	["ChatHistory6"] = {
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Dersianda-Atiesh:4079:CHANNEL:1|h[|cff8787edDersianda|r]|h: LFG DPS HOPS++", -- [1]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4104:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: hey, you want this |cffa335ee|Hitem:47301::::::::80:::::::::|h[Skyweaver Vestments]|h|r?", -- [2]
+		"|cffff80ff|Hplayer:Aìne-Atiesh:4107:WHISPER:AÌNE-ATIESH|h[|cffffffffAìne|r]|h whispers: hey love! could you use |cffa335ee|Hitem:47301::::::::80:::::::::|h[Skyweaver Vestments]|h|r?", -- [3]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4108:GUILD:|h[|cfffff468Nicklethief|r]|h: whats the daily H today?", -- [4]
+		"|cffffc0c0|Hchannel:channel:3|h[3. Trade - City]|h |Hplayer:Shamrockzz-Atiesh:4110:CHANNEL:3|h[|cffaad372Shamrockzz|r]|h: lf bs to make titansteel spellblade", -- [5]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Preciousbrat-Atiesh:4117:GUILD:|h[|cfff48cbaPreciousbrat|r]|h: hos", -- [6]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Maxiheals-Atiesh:4118:GUILD:|h[|cffffffffMaxiheals|r]|h: hos", -- [7]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4129:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: I jsut got enough badges and that trophy for my new tier chest so won't be using it", -- [8]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4132:GUILD:|h[|cfffff468Nicklethief|r]|h: oh nice, not too bad at all", -- [9]
+		"|cffffff00You are no longer Away.", -- [10]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4143:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: ah nice! Hmm... same SP I have rn", -- [11]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4149:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: but has hit? I think I'd probably pass?", -- [12]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shaammwwoww-Atiesh:4150:CHANNEL:1|h[|cff0070ddShaammwwoww|r]|h: LFM BFD", -- [13]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4160:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: ok, no. just don't want to waste it.", -- [14]
+		"|cffff80ffTo |Hplayer:Jojobo-Atiesh:4168:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h: Totally :)", -- [15]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shamrockzz-Atiesh:4175:CHANNEL:1|h[|cffaad372Shamrockzz|r]|h: lf bs to make titansteel spellblade", -- [16]
+		"|cffffc0c0|Hchannel:channel:3|h[3. Trade - City]|h |Hplayer:Shamrockzz-Atiesh:4201:CHANNEL:3|h[|cffaad372Shamrockzz|r]|h: lf bs to make titansteel spellblade", -- [17]
+		"|cffff8040|Hplayer:Boommilk:0:TEXT_EMOTE:|h|cffff7c0aBoommilk|r|h hugs Spispy.", -- [18]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shaammwwoww-Atiesh:4294:CHANNEL:1|h[|cff0070ddShaammwwoww|r]|h: LF Tank and DPS for BFD", -- [19]
+		"|cffff80ff|Hplayer:Jojobo-Atiesh:4379:WHISPER:JOJOBO-ATIESH|h[|cffff7c0aJojobo|r]|h whispers: Hey, if you have a sec, I could use a few gems", -- [20]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shaammwwoww-Atiesh:4454:CHANNEL:1|h[|cff0070ddShaammwwoww|r]|h: LF Tank and DPS for BFD", -- [21]
+		"|cffffff00|Hplayer:Rimbosa|h[Rimbosa]|h has come online.", -- [22]
+		"|cffff8040|Hplayer:Nakashi:0:TEXT_EMOTE:|h|cff3fc6eaNakashi|r|h blows Dogeta a kiss.", -- [23]
+		"|cffffc0c0|Hchannel:channel:3|h[3. Trade - City]|h |Hplayer:Jojobo-Atiesh:4572:CHANNEL:3|h[|cffff7c0aJojobo|r]|h: WTS |cffa335ee|Hitem:47582::::::::80:::::::::|h[Bracers of Swift Death]|h|r|cffa335ee|Hitem:47600::::::::80:::::::::|h[Knightbane Carapace]|h|r", -- [24]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Redroth:4637:CHANNEL:1|h[|cfff48cbaRedroth|r]|h: LF HEALS AND DPS BFD", -- [25]
+		"|cffffff00Falanala looks tipsy.", -- [26]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Sickhealer:4691:CHANNEL:1|h[|cffffffffSickhealer|r]|h: lfg dps need DAILY UP H", -- [27]
+		"|cffffff00Falanala seems to be sobering up.", -- [28]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shaammwwoww-Atiesh:4719:CHANNEL:1|h[|cff0070ddShaammwwoww|r]|h: LF Heals and DPS for BFDq", -- [29]
+		"|cffffff00You are now Away: Away", -- [30]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Foreskinhero:4759:CHANNEL:1|h[|cffc69b6dForeskinhero|r]|h: LF2M Heals and dps for SM arm/cath", -- [31]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shaammwwoww-Atiesh:4777:CHANNEL:1|h[|cff0070ddShaammwwoww|r]|h: LF Heals and DPS for BFD", -- [32]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Jojobo-Atiesh:4779:GUILD:|h[|cffff7c0aJojobo|r]|h: Good night gang!", -- [33]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Nicklethief-Atiesh:4784:GUILD:|h[|cfffff468Nicklethief|r]|h: night jojo", -- [34]
+		"|cffffff00You are no longer Away.", -- [35]
+		"|cffffff00You are now Away: Away", -- [36]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Goldencat-Atiesh:4813:GUILD:|h[|cffff7c0aGoldencat|r]|h: night!", -- [37]
+		"|cffffff00Aìne has gone offline.", -- [38]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shaammwwoww-Atiesh:4854:CHANNEL:1|h[|cff0070ddShaammwwoww|r]|h: LF DPS for BFD. g2g", -- [39]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shaammwwoww-Atiesh:4870:CHANNEL:1|h[|cff0070ddShaammwwoww|r]|h: checking guild", -- [40]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Konger:4907:CHANNEL:1|h[|cffaad372Konger|r]|h: lf brd run", -- [41]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Shaammwwoww-Atiesh:4926:CHANNEL:1|h[|cff0070ddShaammwwoww|r]|h: LF DPS for BFD. g2g", -- [42]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Foreskinhero-Atiesh:4956:CHANNEL:1|h[|cffc69b6dForeskinhero|r]|h: LF heals nad dps for arm/cath", -- [43]
+		"|cffffff00Headlines has defeated Xecca in a duel", -- [44]
+		"|cffffff00Falanala looks tipsy.", -- [45]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Rimbosa-Atiesh:4975:CHANNEL:1|h[|cff3fc6eaRimbosa|r]|h: LF heals Daily H++", -- [46]
+		"|cffffff00Falanala seems to be sobering up.", -- [47]
+		"|cffff8040You wave at Greenballs.", -- [48]
+		"|cffffff00Xhibit has gone offline.", -- [49]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5062:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: how's it going", -- [50]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Totemdawg-Atiesh:5069:CHANNEL:1|h[|cff0070ddTotemdawg|r]|h: Healer LFG red H daily", -- [51]
+		"|cffffff00|Hplayer:Madmoocow|h[Madmoocow]|h has come online.", -- [52]
+		"|cffffff00You are no longer Away.", -- [53]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5103:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: hey :) Pretty okay. Life's been supe busy. Been a while man, how've you been?", -- [54]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5112:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm deck out to kills alliance", -- [55]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5128:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: nice", -- [56]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5165:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm 17-8 in arena this season", -- [57]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5175:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: dagum", -- [58]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5195:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: yea 5169 gs very nice", -- [59]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5219:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: my rogie and priest are about the same", -- [60]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5239:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: rogue", -- [61]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5304:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: I'm about to move all my toons to a pvp server", -- [62]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5316:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: oh dang", -- [63]
+		"|cffff80ffTo |Hplayer:Greenballs-Atiesh:5325:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h: yea seems like this side is loosing horde", -- [64]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Carunmage-Atiesh:5336:CHANNEL:1|h[|cff3fc6eaCarunmage|r]|h: lf1m tank for HoL beta", -- [65]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5337:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: this server is dead for horde no guild", -- [66]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Crowbars-Atiesh:5353:CHANNEL:1|h[|cff3fc6eaCrowbars|r]|h: LFM H++ HoS, need tank and dps", -- [67]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5355:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: only reason I haven't left already is that I can queue cross realm for arena", -- [68]
+		"|cffff80ff|Hplayer:Greenballs-Atiesh:5371:WHISPER:GREENBALLS-ATIESH|h[|cffc69b6dGreenballs|r]|h whispers: my rogue does like 9k dps in raids he's stupid", -- [69]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Crowbars-Atiesh:5391:CHANNEL:1|h[|cff3fc6eaCrowbars|r]|h: LF2M H++ HoS, need tank and dps", -- [70]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Crowbars-Atiesh:5578:CHANNEL:1|h[|cff3fc6eaCrowbars|r]|h: LF1M H++ HoS, need tank", -- [71]
+		"|cffffff00Astreauxx has defeated Baalbuddy in a duel", -- [72]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Qaggun-Atiesh:5674:CHANNEL:1|h[|cfff48cbaQaggun|r]|h: Tank or DPS lfg HoS ++", -- [73]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Tomanis-Atiesh:5734:CHANNEL:1|h[|cff8787edTomanis|r]|h: LF Heals for UK Reg", -- [74]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Ragescream:5775:CHANNEL:1|h[|cffc69b6dRagescream|r]|h: LFM 3 DPS for N ToC spam", -- [75]
+		"|cffff4800[Raid Warning] |Hplayer:Vâlkyr-Atiesh:5792:RAID:|h[|cfff48cbaVâlkyr|r]|h: |TInterface\\TargetingFrame\\UI-RaidTargetingIcon_1:0|tJeeves placed on the ground by Balroux.", -- [76]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Demetz-Atiesh:5801:CHANNEL:1|h[|cffc69b6dDemetz|r]|h: LF Heals and 2 dps OK Reg", -- [77]
+		"|cffff4040|Hplayer:Arthaxx-Atiesh:5803:YELL:|h[|cffc41e3aArthaxx|r]|h yells: [Common] MOD BORNE ", -- [78]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Ragescream-Atiesh:5805:CHANNEL:1|h[|cffc69b6dRagescream|r]|h: LFM 2 DPS for N ToC spam", -- [79]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Ragescream-Atiesh:5809:CHANNEL:1|h[|cffc69b6dRagescream|r]|h: LFM 1 DPS for N ToC spam", -- [80]
+		"|cffffff00You are now Away: Away", -- [81]
+		"|cffff8040|Hplayer:Supacritz:0:TEXT_EMOTE:|h|cffc69b6dSupacritz|r|h sniffs Dolan.", -- [82]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Qaggun-Atiesh:5901:CHANNEL:1|h[|cfff48cbaQaggun|r]|h: Starting HoS++. Need heals and 3 dps", -- [83]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Normalwar:5958:CHANNEL:1|h[|cffc69b6dNormalwar|r]|h: anyone for |Hquestie:13809:Player-4372-019C70B3|h|cFF21CCE7[|r|cFF21CCE7[80+] Threat From Above|r|cFF21CCE7]|r|h", -- [84]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [85]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [86]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6026:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [87]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Qaggun-Atiesh:6027:CHANNEL:1|h[|cfff48cbaQaggun|r]|h: LF1M HoS++. Heals", -- [88]
+		"|cffffff00Macdaddy rolls 5 (1-6)", -- [89]
+		"|cffffff00Macdaddy rolls 3 (1-6)", -- [90]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6035:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [91]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [92]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [93]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6038:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [94]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h licks Mesowetoddid.", -- [95]
+		"|cffffff00Macdaddy rolls 1 (1-6)", -- [96]
+		"|cffffff00Macdaddy rolls 2 (1-6)", -- [97]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6047:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [98]
+		"|cffffff00Macdaddy rolls 4 (1-6)", -- [99]
+		"|cffffff00Macdaddy rolls 3 (1-6)", -- [100]
+		"|cffff8040|Hplayer:Macdaddy-Atiesh:6069:EMOTE:|h|cfffff468Macdaddy|r|h casually tosses his |Hitem:36862|h|cFFFFFFFF[Worn Troll Dice]|r|h.", -- [101]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Qaggun-Atiesh:6082:CHANNEL:1|h[|cfff48cbaQaggun|r]|h: LF1M HoS H++. Heals and ready to summon.", -- [102]
+		"|cffffff00Goldencat is now the group leader.", -- [103]
+		"|cffffff00Madmoocow has gone offline.", -- [104]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h licks Wrekker.", -- [105]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h sniffs Wrekker.", -- [106]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h hugs Wrekker.", -- [107]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h loves Wrekker.", -- [108]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h cuddles up against Wrekker.", -- [109]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h flirts with Wrekker.", -- [110]
+		"|cffffff00Herhero has defeated Ragebones in a duel", -- [111]
+		"|cffff8040|Hplayer:Mesowetoddid:0:TEXT_EMOTE:|h|cffaad372Mesowetoddid|r|h licks Poorva.", -- [112]
+		"|cffff8040|Hplayer:Poorva:0:TEXT_EMOTE:|h|cff3fc6eaPoorva|r|h hugs Mesowetoddid.", -- [113]
+		"|cffffffff|Hplayer:Mesowetoddid-Atiesh:6126:SAY:|h[|cffaad372Mesowetoddid|r]|h says: hes tabbed out were having a guild meeting", -- [114]
+		"|cffffff00You are no longer Away.", -- [115]
+		"|cffffff00You are now Away: Away", -- [116]
+		"|cffffff00You are no longer Away.", -- [117]
+		"|cffffff00You are now Away: Away", -- [118]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Tomanis-Atiesh:6299:CHANNEL:1|h[|cff8787edTomanis|r]|h: LF Heals for Reg UK", -- [119]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Demetz-Atiesh:6354:CHANNEL:1|h[|cffc69b6dDemetz|r]|h: LF 2dps and heals OK Reg", -- [120]
+		"|cffffff00Rimbosa has gone offline.", -- [121]
+		"|cff40ff40|Hchannel:GUILD|h[Guild]|h |Hplayer:Abatwa-Atiesh:6394:GUILD:|h[|cffc41e3aAbatwa|r]|h: night peeps", -- [122]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Daichu-Atiesh:6408:CHANNEL:1|h[|cff8787edDaichu|r]|h: LF all for daily h++ ", -- [123]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Daichu-Atiesh:6431:CHANNEL:1|h[|cff8787edDaichu|r]|h: LF tank/heals for daily h++ ", -- [124]
+		"|cffffc0c0|Hchannel:channel:1|h[1. LookingForGroup]|h |Hplayer:Cutiey:6440:CHANNEL:1|h[|cfff48cbaCutiey|r]|h: |Hquestie:1098:Player-4372-03BC938A|h|cFFC0C0C0[|r|cFFC0C0C0[25] Deathstalkers in Shadowfang|r|cFFC0C0C0]|r|h|Hquestie:1013:Player-4372-03BC938A|h|cFFC0C0C0[|r|cFFC0C0C0[26] The Book of Ur|r|cFFC0C0C0]|r|h|Hquestie:1014:Player-4372-03BC938A|h|cFFC0C0C0[|r|cFFC0C0C0[27] Arugal Must Die|r|cFFC0C0C0]|r|h", -- [125]
+		"|cffffff00You are now the group leader.", -- [126]
+		"|cffffff00Goldencat has left the raid group.", -- [127]
+		"|cffffff00You are no longer Away.", -- [128]
+	},
 	["AutoReleaseDelay"] = 200,
-	["MuteBikes"] = "Off",
-	["ManageWidget"] = "Off",
-	["ManageFocus"] = "Off",
-	["ViewPortTop"] = 0,
+	["VehicleR"] = "TOPRIGHT",
+	["NoGryphons"] = "Off",
+	["DurabilityX"] = 0,
+	["ShowMinimapIcon"] = "Off",
 }

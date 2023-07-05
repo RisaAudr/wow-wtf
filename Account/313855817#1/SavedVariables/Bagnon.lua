@@ -21,24 +21,17 @@ Bagnon_Sets = {
 	},
 	["enchantColor"] = {
 	},
-	["glowPoor"] = true,
+	["glowQuality"] = true,
 	["keyColor"] = {
 	},
 	["normalColor"] = {
 	},
-	["glowQuality"] = true,
+	["profiles"] = {
+	},
 	["mineColor"] = {
-	},
-	["glowUnusable"] = true,
-	["version"] = "10.0.16",
-	["glowSets"] = true,
-	["display"] = {
-	},
-	["fridgeColor"] = {
 	},
 	["global"] = {
 		["inventory"] = {
-			["brokerObject"] = "BagnonLauncher",
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -63,7 +56,7 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["options"] = true,
+			["point"] = "TOPRIGHT",
 			["hiddenBags"] = {
 				false, -- [1]
 				false, -- [2]
@@ -73,24 +66,36 @@ Bagnon_Sets = {
 				[0] = false,
 			},
 			["color"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0.5, -- [4]
 			},
+			["currency"] = true,
+			["sort"] = true,
+			["spacing"] = 2,
+			["bagToggle"] = true,
+			["enabled"] = true,
+			["brokerObject"] = "BagnonLauncher",
 			["columns"] = 8,
+			["money"] = true,
+			["options"] = true,
 			["hiddenRules"] = {
 			},
+			["reverseBags"] = false,
 			["bagBreak"] = false,
-			["y"] = -152.1106567382813,
-			["x"] = -17.3326416015625,
+			["x"] = -291.5550537109375,
+			["search"] = true,
 			["showBags"] = true,
+			["reverseSlots"] = false,
 			["broker"] = true,
-			["spacing"] = 2,
+			["y"] = -147.2218627929688,
 			["borderColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				1, -- [4]
 			},
-			["bagToggle"] = true,
-			["point"] = "TOPRIGHT",
 		},
 		["vault"] = {
 			["rules"] = {
@@ -125,6 +130,7 @@ Bagnon_Sets = {
 			},
 		},
 		["guild"] = {
+			["enabled"] = false,
 			["rules"] = {
 				"all", -- [1]
 				"all/normal", -- [2]
@@ -149,16 +155,16 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["point"] = "TOPLEFT",
+			["point"] = "BOTTOMLEFT",
 			["hiddenBags"] = {
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -219.1105346679688,
-			["x"] = 414.6679077148438,
-			["sort"] = false,
+			["y"] = 287.0003051757813,
+			["x"] = 360.4470825195313,
+			["sort"] = true,
 			["borderColor"] = {
 			},
 		},
@@ -187,27 +193,33 @@ Bagnon_Sets = {
 				"all/souls", -- [21]
 				"equip/ammo", -- [22]
 			},
-			["point"] = "TOPRIGHT",
+			["point"] = "TOPLEFT",
 			["hiddenBags"] = {
 				[6] = false,
 				[8] = false,
 				[10] = false,
-				[11] = false,
 				[-1] = false,
 				[5] = false,
+				[11] = false,
 			},
 			["color"] = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -113.72216796875,
-			["x"] = -574.880126953125,
+			["y"] = -94.55560302734375,
+			["x"] = 317.5568542480469,
 			["borderColor"] = {
 			},
-			["columns"] = 12,
 			["showBags"] = true,
+			["columns"] = 12,
 		},
 	},
-	["profiles"] = {
+	["version"] = "10.0.16",
+	["fridgeColor"] = {
 	},
+	["display"] = {
+	},
+	["glowSets"] = true,
+	["glowUnusable"] = true,
+	["glowPoor"] = true,
 }

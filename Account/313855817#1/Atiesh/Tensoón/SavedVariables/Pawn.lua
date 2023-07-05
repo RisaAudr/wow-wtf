@@ -1,6 +1,8 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0715,
+	["LastVersion"] = 2.08,
+	["LastPlayerFullName"] = "Tensoón-Atiesh",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
 			["ID"] = 199478,
@@ -78,8 +80,6 @@ PawnOptions = {
 			["Link"] = "|cff1eff00|Hitem:35807::::::::70:::::::::|h[Bramblethorn Greatstaff]|h|r",
 		}, -- [16]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "Tensoón-Atiesh",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

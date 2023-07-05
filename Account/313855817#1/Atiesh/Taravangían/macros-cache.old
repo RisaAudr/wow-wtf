@@ -9,7 +9,7 @@ END
 VER 3 0000000001000005 "Cspell" "INV_MISC_QUESTIONMARK"
 #showtooltip Counterspell
 /stopcasting
-/cast Counterspell
+/cast [target=focus, exists] Counterspell; Counterspell
 END
 VER 3 0000000001000009 "EleFreeze" "135862"
 #showtooltip
@@ -40,8 +40,16 @@ VER 3 0000000001000016 "Gas" "INV_MISC_QUESTIONMARK"
 #showtooltip Combustion
 /cast Mirror Image
 /cast Combustion
-/use Mana Sapphire
 /use 10
+/use 14
+/cast Icy Veins
+/cast Arcane Power
+END
+VER 3 0000000001000019 "Gas2" "135824"
+#showtooltip Combustion
+/cast Combustion
+/use 10
+/use 14
 /cast Icy Veins
 /cast Arcane Power
 END
@@ -59,7 +67,7 @@ END
 VER 3 0000000001000014 "Polymorph" "INV_MISC_QUESTIONMARK"
 #showtooltip Polymorph
 /cast Presence of Mind
-/cast [target=focus, exists] Polymorph; Polymorph;
+/cast [target=focus, exists] Polymorph(Rabbit); Polymorph(Rabbit);
 END
 VER 3 0000000001000017 "Pyro" "INV_MISC_QUESTIONMARK"
 #showtooltip Pyroblast
@@ -76,14 +84,9 @@ VER 3 0000000001000011 "Splosion" "136116"
 #showtooltip Arcane Explosion
 /cast Arcane Explosion
 END
-VER 3 000000000100000F "TK equip" "132090"
-/equip [combat] Staff of Disintegration
-/equip [nocombat] The Turning Tide
-/equip [nocombat] Surplus Limb
-END
 VER 3 0000000001000001 "VuhDoDCShieldData" "Ability_Repair"
-P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1MR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+R1DR1PT2EM4DR[x]4HR[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]4MR[x][x][x][x][x]0__[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END
 VER 3 0000000001000002 "VuhDoDCShieldNames" "Ability_Repair"
-N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Tar[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+NGolVâlAbaTre[x]Mes[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Tar[x][x][x][x][x]cat[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
 END

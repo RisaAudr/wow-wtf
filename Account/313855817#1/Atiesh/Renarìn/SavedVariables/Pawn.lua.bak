@@ -1,95 +1,100 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0715,
+	["LastVersion"] = 2.0801,
+	["LastPlayerFullName"] = "Renarìn-Atiesh",
+	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
 		{
-			["ID"] = 37294,
-			["Level"] = 200,
-			["Link"] = "|cff0070dd|Hitem:37294::41401::::::80:::::::::|h[Crown of Unbridled Magic]|h|r",
+			["ID"] = 45150,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45150::::::::80:::::::::|h[Collar of the Wyrmhunter]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 32370,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:32370::::::::80:::::::::|h[Nadina's Pendant of Purity]|h|r",
+			["ID"] = 45539,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45539::::::::80:::::::::|h[Pendant of Focused Energies]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 36982,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:36982::::::::80:::::::::|h[Mantle of Electrical Charges]|h|r",
+			["ID"] = 46165,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46165::::::::80:::::::::|h[Conqueror's Mantle of Sanctification]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 31066,
-			["Level"] = 146,
-			["Link"] = "|cffa335ee|Hitem:31066:1144:32201:35761:32201::::80:::::::::|h[Vestments of Absolution]|h|r",
+			["ID"] = 46168,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46168::::::::80:::::::::|h[Conqueror's Raiments of Sanctification]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 32519,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:32519::32219:37503:::::80:::::::::|h[Belt of Divine Guidance]|h|r",
+			["ID"] = 45557,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45557::::::::80:::::::::|h[Sash of Ancient Power]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 32367,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:32367:2747:35316:35316:35316::::80:::::::::|h[Leggings of Devastation]|h|r",
+			["ID"] = 46170,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:46170::::::::80:::::::::|h[Conqueror's Pants of Sanctification]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 30894,
-			["Level"] = 141,
-			["Link"] = "|cffa335ee|Hitem:30894::::::::80:::::::::|h[Blue Suede Shoes]|h|r",
+			["ID"] = 45566,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45566::::::::80:::::::::|h[Spellslinger's Slippers]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 37361,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:37361::::::::80:::::::::|h[Cuffs of Winged Levitation]|h|r",
+			["ID"] = 45275,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45275:2332:::::::80:::::::::|h[Bracers of Unleashed Magic]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 37172,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:37172::::::::80:::::::::|h[Gloves of Glistening Runes]|h|r",
+			["ID"] = 45117,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45117:3246:::::::80:::::::::|h[Constructor's Handwraps]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 37195,
-			["Level"] = 200,
+			["ID"] = 45438,
+			["Level"] = 232,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:37195::::::::80:::::::::|h[Band of Enchanted Growth]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45438::::::::80:::::::::|h[Ring of the Faithful Servant]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 34166,
-			["Level"] = 154,
+			["ID"] = 45451,
+			["Level"] = 232,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:34166::::::::80:::::::::|h[Band of Lucent Beams]|h|r",
+			["Link"] = "|cffa335ee|Hitem:45451::::::::80:::::::::|h[Frozen Loop]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 37873,
-			["Level"] = 200,
+			["ID"] = 40258,
+			["Level"] = 213,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:37873::::::::80:::::::::|h[Mark of the War Prisoner]|h|r",
+			["Link"] = "|cffa335ee|Hitem:40258::::::::80:::::::::|h[Forethought Talisman]|h|r",
 		}, -- [13]
-		nil, -- [14]
 		{
-			["ID"] = 36983,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:36983::::::::80:::::::::|h[Cape of Seething Steam]|h|r",
+			["ID"] = 40255,
+			["Level"] = 213,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cffa335ee|Hitem:40255::::::::80:::::::::|h[Dying Curse]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 45493,
+			["Level"] = 232,
+			["Link"] = "|cffa335ee|Hitem:45493::::::::80:::::::::|h[Asimov's Drape]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 39281,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:39281::::::::80:::::::::|h[Infection Repulser]|h|r",
+			["ID"] = 45527,
+			["Level"] = 238,
+			["Link"] = "|cffa335ee|Hitem:45527:3834:::::::80:::::::::|h[Soulscribe]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 37051,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:37051::::::::80:::::::::|h[Seal of Valgarde]|h|r",
+			["ID"] = 40350,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:40350::::::::80:::::::::|h[Urn of Lost Memories]|h|r",
 		}, -- [17]
 		{
-			["ID"] = 36989,
-			["Level"] = 187,
-			["Link"] = "|cff0070dd|Hitem:36989::::::::80:::::::::|h[Ancient Measuring Rod]|h|r",
+			["ID"] = 45257,
+			["Level"] = 238,
+			["Link"] = "|cffa335ee|Hitem:45257::::::::80:::::::::|h[Quartz Crystal Wand]|h|r",
 		}, -- [18]
 	},
-	["AutoSelectScales"] = false,
-	["LastPlayerFullName"] = "Renarìn-Atiesh",
 }
 PawnMrRobotScaleProviderOptions = nil
 PawnClassicScaleProviderOptions = {

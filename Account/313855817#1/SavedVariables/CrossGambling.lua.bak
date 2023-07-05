@@ -1,0 +1,88 @@
+
+CrossGambling = {
+	["enabledState"] = true,
+	["AddPlayer"] = nil --[[ skipped inline function ]],
+	["profileKeys"] = {
+		["Risabankthre - Atiesh"] = "Default",
+		["Jasnàh - Atiesh"] = "Default",
+		["Risaaudr - Atiesh"] = "Default",
+		["Rylanbankalt - Atiesh"] = "Default",
+		["Ironeyés - Atiesh"] = "Default",
+		["Taravangían - Atiesh"] = "Default",
+		["Elhokár - Atiesh"] = "Default",
+		["Risatailrbnk - Atiesh"] = "Default",
+		["Renarìn - Atiesh"] = "Default",
+		["Risabanktwo - Atiesh"] = "Default",
+	},
+	["orderedModules"] = {
+	},
+	["RemovePlayer"] = nil --[[ skipped inline function ]],
+	["modules"] = {
+	},
+	["baseName"] = "CrossGambling",
+	["defaultModuleState"] = true,
+	["game"] = {
+		["players"] = {
+		},
+		["PlayerName"] = "Taravangían",
+		["chatframeOption"] = true,
+		["realmFilter"] = true,
+		["state"] = "START",
+		["house"] = false,
+		["PlayerClass"] = "MAGE",
+		["mode"] = "Classic",
+		["host"] = false,
+		["chatMethod"] = "PARTY",
+	},
+	["db"] = {
+		["callbacks"] = {
+			["events"] = {
+			},
+			["recurse"] = 0,
+		},
+		["global"] = {
+			["themechoice"] = 0,
+		},
+		["keys"] = {
+			["global"] = true,
+			["class"] = "MAGE",
+			["profiles"] = true,
+			["char"] = "Taravangían - Atiesh",
+			["race"] = "BloodElf",
+			["locale"] = "enus",
+			["faction"] = "Horde",
+			["profile"] = "Default",
+			["factionrealm"] = "Horde - Atiesh",
+			["factionrealmregion"] = "Horde - Atiesh - US",
+			["realm"] = "Atiesh",
+		},
+	},
+	["defaultModuleLibraries"] = {
+	},
+	["name"] = "CrossGambling",
+	["global"] = {
+		["stats"] = {
+			["Synobi"] = -55,
+			["Dolorian"] = 93,
+			["Locktech"] = -75,
+			["Taravangían"] = 21,
+			["Pokerliquor"] = 96,
+			["Abatwa"] = -33,
+			["Reâver"] = 70,
+			["Macksadin"] = -33,
+			["Lilanger"] = 75,
+			["Danhausèn"] = 8,
+			["Zulbajin"] = 86,
+			["Vâlkyr"] = -162,
+			["Zippyman"] = -86,
+			["Cupidshank"] = 91,
+			["Jojobo"] = -96,
+		},
+		["wager"] = 100,
+		["minimap"] = {
+			["minimapPos"] = 232.3020354788234,
+		},
+		["houseCut"] = "10",
+		["themechoice"] = 0,
+	},
+}

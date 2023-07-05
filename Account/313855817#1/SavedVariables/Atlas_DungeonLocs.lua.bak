@@ -1,11 +1,17 @@
 
 Atlas_DungeonLocsDB = {
 	["profileKeys"] = {
-		["Renarìn - Atiesh"] = "Default",
+		["Risabankthre - Atiesh"] = "Default",
+		["Jasnàh - Atiesh"] = "Default",
+		["Risatailrbnk - Atiesh"] = "Default",
+		["Rylanbankalt - Atiesh"] = "Default",
+		["Tensoón - Atiesh"] = "Default",
+		["Ironeyés - Atiesh"] = "Default",
 		["Taravangían - Atiesh"] = "Default",
 		["Elhokár - Atiesh"] = "Default",
-		["Tensoón - Atiesh"] = "Default",
-		["Jasnàh - Atiesh"] = "Default",
+		["Risaaudr - Atiesh"] = "Default",
+		["Renarìn - Atiesh"] = "Default",
+		["Risabanktwo - Atiesh"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -17,7 +17,7 @@ DBM-Core: enabled
 DBM-WorldEvents: enabled
 Bagnon: enabled
 Bagnon_Config: enabled
-Bagnon_GuildBank: enabled
+Bagnon_GuildBank: disabled
 Bagnon_VoidStorage: enabled
 BagBrother: enabled
 AtlasLootClassic_Options: enabled
@@ -84,3 +84,4 @@ DBM-VoA: enabled
 DBM-VPVEM: enabled
 DBM-ZulAman: enabled
 DBM-ZG: enabled
+WeakAurasCompanion: enabled

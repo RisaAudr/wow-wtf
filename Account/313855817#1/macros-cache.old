@@ -1,0 +1,196 @@
+VER 3 000000000000002D "Addon Usage" "136248"
+/addonusage
+END
+VER 3 0000000000000039 "Aine" "134128"
+/w Aìne .
+END
+VER 3 0000000000000029 "asdff" "INV_MISC_QUESTIONMARK"
+/target Sinok
+/cast Living Bomb
+/script SetRaidTarget("target",8);
+END
+VER 3 0000000000000006 "atarget-find-npc" "132092"
+/target lieu
+/script SetRaidTarget("target",8);
+END
+VER 3 000000000000001E "B&C pug spam" "136120"
+/1  LF1M DPS for Ulduar 25 tonight with B&C. 2SR>MS>OS, Skipping optional bosses. only HM is FL.  Please have gearscore of 4k or better. 5:30-9:30 server time.  PST if interested for more details :)
+END
+VER 3 000000000000001B "B&C raid" "135714"
+/1 BT Progression hosted by <Broke&Confused> Monday 5:30-9:30 server. Need DPS! Minimum T4/T5 gear (pst for check). Must have SR gear / bring mats. First 4 bosses+council pulls. Pst or visit the B&C discord for more info https://discord.gg/gQWtVP35
+END
+VER 3 000000000000001C "B&C Recruit" "135697"
+/1 Hi all :) <B&C> Is recruiting for our main 25man raid team! We raid Sun night 6-9 server, and Monday 6-9:30. We're a midcore+ raiding guild, in need of pumper caster dps.
+END
+VER 3 000000000000001D "blink" "135736"
+#showtooltip blink
+/cancelaura Ice Block
+/cast Blink
+END
+VER 3 0000000000000038 "bomb" "INV_MISC_QUESTIONMARK"
+#showtooltip Saronite Bomb
+/use [@cursor] Saronite Bomb
+END
+VER 3 0000000000000030 "BW" "INV_MISC_QUESTIONMARK"
+#showtooltip Blast Wave
+/cast Blast Wave
+END
+VER 3 0000000000000027 "cables" "INV_MISC_QUESTIONMARK"
+#showtooltip Goblin Jumper Cables
+/y Clear!!!
+/use Goblin Jumper Cables
+END
+VER 3 000000000000003F "cancelSaraonite" "237437"
+#showtooltip Saronite Vapors
+/cancelaura Saronite Vapors
+END
+VER 3 0000000000000010 "Chat spam" "133240"
+/1 LFM heals / dps for first 4 bosses Uldauar 25 normal modes
+END
+VER 3 0000000000000016 "Circle" "136222"
+/script SetRaidTarget("target",2);
+END
+VER 3 0000000000000005 "dance" "135898"
+/dance
+END
+VER 3 000000000000002F "DB" "INV_MISC_QUESTIONMARK"
+#showtooltip Dragon's Breath
+/cast Dragon's Breath
+END
+VER 3 000000000000000A "Diamond" "135998"
+/script SetRaidTarget("target",3);
+END
+VER 3 0000000000000035 "dismiss DI" "136227"
+/cancelaura Divine Intervention
+END
+VER 3 000000000000003D "EngSkipUlda" "134400"
+#showtooltip Target Dummy
+/use [@player] Target Dummy
+/cast blink
+END
+VER 3 0000000000000033 "FM" "INV_MISC_QUESTIONMARK"
+#showtooltip Focus Magic
+/cast Focus Magic
+END
+VER 3 0000000000000002 "follow" "132219"
+#showtooltip
+/follow
+END
+VER 3 000000000000002C "Gasssss" "INV_MISC_QUESTIONMARK"
+#showtooltip Combustion
+/cast Mirror Image
+/cast Combustion
+/use Mana Sapphire
+/cast Arcane Power
+END
+VER 3 000000000000000C "GhettoHearth" "132160"
+/run InviteUnit("a");C_Timer.After(1,function()LeaveParty() end)
+END
+VER 3 0000000000000032 "GL Award" "133202"
+/gl award
+END
+VER 3 000000000000003B "GL Roll" "237480"
+/gl roll
+END
+VER 3 000000000000003C "innerv" "136048"
+/w Jojobo Innervate please :)
+END
+VER 3 000000000000003E "invis" "134400"
+#showtooltip
+/cancelaura Invisibility
+/cast Invisibility
+END
+VER 3 0000000000000012 "LadyVash" "132090"
+/use tainted core
+/y  <-------TAINTED CORE TO %T
+/ra  <------ TAINTED CORE TO %T
+/script SendChatMessage(""! YOU HAVE THE CORE !"", ""WHISPER"", nil, UnitName(""target""));
+END
+VER 3 000000000000002E "LB" "INV_MISC_QUESTIONMARK"
+#showtooltip Living Bomb
+/cast Living Bomb
+END
+VER 3 0000000000000004 "LOOTME" "132144"
+/p Loot Me!
+END
+VER 3 0000000000000019 "Mag clickers" "INV_MISC_QUESTIONMARK"
+/rw ----------CLICKERS----------
+/rw Skull -> Clairh
+/rw X -> Noatok
+/rw Square -> Elhokar
+/rw Moon -> Crackle
+/rw Triangle -> Kiwitola
+/rw --------------------------
+END
+VER 3 0000000000000009 "Moon" "135728"
+/script SetRaidTarget("target",5);
+END
+VER 3 0000000000000040 "MoonMe" "135786"
+/script SetRaidTarget("player",5);
+END
+VER 3 0000000000000028 "muru dispell" "INV_MISC_QUESTIONMARK"
+#showtooltip Dispel Magic
+/target dark fiend
+/cast dispel magic
+/targetlasttarget
+END
+VER 3 0000000000000021 "poly" "INV_MISC_QUESTIONMARK"
+#showtooltip Polymorph
+/cast [target=focus, exists] Polymorph; Polymorph;
+END
+VER 3 0000000000000034 "PriestTag" "INV_MISC_QUESTIONMARK"
+#showtooltip Devouring Plague
+/target Mutinous
+/cast Devouring Plague
+END
+VER 3 0000000000000026 "QuestTurninSpam" "134072"
+/script SelectGossipAvailableQuest(1)
+/script CompleteQuest()
+/script GetQuestReward()
+END
+VER 3 0000000000000031 "RC Trade" "135828"
+/rc trade
+END
+VER 3 000000000000001A "ready" "136026"
+/readycheck
+END
+VER 3 0000000000000011 "Roll" "135886"
+/raid
+/roll
+END
+VER 3 0000000000000024 "sit" "134072"
+/sit
+END
+VER 3 0000000000000007 "Skull" "132097"
+/script SetRaidTarget("target",8);
+END
+VER 3 000000000000002A "Slowfall" "252267"
+#showtooltip Slow Fall
+/cast [@player] Slow Fall
+END
+VER 3 000000000000000E "Square" "135733"
+/script SetRaidTarget("target",6);
+END
+VER 3 0000000000000037 "SWT" "3873028"
+/swt
+/run MuteSoundFile(567407)
+END
+VER 3 0000000000000017 "TeronGorefiend" "132155"
+/target enemy
+/cast spirit volley
+/cast spirit chains
+/cast spirit lance
+END
+VER 3 0000000000000023 "togAA" "132109"
+/aa lock
+/aa toggle
+END
+VER 3 0000000000000001 "train" "135768"
+/train
+END
+VER 3 000000000000000F "Triangle" "135941"
+/script SetRaidTarget("target",4);
+END
+VER 3 000000000000000D "X" "136190"
+/script SetRaidTarget("target",7);
+END

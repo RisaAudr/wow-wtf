@@ -5,25 +5,713 @@ LootReserveCharacterSave = {
 		},
 		["RecentLoot"] = {
 			{
-				202269, -- [1]
+				49294, -- [1]
 			}, -- [1]
 			{
-				41795, -- [1]
+				49295, -- [1]
 			}, -- [2]
 			{
-				37401, -- [1]
+				49482, -- [1]
 			}, -- [3]
 			{
-				37390, -- [1]
+				49643, -- [1]
 			}, -- [4]
 			{
-				40618, -- [1]
+				49490, -- [1]
 			}, -- [5]
+			{
+				47265, -- [1]
+			}, -- [6]
+			{
+				47260, -- [1]
+			}, -- [7]
+			{
+				47253, -- [1]
+			}, -- [8]
+			{
+				47439, -- [1]
+			}, -- [9]
+			{
+				47435, -- [1]
+			}, -- [10]
+			{
+				47430, -- [1]
+			}, -- [11]
+			{
+				47295, -- [1]
+			}, -- [12]
+			{
+				47282, -- [1]
+			}, -- [13]
+			{
+				47289, -- [1]
+			}, -- [14]
+			{
+				47643, -- [1]
+			}, -- [15]
+			{
+				47310, -- [1]
+			}, -- [16]
+			{
+				47299, -- [1]
+			}, -- [17]
+			{
+				47301, -- [1]
+			}, -- [18]
+			{
+				47242, -- [1]
+			}, -- [19]
+			{
+				47242, -- [1]
+			}, -- [20]
+			{
+				47242, -- [1]
+			}, -- [21]
+			{
+				47242, -- [1]
+			}, -- [22]
+			{
+				47242, -- [1]
+			}, -- [23]
+			{
+				47242, -- [1]
+			}, -- [24]
+			{
+				47556, -- [1]
+			}, -- [25]
+			{
+				47322, -- [1]
+			}, -- [26]
+			{
+				47315, -- [1]
+			}, -- [27]
+			{
+				47639, -- [1]
+			}, -- [28]
+			{
+				47317, -- [1]
+			}, -- [29]
+			{
+				47328, -- [1]
+			}, -- [30]
 		},
-		["Version"] = "2023-01-20",
+		["Version"] = "2023-06-26",
+		["CurrentSession"] = {
+			["WonItems"] = {
+			},
+			["Duration"] = 0,
+			["ItemConditions"] = {
+				[47558] = {
+					["Limit"] = 2,
+				},
+				[47557] = {
+					["ClassMask"] = 2,
+					["Limit"] = 2,
+				},
+				[47559] = {
+					["Limit"] = 2,
+				},
+			},
+			["AcceptingReserves"] = false,
+			["ItemReserves"] = {
+				[47459] = {
+					["Players"] = {
+						"Vâlkyr", -- [1]
+					},
+					["StartTime"] = 1688433281,
+					["Item"] = 47459,
+				},
+				[47463] = {
+					["Players"] = {
+						"Goldencat", -- [1]
+						"Mesowetoddid", -- [2]
+					},
+					["StartTime"] = 1688433293,
+					["Item"] = 47463,
+				},
+				[47475] = {
+					["Players"] = {
+						"Tarlok", -- [1]
+					},
+					["StartTime"] = 1688433427,
+					["Item"] = 47475,
+				},
+				[47477] = {
+					["Players"] = {
+						"Taravangían", -- [1]
+					},
+					["StartTime"] = 1688433193,
+					["Item"] = 47477,
+				},
+				[47418] = {
+					["Players"] = {
+						"Nicklethief", -- [1]
+					},
+					["StartTime"] = 1688433515,
+					["Item"] = 47418,
+				},
+				[47420] = {
+					["Players"] = {
+						"Cupidshank", -- [1]
+					},
+					["StartTime"] = 1688433569,
+					["Item"] = 47420,
+				},
+				[47485] = {
+					["Players"] = {
+						"Clairh", -- [1]
+					},
+					["StartTime"] = 1688433548,
+					["Item"] = 47485,
+				},
+				[47424] = {
+					["Players"] = {
+						"Preciousbrat", -- [1]
+					},
+					["StartTime"] = 1688433251,
+					["Item"] = 47424,
+				},
+				[47432] = {
+					["Players"] = {
+						"Madmoocow", -- [1]
+					},
+					["StartTime"] = 1688433201,
+					["Item"] = 47432,
+				},
+				[47436] = {
+					["Players"] = {
+						"Tarritha", -- [1]
+					},
+					["StartTime"] = 1688433446,
+					["Item"] = 47436,
+				},
+				[47440] = {
+					["Players"] = {
+						"Preciousbrat", -- [1]
+					},
+					["StartTime"] = 1688433304,
+					["Item"] = 47440,
+				},
+				[47448] = {
+					["Players"] = {
+						"Adrun", -- [1]
+					},
+					["StartTime"] = 1688433312,
+					["Item"] = 47448,
+				},
+				[47452] = {
+					["Players"] = {
+						"Zippyman", -- [1]
+					},
+					["StartTime"] = 1688433288,
+					["Item"] = 47452,
+				},
+				[47454] = {
+					["Players"] = {
+						"Dïvinus", -- [1]
+					},
+					["StartTime"] = 1688433643,
+					["Item"] = 47454,
+				},
+				[47458] = {
+					["Players"] = {
+						"Standsnfire", -- [1]
+					},
+					["StartTime"] = 1688433419,
+					["Item"] = 47458,
+				},
+				[47464] = {
+					["Players"] = {
+						"Danhausèn", -- [1]
+						"Goldencat", -- [2]
+						"Synobi", -- [3]
+						"Tarlok", -- [4]
+						"Tdawgjr", -- [5]
+						"Tomihanx", -- [6]
+						"Tomihanx", -- [7]
+					},
+					["StartTime"] = 1688433199,
+					["Item"] = 47464,
+				},
+				[47468] = {
+					["Players"] = {
+						"Lizziemage", -- [1]
+						"Taravangían", -- [2]
+					},
+					["StartTime"] = 1688433427,
+					["Item"] = 47468,
+				},
+				[47413] = {
+					["Players"] = {
+						"Standsnfire", -- [1]
+					},
+					["StartTime"] = 1688433220,
+					["Item"] = 47413,
+				},
+				[47417] = {
+					["Players"] = {
+						"Clairh", -- [1]
+					},
+					["StartTime"] = 1688433202,
+					["Item"] = 47417,
+				},
+				[47419] = {
+					["Players"] = {
+						"Aìne", -- [1]
+					},
+					["StartTime"] = 1688433236,
+					["Item"] = 47419,
+				},
+				[47425] = {
+					["Players"] = {
+						"Lizziemage", -- [1]
+					},
+					["StartTime"] = 1688433351,
+					["Item"] = 47425,
+				},
+				[47427] = {
+					["Players"] = {
+						"Tdawgjr", -- [1]
+					},
+					["StartTime"] = 1688433663,
+					["Item"] = 47427,
+				},
+				[47242] = {
+					["Players"] = {
+						"Abatwa", -- [1]
+						"Danhausèn", -- [2]
+						"Dïvinus", -- [3]
+						"Jojobo", -- [4]
+						"Madmoocow", -- [5]
+						"Synobi", -- [6]
+						"Vâlkyr", -- [7]
+					},
+					["StartTime"] = 1688433194,
+					["Item"] = 47242,
+				},
+				[47433] = {
+					["Players"] = {
+						"Cupidshank", -- [1]
+					},
+					["StartTime"] = 1688433261,
+					["Item"] = 47433,
+				},
+				[47437] = {
+					["Players"] = {
+						"Aìne", -- [1]
+						"Wrekker", -- [2]
+					},
+					["StartTime"] = 1688433194,
+					["Item"] = 47437,
+				},
+				[47439] = {
+					["Players"] = {
+						"Adrun", -- [1]
+					},
+					["StartTime"] = 1688433265,
+					["Item"] = 47439,
+				},
+				[47443] = {
+					["Players"] = {
+						"Mesowetoddid", -- [1]
+						"Nicklethief", -- [2]
+					},
+					["StartTime"] = 1688433313,
+					["Item"] = 47443,
+				},
+				[47447] = {
+					["Players"] = {
+						"Treemeout", -- [1]
+					},
+					["StartTime"] = 1688438549,
+					["Item"] = 47447,
+				},
+				[47451] = {
+					["Players"] = {
+						"Ironguy", -- [1]
+					},
+					["StartTime"] = 1688433268,
+					["Item"] = 47451,
+				},
+				[47414] = {
+					["Players"] = {
+						"Abatwa", -- [1]
+						"Tarritha", -- [2]
+					},
+					["StartTime"] = 1688433222,
+					["Item"] = 47414,
+				},
+				[47476] = {
+					["Players"] = {
+						"Ironguy", -- [1]
+					},
+					["StartTime"] = 1688433569,
+					["Item"] = 47476,
+				},
+				[47422] = {
+					["Players"] = {
+						"Wrekker", -- [1]
+						"Zippyman", -- [2]
+					},
+					["StartTime"] = 1688433194,
+					["Item"] = 47422,
+				},
+				[47483] = {
+					["Players"] = {
+						"Jojobo", -- [1]
+					},
+					["StartTime"] = 1688433401,
+					["Item"] = 47483,
+				},
+			},
+			["DurationEndTimestamp"] = 1688438539,
+			["LogoutTime"] = 1688448715,
+			["LootTracking"] = {
+			},
+			["StartTime"] = 1688433163,
+			["Members"] = {
+				["Synobi"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 6,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47464, -- [1]
+						47242, -- [2]
+					},
+				},
+				["Standsnfire"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 6,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47413, -- [1]
+						47458, -- [2]
+					},
+				},
+				["Aìne"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 5,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47437, -- [1]
+						47419, -- [2]
+					},
+				},
+				["Lizziemage"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 8,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47425, -- [1]
+						47468, -- [2]
+					},
+				},
+				["Ironguy"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 1,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47451, -- [1]
+						47476, -- [2]
+					},
+				},
+				["Dïvinus"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 5,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47242, -- [1]
+						47454, -- [2]
+					},
+				},
+				["Clairh"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 5,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47417, -- [1]
+						47485, -- [2]
+					},
+				},
+				["Nicklethief"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 4,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47443, -- [1]
+						47418, -- [2]
+					},
+				},
+				["Mesowetoddid"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 3,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47463, -- [1]
+						47443, -- [2]
+					},
+				},
+				["Tomihanx"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 3,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47464, -- [1]
+						47464, -- [2]
+					},
+				},
+				["Adrun"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 2,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47439, -- [1]
+						47448, -- [2]
+					},
+				},
+				["Preciousbrat"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 2,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47424, -- [1]
+						47440, -- [2]
+					},
+				},
+				["Cupidshank"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 4,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47433, -- [1]
+						47420, -- [2]
+					},
+				},
+				["Goldencat"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 11,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47463, -- [1]
+						47464, -- [2]
+					},
+				},
+				["Tarritha"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 2,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47414, -- [1]
+						47436, -- [2]
+					},
+				},
+				["Jojobo"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 11,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47242, -- [1]
+						47483, -- [2]
+					},
+				},
+				["Tdawgjr"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 6,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47464, -- [1]
+						47427, -- [2]
+					},
+				},
+				["Vâlkyr"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 2,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47242, -- [1]
+						47459, -- [2]
+					},
+				},
+				["Abatwa"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 6,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47414, -- [1]
+						47242, -- [2]
+					},
+				},
+				["Wrekker"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 11,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47422, -- [1]
+						47437, -- [2]
+					},
+				},
+				["Danhausèn"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 6,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47242, -- [1]
+						47464, -- [2]
+					},
+				},
+				["Treemeout"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = -1,
+					["Locked"] = true,
+					["Class"] = 11,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47447, -- [1]
+					},
+				},
+				["Madmoocow"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 11,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47432, -- [1]
+						47242, -- [2]
+					},
+				},
+				["Zippyman"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 9,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47422, -- [1]
+						47452, -- [2]
+					},
+				},
+				["Taravangían"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 8,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47477, -- [1]
+						47468, -- [2]
+					},
+				},
+				["Tarlok"] = {
+					["ReservesLeft"] = 0,
+					["ReservesDelta"] = 0,
+					["Locked"] = true,
+					["Class"] = 7,
+					["RollBonus"] = {
+					},
+					["ReservedItems"] = {
+						47475, -- [1]
+						47464, -- [2]
+					},
+				},
+			},
+			["Settings"] = {
+				["MaxReservesPerPlayer"] = 2,
+				["Multireserve"] = 2,
+				["ImportedMembers"] = {
+				},
+				["Duration"] = 0,
+				["ChatFallback"] = true,
+				["Lock"] = false,
+				["Equip"] = true,
+				["Blind"] = false,
+				["LootCategories"] = {
+					3053, -- [1]
+				},
+			},
+		},
 	},
 	["Client"] = {
 		["CharacterFavorites"] = {
+			[45135] = true,
+			[45518] = true,
+			[45466] = true,
+			[45527] = true,
+			[45115] = true,
+			[45446] = true,
+			[47276] = true,
+			[47518] = true,
+			[45275] = true,
+			[45133] = true,
+			[47316] = true,
+			[45242] = true,
 		},
 	},
 }

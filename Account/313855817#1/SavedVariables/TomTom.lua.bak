@@ -1,11 +1,17 @@
 
 TomTomDB = {
 	["profileKeys"] = {
-		["Renarìn - Atiesh"] = "Default",
+		["Risabankthre - Atiesh"] = "Default",
 		["Jasnàh - Atiesh"] = "Default",
-		["Elhokár - Atiesh"] = "Default",
+		["Risatailrbnk - Atiesh"] = "Default",
+		["Rylanbankalt - Atiesh"] = "Default",
 		["Tensoón - Atiesh"] = "Default",
+		["Ironeyés - Atiesh"] = "Default",
 		["Taravangían - Atiesh"] = "Default",
+		["Elhokár - Atiesh"] = "Default",
+		["Risaaudr - Atiesh"] = "Default",
+		["Renarìn - Atiesh"] = "Default",
+		["Risabanktwo - Atiesh"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -14,8 +20,8 @@ TomTomDB = {
 					"CENTER", -- [1]
 					nil, -- [2]
 					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
+					-356.8882141113281, -- [4]
+					-218.6670684814453, -- [5]
 				},
 			},
 			["block"] = {
@@ -23,8 +29,8 @@ TomTomDB = {
 					"TOPRIGHT", -- [1]
 					nil, -- [2]
 					"TOPRIGHT", -- [3]
-					0, -- [4]
-					-175.2220916748047, -- [5]
+					-28.44430923461914, -- [4]
+					-174.3331909179688, -- [5]
 				},
 			},
 		},
@@ -33,22 +39,40 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
-		["Renarìn - Atiesh"] = "Renarìn - Atiesh",
+		["Risabankthre - Atiesh"] = "Risabankthre - Atiesh",
 		["Jasnàh - Atiesh"] = "Jasnàh - Atiesh",
-		["Elhokár - Atiesh"] = "Elhokár - Atiesh",
+		["Risatailrbnk - Atiesh"] = "Risatailrbnk - Atiesh",
+		["Rylanbankalt - Atiesh"] = "Rylanbankalt - Atiesh",
 		["Tensoón - Atiesh"] = "Tensoón - Atiesh",
+		["Ironeyés - Atiesh"] = "Ironeyés - Atiesh",
 		["Taravangían - Atiesh"] = "Taravangían - Atiesh",
+		["Elhokár - Atiesh"] = "Elhokár - Atiesh",
+		["Risaaudr - Atiesh"] = "Risaaudr - Atiesh",
+		["Renarìn - Atiesh"] = "Renarìn - Atiesh",
+		["Risabanktwo - Atiesh"] = "Risabanktwo - Atiesh",
 	},
 	["profiles"] = {
-		["Renarìn - Atiesh"] = {
+		["Risabankthre - Atiesh"] = {
 		},
 		["Jasnàh - Atiesh"] = {
 		},
-		["Elhokár - Atiesh"] = {
+		["Risatailrbnk - Atiesh"] = {
+		},
+		["Rylanbankalt - Atiesh"] = {
 		},
 		["Tensoón - Atiesh"] = {
 		},
+		["Ironeyés - Atiesh"] = {
+		},
 		["Taravangían - Atiesh"] = {
+		},
+		["Elhokár - Atiesh"] = {
+		},
+		["Risaaudr - Atiesh"] = {
+		},
+		["Renarìn - Atiesh"] = {
+		},
+		["Risabanktwo - Atiesh"] = {
 		},
 	},
 }

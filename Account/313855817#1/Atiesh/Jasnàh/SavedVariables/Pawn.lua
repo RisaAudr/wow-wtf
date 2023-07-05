@@ -1,11 +1,19 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0715,
+	["LastVersion"] = 2.0802,
 	["LastPlayerFullName"] = "Jasnàh-Atiesh",
 	["AutoSelectScales"] = false,
 	["ItemLevels"] = {
-		nil, -- [1]
-		nil, -- [2]
+		{
+			["ID"] = 9849,
+			["Level"] = 36,
+			["Link"] = "|cff1eff00|Hitem:9849::::::2040:96047616:34:::::::::|h[Conjurer's Hood of Healing]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 10711,
+			["Level"] = 44,
+			["Link"] = "|cff0070dd|Hitem:10711::::::::35:::::::::|h[Dragon's Blood Necklace]|h|r",
+		}, -- [2]
 		{
 			["ID"] = 44107,
 			["Level"] = 1,
@@ -18,41 +26,41 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:48691::::::::19:::::::::|h[Tattered Dreadmist Robe]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 9766,
-			["Level"] = 22,
-			["Link"] = "|cff1eff00|Hitem:9766::::::761:596094208:22:::::::::|h[Greenweave Sash of the Owl]|h|r",
+			["ID"] = 6392,
+			["Level"] = 29,
+			["Link"] = "|cff0070dd|Hitem:6392::::::::24:::::::::|h[Belt of Arugal]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 3457,
-			["Level"] = 18,
-			["Link"] = "|cff1eff00|Hitem:3457::::::::19:::::::::|h[Stamped Trousers]|h|r",
+			["ID"] = 6903,
+			["Level"] = 28,
+			["Link"] = "|cff0070dd|Hitem:6903::::::::28:::::::::|h[Gaze Dreamer Pants]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 3454,
-			["Level"] = 14,
-			["Link"] = "|cffffffff|Hitem:3454::::::::19:::::::::|h[Reconnaissance Boots]|h|r",
+			["ID"] = 4320,
+			["Level"] = 24,
+			["Link"] = "|cff0070dd|Hitem:4320::::::::24:::::::::|h[Spidersilk Boots]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 6543,
-			["Level"] = 15,
-			["Link"] = "|cff1eff00|Hitem:6543::::::754:1413500928:21:::::::::|h[Willow Bracers of the Owl]|h|r",
+			["ID"] = 2032,
+			["Level"] = 36,
+			["Link"] = "|cff1eff00|Hitem:2032::::::::38:::::::::|h[Gallan Cuffs]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 2984,
-			["Level"] = 18,
-			["Link"] = "|cff1eff00|Hitem:2984::::::::22:::::::::|h[Seer's Gloves]|h|r",
+			["ID"] = 10003,
+			["Level"] = 43,
+			["Link"] = "|cff1eff00|Hitem:10003::::::::38:::::::::|h[Black Mageweave Gloves]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 6414,
-			["Level"] = 29,
+			["ID"] = 24120,
+			["Level"] = 32,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:6414::::::::22:::::::::|h[Seal of Sylvanas]|h|r",
+			["Link"] = "|cff1eff00|Hitem:24120::::::::29:::::::::|h[Seal of Argas]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 3235,
-			["Level"] = 20,
+			["ID"] = 24120,
+			["Level"] = 32,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff1eff00|Hitem:3235::::::::21:::::::::|h[Ring of Scorn]|h|r",
+			["Link"] = "|cff1eff00|Hitem:24120::::::::30:::::::::|h[Seal of Argas]|h|r",
 		}, -- [12]
 		{
 			["ID"] = 42992,
@@ -67,9 +75,9 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:42991::::::::21:::::::::|h[Swift Hand of Justice]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 14365,
-			["Level"] = 15,
-			["Link"] = "|cff1eff00|Hitem:14365::::::::19:::::::::|h[Mystic's Cape]|h|r",
+			["ID"] = 6901,
+			["Level"] = 29,
+			["Link"] = "|cff0070dd|Hitem:6901::::::::28:::::::::|h[Glowing Thresher Cape]|h|r",
 		}, -- [15]
 		{
 			["ID"] = 44095,
@@ -77,9 +85,9 @@ PawnOptions = {
 			["Link"] = "|cff00ccff|Hitem:44095::::::::19:::::::::|h[Grand Staff of Jordan]|h|r",
 		}, -- [16]
 		[18] = {
-			["ID"] = 5252,
-			["Level"] = 21,
-			["Link"] = "|cff1eff00|Hitem:5252::::::::20:::::::::|h[Wand of Decay]|h|r",
+			["ID"] = 7001,
+			["Level"] = 29,
+			["Link"] = "|cff0070dd|Hitem:7001::::::::30:::::::::|h[Gravestone Scepter]|h|r",
 		},
 	},
 }

@@ -2,6 +2,11 @@ VER 3 0000000001000005 "BuffFishing" "136148"
 /use Bright Baubles
 /use Strong Fishing Pole
 END
+VER 3 0000000001000015 "Dispersion" "134400"
+#showtooltip Dispersion
+/cancelaura Dispersion
+/cast Dispersion
+END
 VER 3 000000000100000F "focus+plague" "136123"
 #showtooltip Devouring Plague
 /use 14
@@ -18,15 +23,6 @@ VER 3 000000000100000E "KT Weapon equip" "132155"
 /equip [combat] Fetish of the Primal Gods
 /equip [nocombat] Staff of Immaculate Recovery
 END
-VER 3 0000000001000004 "ManaTargetKill" "136188"
-/cast Mind Flay(Rank 3)
-/script SetRaidTarget("target",3)
-END
-VER 3 0000000001000010 "mb+trink" "INV_MISC_QUESTIONMARK"
-#showtooltip Mind Blast
-/use 14
-/cast Mind Blast
-END
 VER 3 0000000001000011 "MD" "INV_MISC_QUESTIONMARK"
 #showtooltip Mass Dispel
 /stopcasting
@@ -34,10 +30,9 @@ VER 3 0000000001000011 "MD" "INV_MISC_QUESTIONMARK"
 END
 VER 3 0000000001000012 "PainSupress" "135936"
 #showtooltip Pain Suppression
-/cast [@target,nodead]Pain Suppression
+/cast [@target,nodead] Pain Suppression
 /y >> Pain Supress on %T <<
 /ra >> Pain Supress on %T <<
-/script SendChatMessage(""! Pain Supress used on you !"", ""WHISPER"", nil, UnitName(""target""));
 END
 VER 3 0000000001000013 "PI" "135939"
 #showtooltip
@@ -58,6 +53,11 @@ END
 VER 3 000000000100000C "Shacle" "136091"
 #showtooltip Shackle Undead
 /cast [target=focus, exists] Shackle Undead; Shackle Undead;
+END
+VER 3 0000000001000010 "SWP" "136207"
+#showtooltip Shadow Word: Pain
+/cast Inner Focus
+/cast Shadow Word: Pain
 END
 VER 3 0000000001000014 "tag" "136047"
 #showtooltip shadow word: Death

@@ -1,11 +1,17 @@
 
 ThreatClassic2DB = {
 	["profileKeys"] = {
-		["Renarìn - Atiesh"] = "Default",
+		["Risabankthre - Atiesh"] = "Default",
 		["Jasnàh - Atiesh"] = "Default",
-		["Elhokár - Atiesh"] = "Default",
+		["Risatailrbnk - Atiesh"] = "Default",
+		["Rylanbankalt - Atiesh"] = "Default",
 		["Tensoón - Atiesh"] = "Default",
+		["Ironeyés - Atiesh"] = "Default",
 		["Taravangían - Atiesh"] = "Default",
+		["Elhokár - Atiesh"] = "Default",
+		["Risaaudr - Atiesh"] = "Default",
+		["Renarìn - Atiesh"] = "Default",
+		["Risabanktwo - Atiesh"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -13,18 +19,18 @@ ThreatClassic2DB = {
 				["hideOOC"] = true,
 			},
 			["frame"] = {
-				["width"] = 146.7776947021484,
-				["height"] = 88.11102294921875,
+				["width"] = 184.5555114746094,
+				["height"] = 123.2221984863281,
 				["position"] = {
 					nil, -- [1]
 					nil, -- [2]
 					nil, -- [3]
-					358.0990295410156, -- [4]
-					-550.5682983398438, -- [5]
+					446.9880676269531, -- [4]
+					-600.3457641601562, -- [5]
 				},
 			},
 			["bar"] = {
-				["count"] = 4,
+				["count"] = 6,
 			},
 		},
 	},

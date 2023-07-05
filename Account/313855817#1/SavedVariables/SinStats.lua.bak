@@ -3,45 +3,172 @@ SinStatsDB = {
 	["profileKeys"] = {
 		["Jasnàh-Atiesh"] = "WARLOCK",
 		["Rylanbankalt-Atiesh"] = "ROGUE",
-		["Risabanktwo-Atiesh"] = "ROGUE",
-		["Renarìn-Atiesh"] = "PRIEST",
-		["Elhokár-Atiesh"] = "PALADIN",
-		["Risatailrbnk-Atiesh"] = "ROGUE",
-		["Taravangían-Atiesh"] = "MAGE",
-		["Genericzombi-Atiesh"] = "PRIEST",
-		["Tensoón-Atiesh"] = "DRUID",
+		["Ironeyés-Atiesh"] = "DEATHKNIGHT",
 		["Risabankthre-Atiesh"] = "SHAMAN",
+		["Risabanktwo-Atiesh"] = "ROGUE",
+		["Risaaudr-Atiesh"] = "MAGE",
+		["Genericzombi-Atiesh"] = "PRIEST",
+		["Elhokár-Atiesh"] = "PALADIN",
+		["Taravangían-Atiesh"] = "MAGE",
+		["Risatailrbnk-Atiesh"] = "ROGUE",
+		["Tensoón-Atiesh"] = "DRUID",
+		["Renarìn-Atiesh"] = "PRIEST",
 	},
 	["profiles"] = {
 		["DEATHKNIGHT"] = {
 			["Stats"] = {
-				["Durability"] = {
-					["Show"] = true,
-				},
 				["Shadow"] = {
 					["Show"] = false,
+					["Dec_Spell_Shadow"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["ArcaneResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
+				["petArmor"] = {
+					["Show"] = false,
+				},
+				["ShadowResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["HitReduction"] = {
+					["Show"] = false,
+					["Dec_Def_Hit"] = 2,
+				},
+				["RepairCost"] = {
+					["Show"] = false,
+					["Total_Equipped_Bags"] = 1,
+				},
+				["petAtkSpeed"] = {
+					["Show"] = false,
+				},
+				["Strength"] = {
+					["Show"] = false,
+					["Dec_Melee_Str"] = 0,
+				},
+				["ArmorPen"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
+				},
+				["petAP"] = {
+					["Show"] = false,
+				},
+				["weaponSpeed"] = {
+					["Show"] = false,
+					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
+				},
+				["NatureResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Resilience"] = {
+					["Show"] = false,
+					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
+				},
+				["HasteMelee"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
+				},
+				["petMood"] = {
+					["Show"] = false,
+					["Mood_Damage"] = 1,
+				},
+				["ManaRegen"] = {
+					["Show"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
+				},
+				["Dodge"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
+				},
+				["Speed"] = {
+					["Show"] = true,
+					["Speed_Static"] = 1,
+				},
+				["HasteCaster"] = {
+					["Show"] = false,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["Threat"] = {
+					["Show"] = false,
+					["Percent_Rating"] = 1,
+				},
+				["TargetSpeed"] = {
+					["Show"] = false,
+				},
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = false,
+					["Cap_Def_Mit"] = 75,
+				},
+				["Healing"] = {
+					["Show"] = false,
+					["Dec_Spell_Healing"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["MP5"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
+				},
+				["AP"] = {
+					["Show"] = true,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellCritBoss"] = {
+					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["Stamina"] = {
+					["Show"] = false,
+					["Dec_Def_Stamina"] = 0,
+				},
+				["Intellect"] = {
+					["Show"] = false,
+					["Dec_Spell_Int"] = 0,
+				},
+				["Emblems"] = {
+					["Show"] = false,
+					["Heroism_Valor"] = 1,
+				},
 				["Crushing"] = {
 					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["FrostResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
-				["RangedCrit"] = {
+				["petDPS"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
 				},
-				["Expertise"] = {
-					["Percent_Rating"] = 1,
+				["Agility"] = {
 					["Show"] = false,
-					["Display_MainHand"] = false,
+					["Dec_Melee_Agi"] = 0,
 				},
 				["DMG"] = {
 					["Show"] = true,
@@ -50,57 +177,42 @@ SinStatsDB = {
 				},
 				["Arcane"] = {
 					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
 					["Enhanced_Base"] = 1,
 				},
-				["RangedCritBoss"] = {
+				["petDMG"] = {
 					["Show"] = false,
-					["Enhanced_Base"] = 1,
+					["Max_Average_Damage"] = 1,
 				},
-				["ArmorPen"] = {
-					["Show"] = true,
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["weaponSpeed"] = {
+				["Spirit"] = {
 					["Show"] = false,
-					["Main_Off_Auto"] = 1,
+					["Dec_Spell_Spir"] = 0,
 				},
 				["RAP"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedCrit"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
+					["Percent_Rating"] = 1,
+				},
+				["BossReduc"] = {
+					["Show"] = true,
+					["Dec_Melee_Dmg"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["NPCArmor"] = {
 					["Show"] = false,
 					["Enhanced_Base"] = 1,
 				},
 				["BuffCounter"] = {
 					["Show"] = false,
 				},
-				["Fire"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["BossReduc"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = true,
-				},
-				["SpellHit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
 				["Lag"] = {
-					["Show"] = false,
+					["Show"] = true,
 					["World_Realm"] = 1,
 				},
 				["rDPS"] = {
@@ -108,12 +220,17 @@ SinStatsDB = {
 					["Max_Average_Damage"] = 1,
 				},
 				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
 				},
 				["CritBoss"] = {
 					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
 					["Enhanced_Base"] = 1,
 				},
 				["RDMG"] = {
@@ -122,171 +239,240 @@ SinStatsDB = {
 				},
 				["Avoidance"] = {
 					["Show"] = false,
+					["Dec_Def_Avoidance"] = 2,
 					["Enhanced_Base"] = 1,
-				},
-				["NatureResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["SpellMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["Resilience"] = {
-					["Show"] = false,
-					["Crit_Damage_Taken"] = 1,
-				},
-				["AP"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["MeleeMiss"] = {
-					["Show"] = true,
-					["Level_Same_Boss"] = 1,
-				},
-				["RangedHit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Dodge"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["DebuffCounter"] = {
-					["Show"] = false,
-				},
-				["Healing"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["rangedSpeed"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Nature"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Enhanced_Base"] = 1,
-				},
-				["Frost"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Armor"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["DefenseStat"] = {
-					["Total_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Speed"] = {
-					["Show"] = true,
-				},
-				["Block"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["NPCArmor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["CritReceived"] = {
-					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
-				["SpellPenetration"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Holy"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ManaRegen"] = {
-					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Money"] = {
-					["Show"] = false,
-				},
-				["FPS"] = {
-					["Show"] = false,
-				},
-				["MP5"] = {
-					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["Parry"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Mitigation"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["CritCap"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
-					["Show"] = true,
-				},
-				["FireResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
 				},
 				["mDPS"] = {
 					["Show"] = false,
 					["Display_Average"] = false,
 					["Main_Off_Auto"] = 1,
 				},
-				["Crit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
+				["SpellMiss"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["petCrit"] = {
+					["Show"] = false,
+				},
+				["Frost"] = {
+					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["MeleeMiss"] = {
+					["Show"] = true,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["CritCap"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
+				},
+				["Durability"] = {
 					["Show"] = true,
 				},
-				["ShadowResist"] = {
+				["HasteRanged"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
+				},
+				["Conquest"] = {
+					["Show"] = false,
+				},
+				["Money"] = {
+					["Show"] = false,
+				},
+				["Nature"] = {
+					["Show"] = false,
+					["Dec_Spell_Nature"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedPen"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
+				},
+				["Expertise"] = {
+					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
+					["Display_MainHand"] = false,
+				},
+				["PvP"] = {
+					["Show"] = false,
+					["Honor_Arena"] = 1,
+				},
+				["DefenseStat"] = {
+					["Dec_Def_Def"] = 1,
+					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
+					["Show"] = false,
+				},
+				["Armor"] = {
+					["Show"] = true,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
+					["Enhanced_Base"] = 1,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
+				},
+				["StoneShard"] = {
+					["Show"] = false,
+					["Shards_Marks"] = 1,
+				},
+				["CritReceived"] = {
+					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
+				},
+				["RangedCritBoss"] = {
+					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["Holy"] = {
+					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ItemLevel"] = {
+					["Show"] = false,
+					["Dec_Misc_Ilvl"] = 1,
+				},
+				["Fire"] = {
+					["Show"] = false,
+					["Dec_Spell_Fire"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["rangedSpeed"] = {
+					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["FPS"] = {
+					["Show"] = true,
+				},
+				["RangedHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
+					["Show"] = false,
+					["Dec_Ranged_Hit"] = 2,
+				},
+				["Parry"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
+				},
+				["SpellHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = false,
+					["Dec_Spell_Hit"] = 2,
+				},
+				["DebuffCounter"] = {
+					["Show"] = false,
+				},
+				["RangedMiss"] = {
+					["Show"] = false,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
+					["Level_Same_Boss"] = 1,
+				},
+				["Hit"] = {
+					["Show"] = true,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
+				},
+				["FireResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
+				["SpellPenetration"] = {
+					["Show"] = false,
+					["Dec_Spell_Pen"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Crit"] = {
+					["Show"] = true,
+					["Dec_Melee_Crit"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
+				},
+				["petSpell"] = {
+					["Show"] = false,
+				},
 			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
 			["StatAlignment"] = "TOPLEFT",
-			["Vertical"] = true,
-			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
-			["StatTextCaps"] = false,
-			["StatIcons"] = true,
+			["Vertical"] = false,
 			["Minimap"] = {
-				["Show"] = true,
+				["Show"] = false,
+				["minimapPos"] = 269.544507422243,
 			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
-			["StatSpacingH"] = 7,
-			["StatFontSize"] = 12,
-			["StatFontFlags"] = "",
-			["StatRows"] = 3,
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "MEDIUM",
+			["StatTextAbreviate"] = false,
+			["StatRows"] = 1,
+			["StatWidth"] = 150,
 			["StatSpacingV"] = 1,
+			["HideHUD"] = false,
+			["StatFontSize"] = 12,
+			["StatSpacingH"] = 7,
+			["StatFontFlags"] = "",
+			["ResetPosition"] = false,
+			["StatIcons"] = true,
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatTextCaps"] = false,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
+			["HUDPos"] = {
+				["y"] = 11.50006103515625,
+				["x"] = 10.22212219238281,
+				["point"] = "TOP",
+				["scale"] = 1,
+			},
+			["IconAlignment"] = "TOPLEFT",
+			["StatOrder"] = 1,
 		},
 		["WARRIOR"] = {
 			["Stats"] = {
@@ -295,6 +481,7 @@ SinStatsDB = {
 				},
 				["Shadow"] = {
 					["Show"] = false,
+					["Dec_Spell_Shadow"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["ArcaneResist"] = {
@@ -303,20 +490,25 @@ SinStatsDB = {
 				},
 				["Crushing"] = {
 					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["FrostResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
-				["RangedCrit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
 				["Expertise"] = {
-					["Percent_Rating"] = 1,
 					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
 					["Display_MainHand"] = false,
+				},
+				["ShadowResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
 				},
 				["DMG"] = {
 					["Show"] = true,
@@ -325,21 +517,25 @@ SinStatsDB = {
 				},
 				["Arcane"] = {
 					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
 					["Enhanced_Base"] = 1,
+				},
+				["NatureResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
 				},
 				["RangedCritBoss"] = {
 					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
 					["Enhanced_Base"] = 1,
 				},
-				["ArmorPen"] = {
+				["Avoidance"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
+					["Dec_Def_Avoidance"] = 2,
 					["Enhanced_Base"] = 1,
-				},
-				["weaponSpeed"] = {
-					["Show"] = false,
-					["Main_Off_Auto"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
 				},
 				["RAP"] = {
 					["Show"] = false,
@@ -348,30 +544,37 @@ SinStatsDB = {
 				["BuffCounter"] = {
 					["Show"] = false,
 				},
-				["Fire"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
+				["mDPS"] = {
+					["Show"] = true,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
 				},
 				["BossReduc"] = {
 					["Show"] = true,
+					["Dec_Melee_Dmg"] = 1,
 					["Enhanced_Base"] = 1,
 				},
-				["SpellCritBoss"] = {
+				["RangedMiss"] = {
 					["Show"] = false,
-					["Enhanced_Base"] = 1,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
+					["Level_Same_Boss"] = 1,
 				},
 				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = true,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
 				},
 				["SpellHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
 					["Show"] = false,
-					["Percent_Rating"] = 1,
+					["Dec_Spell_Hit"] = 2,
 				},
-				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
+				["Money"] = {
 					["Show"] = false,
 				},
 				["Lag"] = {
@@ -383,217 +586,318 @@ SinStatsDB = {
 					["Max_Average_Damage"] = 1,
 				},
 				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
 				},
 				["CritBoss"] = {
 					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
 					["Enhanced_Base"] = 1,
 				},
 				["RDMG"] = {
 					["Show"] = false,
 					["Max_Average_Damage"] = 1,
 				},
-				["Avoidance"] = {
+				["weaponSpeed"] = {
 					["Show"] = false,
-					["Enhanced_Base"] = 1,
+					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
 				},
-				["NatureResist"] = {
+				["Fire"] = {
 					["Show"] = false,
-					["Player_Pet"] = 1,
+					["Dec_Spell_Fire"] = 0,
+					["Enhanced_Base"] = 1,
 				},
 				["SpellMiss"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
 					["Level_Same_Boss"] = 1,
 				},
 				["Resilience"] = {
 					["Show"] = true,
 					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
 				},
-				["AP"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
+				["Parry"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
 				},
 				["MeleeMiss"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
 					["Level_Same_Boss"] = 1,
 				},
 				["RangedHit"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
-				},
-				["Dodge"] = {
+					["Cap_Ranged_Hit"] = 8,
 					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["DebuffCounter"] = {
-					["Show"] = false,
-				},
-				["Healing"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["rangedSpeed"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Nature"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Enhanced_Base"] = 1,
-				},
-				["Frost"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Armor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
+					["Dec_Ranged_Hit"] = 2,
 				},
 				["DefenseStat"] = {
+					["Dec_Def_Def"] = 1,
+					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
 					["Total_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
 				},
-				["Speed"] = {
-					["Show"] = true,
-				},
-				["Block"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["NPCArmor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["CritReceived"] = {
-					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
-				["SpellPenetration"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Holy"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ManaRegen"] = {
-					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Money"] = {
+				["DebuffCounter"] = {
 					["Show"] = false,
 				},
 				["FPS"] = {
 					["Show"] = false,
 				},
-				["MP5"] = {
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = true,
+					["Cap_Def_Mit"] = 75,
+				},
+				["Nature"] = {
+					["Show"] = false,
+					["Dec_Spell_Nature"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedPen"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
+				},
+				["Frost"] = {
+					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
+				},
+				["Dodge"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
+				},
+				["Speed"] = {
+					["Show"] = true,
+					["Speed_Static"] = 1,
+				},
+				["HasteCaster"] = {
+					["Show"] = false,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["ManaRegen"] = {
 					["Show"] = false,
 					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
 				},
-				["Parry"] = {
+				["CritReceived"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
 				},
-				["Mitigation"] = {
+				["SpellPenetration"] = {
+					["Show"] = false,
+					["Dec_Spell_Pen"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Holy"] = {
+					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["NPCArmor"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["Armor"] = {
+					["Show"] = false,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
+					["Enhanced_Base"] = 1,
+				},
+				["rangedSpeed"] = {
+					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Healing"] = {
+					["Show"] = false,
+					["Dec_Spell_Healing"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["MP5"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
+				},
+				["AP"] = {
 					["Show"] = true,
 					["Enhanced_Base"] = 1,
+				},
+				["HasteRanged"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
 				},
 				["CritCap"] = {
 					["Show"] = true,
 					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
 				},
-				["RangedMiss"] = {
+				["SpellCritBoss"] = {
 					["Show"] = false,
-					["Level_Same_Boss"] = 1,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
+					["Enhanced_Base"] = 1,
 				},
 				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
 					["Show"] = true,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
 				},
 				["FireResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
-				["mDPS"] = {
-					["Show"] = true,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
+				["ArmorPen"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
 				},
 				["Crit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = true,
+					["Dec_Melee_Crit"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
 				},
-				["ShadowResist"] = {
+				["RangedCrit"] = {
 					["Show"] = false,
-					["Player_Pet"] = 1,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
+					["Percent_Rating"] = 1,
 				},
 			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
 			["StatAlignment"] = "TOPLEFT",
 			["Vertical"] = true,
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "MEDIUM",
 			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
 			["StatTextCaps"] = false,
-			["StatIcons"] = true,
-			["Minimap"] = {
-				["Show"] = true,
-			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
+			["StatRows"] = 3,
+			["StatWidth"] = 150,
+			["HideHUD"] = false,
 			["StatSpacingH"] = 7,
 			["StatFontSize"] = 12,
 			["StatFontFlags"] = "",
-			["StatRows"] = 3,
+			["ResetPosition"] = false,
+			["Minimap"] = {
+				["Show"] = true,
+			},
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatIcons"] = true,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
 			["StatSpacingV"] = 1,
+			["IconAlignment"] = "TOPLEFT",
+			["StatOrder"] = 1,
 		},
 		["SHAMAN"] = {
 			["Stats"] = {
 				["Shadow"] = {
 					["Show"] = false,
+					["Dec_Spell_Shadow"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["ArcaneResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
-				["Expertise"] = {
-					["Percent_Rating"] = 1,
+				["petArmor"] = {
 					["Show"] = false,
+				},
+				["Expertise"] = {
+					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
 					["Display_MainHand"] = false,
 				},
 				["HitReduction"] = {
 					["Show"] = false,
+					["Dec_Def_Hit"] = 2,
 				},
 				["RepairCost"] = {
 					["Show"] = false,
 					["Total_Equipped_Bags"] = 1,
 				},
+				["petAtkSpeed"] = {
+					["Show"] = false,
+				},
+				["Strength"] = {
+					["Show"] = false,
+					["Dec_Melee_Str"] = 0,
+				},
 				["ArmorPen"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
 					["Display_Basic"] = false,
 					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
+				},
+				["petAP"] = {
+					["Show"] = false,
 				},
 				["weaponSpeed"] = {
 					["Show"] = false,
 					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
 				},
 				["NatureResist"] = {
 					["Show"] = false,
@@ -602,28 +906,46 @@ SinStatsDB = {
 				["Resilience"] = {
 					["Show"] = false,
 					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
 				},
 				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
+				},
+				["petMood"] = {
+					["Show"] = false,
+					["Mood_Damage"] = 1,
 				},
 				["ManaRegen"] = {
 					["Show"] = false,
 					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
 				},
 				["Dodge"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
 				},
 				["Speed"] = {
 					["Show"] = true,
+					["Speed_Static"] = 1,
 				},
 				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["Threat"] = {
+					["Show"] = false,
+					["Percent_Rating"] = 1,
 				},
 				["TargetSpeed"] = {
 					["Show"] = false,
@@ -633,12 +955,14 @@ SinStatsDB = {
 				},
 				["Healing"] = {
 					["Show"] = true,
+					["Dec_Spell_Healing"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["MP5"] = {
 					["Show"] = true,
-					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
 				},
 				["AP"] = {
 					["Show"] = true,
@@ -646,7 +970,13 @@ SinStatsDB = {
 				},
 				["SpellCritBoss"] = {
 					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
 					["Enhanced_Base"] = 1,
+				},
+				["Stamina"] = {
+					["Show"] = false,
+					["Dec_Def_Stamina"] = 0,
 				},
 				["Durability"] = {
 					["Show"] = true,
@@ -657,11 +987,19 @@ SinStatsDB = {
 				},
 				["Crushing"] = {
 					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["FrostResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
+				},
+				["petDPS"] = {
+					["Show"] = false,
+				},
+				["Agility"] = {
+					["Show"] = false,
+					["Dec_Melee_Agi"] = 0,
 				},
 				["DMG"] = {
 					["Show"] = false,
@@ -670,7 +1008,16 @@ SinStatsDB = {
 				},
 				["Arcane"] = {
 					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
 					["Enhanced_Base"] = 1,
+				},
+				["petDMG"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["Spirit"] = {
+					["Show"] = false,
+					["Dec_Spell_Spir"] = 0,
 				},
 				["RAP"] = {
 					["Show"] = false,
@@ -681,11 +1028,18 @@ SinStatsDB = {
 				},
 				["BossReduc"] = {
 					["Show"] = false,
+					["Dec_Melee_Dmg"] = 1,
 					["Enhanced_Base"] = 1,
 				},
-				["SpellHit"] = {
-					["Show"] = true,
-					["Percent_Rating"] = 1,
+				["Honor"] = {
+					["Show"] = false,
+				},
+				["NPCArmor"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["petSpell"] = {
+					["Show"] = false,
 				},
 				["Lag"] = {
 					["Show"] = false,
@@ -696,12 +1050,17 @@ SinStatsDB = {
 					["Max_Average_Damage"] = 1,
 				},
 				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = true,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
 				},
 				["CritBoss"] = {
 					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
 					["Enhanced_Base"] = 1,
 				},
 				["RDMG"] = {
@@ -710,167 +1069,249 @@ SinStatsDB = {
 				},
 				["Avoidance"] = {
 					["Show"] = false,
+					["Dec_Def_Avoidance"] = 2,
 					["Enhanced_Base"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
 				},
 				["RangedCritBoss"] = {
 					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["SpellMiss"] = {
 					["Show"] = true,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
 					["Level_Same_Boss"] = 1,
+				},
+				["petCrit"] = {
+					["Show"] = false,
+				},
+				["ShadowResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
 				},
 				["MeleeMiss"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
 					["Level_Same_Boss"] = 1,
 				},
 				["CritCap"] = {
 					["Show"] = false,
 					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
 				},
 				["SpellPenetration"] = {
 					["Show"] = false,
+					["Dec_Spell_Pen"] = 1,
 					["Enhanced_Base"] = 1,
 				},
 				["DebuffCounter"] = {
 					["Show"] = false,
 				},
-				["NPCArmor"] = {
+				["Conquest"] = {
 					["Show"] = false,
-					["Enhanced_Base"] = 1,
 				},
 				["Frost"] = {
 					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["Nature"] = {
 					["Show"] = true,
+					["Dec_Spell_Nature"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["RangedPen"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
 					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
 				},
 				["mDPS"] = {
 					["Show"] = false,
 					["Display_Average"] = false,
 					["Main_Off_Auto"] = 1,
 				},
-				["PvP"] = {
+				["FPS"] = {
 					["Show"] = false,
-					["Honor_Arena"] = 1,
 				},
 				["DefenseStat"] = {
-					["Total_Rating"] = 1,
+					["Dec_Def_Def"] = 1,
 					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
 					["Show"] = false,
 				},
 				["Armor"] = {
 					["Show"] = false,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
 					["Enhanced_Base"] = 1,
 				},
-				["Block"] = {
+				["PvP"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
+					["Honor_Arena"] = 1,
+				},
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = false,
+					["Cap_Def_Mit"] = 75,
 				},
 				["StoneShard"] = {
 					["Show"] = false,
 					["Shards_Marks"] = 1,
 				},
-				["CritReceived"] = {
-					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
 				["Fire"] = {
 					["Show"] = false,
+					["Dec_Spell_Fire"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["Holy"] = {
 					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["ItemLevel"] = {
 					["Show"] = false,
+					["Dec_Misc_Ilvl"] = 1,
 				},
-				["RangedCrit"] = {
-					["Show"] = false,
+				["RangedHit"] = {
 					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
+					["Show"] = false,
+					["Dec_Ranged_Hit"] = 2,
 				},
 				["rangedSpeed"] = {
 					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
+					["Show"] = false,
 					["Display_Basic"] = false,
-					["Show"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
 				},
-				["RangedHit"] = {
+				["RangedCrit"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
 					["Percent_Rating"] = 1,
 				},
 				["Parry"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
-				},
-				["Mitigation"] = {
 					["Show"] = false,
-					["Enhanced_Base"] = 1,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
 				},
-				["FPS"] = {
+				["CritReceived"] = {
 					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
 				},
 				["RangedMiss"] = {
 					["Show"] = false,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
 					["Level_Same_Boss"] = 1,
 				},
 				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
 					["Show"] = false,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
 				},
 				["FireResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
-				["ShadowResist"] = {
+				["Intellect"] = {
 					["Show"] = false,
-					["Player_Pet"] = 1,
+					["Dec_Spell_Int"] = 0,
 				},
 				["Crit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = true,
+					["Dec_Melee_Crit"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
 				},
-				["Honor"] = {
-					["Show"] = false,
+				["SpellHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = true,
+					["Dec_Spell_Hit"] = 2,
 				},
 			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
 			["StatAlignment"] = "TOPLEFT",
 			["Vertical"] = true,
-			["HUDStrata"] = "HIGH",
-			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
-			["StatTextCaps"] = false,
-			["StatIcons"] = true,
 			["Minimap"] = {
 				["Show"] = true,
 			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
-			["StatSpacingH"] = 7,
-			["StatFontSize"] = 12,
-			["StatFontFlags"] = "",
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "HIGH",
+			["StatTextAbreviate"] = false,
 			["StatRows"] = 3,
+			["StatWidth"] = 150,
+			["StatOrder"] = 1,
+			["HideHUD"] = false,
+			["StatSpacingH"] = 7,
+			["StatFontFlags"] = "",
+			["StatFontSize"] = 12,
+			["ResetPosition"] = false,
+			["StatIcons"] = true,
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatTextCaps"] = false,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
 			["StatSpacingV"] = 1,
+			["IconAlignment"] = "TOPLEFT",
+			["HUDPos"] = {
+				["y"] = 9.27777099609375,
+				["x"] = -146.3038330078125,
+				["point"] = "TOPRIGHT",
+				["scale"] = 1,
+			},
 		},
 		["MAGE"] = {
 			["Stats"] = {
 				["Shadow"] = {
 					["Show"] = false,
+					["Dec_Spell_Shadow"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["ArcaneResist"] = {
@@ -881,12 +1322,17 @@ SinStatsDB = {
 					["Show"] = false,
 				},
 				["Expertise"] = {
-					["Percent_Rating"] = 1,
 					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
 					["Display_MainHand"] = false,
 				},
 				["HitReduction"] = {
 					["Show"] = false,
+					["Dec_Def_Hit"] = 2,
 				},
 				["RepairCost"] = {
 					["Show"] = false,
@@ -895,11 +1341,16 @@ SinStatsDB = {
 				["petAtkSpeed"] = {
 					["Show"] = false,
 				},
+				["Strength"] = {
+					["Show"] = false,
+					["Dec_Melee_Str"] = 0,
+				},
 				["ArmorPen"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
 					["Display_Basic"] = false,
 					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
 				},
 				["petAP"] = {
 					["Show"] = false,
@@ -907,6 +1358,7 @@ SinStatsDB = {
 				["weaponSpeed"] = {
 					["Show"] = false,
 					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
 				},
 				["NatureResist"] = {
 					["Show"] = false,
@@ -915,11 +1367,15 @@ SinStatsDB = {
 				["Resilience"] = {
 					["Show"] = false,
 					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
 				},
 				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
 				},
 				["petMood"] = {
 					["Show"] = false,
@@ -929,18 +1385,28 @@ SinStatsDB = {
 					["Show"] = true,
 					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
 				},
 				["Dodge"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
 				},
 				["Speed"] = {
 					["Show"] = true,
+					["Speed_Static"] = 1,
 				},
 				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = true,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["Threat"] = {
+					["Show"] = false,
+					["Percent_Rating"] = 1,
 				},
 				["TargetSpeed"] = {
 					["Show"] = false,
@@ -950,12 +1416,14 @@ SinStatsDB = {
 				},
 				["Healing"] = {
 					["Show"] = false,
+					["Dec_Spell_Healing"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["MP5"] = {
 					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
 				},
 				["AP"] = {
 					["Show"] = false,
@@ -963,7 +1431,13 @@ SinStatsDB = {
 				},
 				["SpellCritBoss"] = {
 					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
 					["Enhanced_Base"] = 1,
+				},
+				["Stamina"] = {
+					["Show"] = false,
+					["Dec_Def_Stamina"] = 0,
 				},
 				["Durability"] = {
 					["Show"] = true,
@@ -974,14 +1448,23 @@ SinStatsDB = {
 				},
 				["Crushing"] = {
 					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["FrostResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
+				["GearScore"] = {
+					["Show"] = true,
+					["Score_Color"] = true,
+				},
 				["petDPS"] = {
 					["Show"] = false,
+				},
+				["Agility"] = {
+					["Show"] = false,
+					["Dec_Melee_Agi"] = 0,
 				},
 				["DMG"] = {
 					["Show"] = false,
@@ -990,11 +1473,19 @@ SinStatsDB = {
 				},
 				["Arcane"] = {
 					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
 					["Enhanced_Base"] = 1,
+				},
+				["Honor"] = {
+					["Show"] = false,
 				},
 				["petDMG"] = {
 					["Show"] = false,
 					["Max_Average_Damage"] = 1,
+				},
+				["Spirit"] = {
+					["Show"] = false,
+					["Dec_Spell_Spir"] = 0,
 				},
 				["RAP"] = {
 					["Show"] = false,
@@ -1002,19 +1493,39 @@ SinStatsDB = {
 				},
 				["RangedCrit"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["BossReduc"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellHit"] = {
-					["Show"] = true,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
 					["Percent_Rating"] = 1,
 				},
 				["ShadowResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
+				},
+				["BossReduc"] = {
+					["Show"] = false,
+					["Dec_Melee_Dmg"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Frost"] = {
+					["Show"] = true,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["NPCArmor"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = true,
+					["Dec_Spell_Hit"] = 2,
+				},
+				["Fire"] = {
+					["Show"] = true,
+					["Dec_Spell_Fire"] = 0,
+					["Enhanced_Base"] = 1,
 				},
 				["Lag"] = {
 					["Show"] = true,
@@ -1025,12 +1536,17 @@ SinStatsDB = {
 					["Max_Average_Damage"] = 1,
 				},
 				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = true,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
 				},
 				["CritBoss"] = {
 					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
 					["Enhanced_Base"] = 1,
 				},
 				["RDMG"] = {
@@ -1039,171 +1555,269 @@ SinStatsDB = {
 				},
 				["Avoidance"] = {
 					["Show"] = false,
+					["Dec_Def_Avoidance"] = 2,
 					["Enhanced_Base"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
 				},
-				["Fire"] = {
-					["Show"] = true,
+				["RangedCritBoss"] = {
+					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["SpellMiss"] = {
 					["Show"] = true,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
 					["Level_Same_Boss"] = 2,
 				},
 				["petCrit"] = {
 					["Show"] = false,
 				},
-				["petSpell"] = {
-					["Show"] = false,
-				},
-				["MeleeMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["RangedHit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Frost"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellPenetration"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["Conquest"] = {
-					["Show"] = false,
-				},
-				["DebuffCounter"] = {
-					["Show"] = false,
-				},
-				["Nature"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Block"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["DefenseStat"] = {
-					["Total_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Armor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["PvP"] = {
-					["Show"] = false,
-					["Honor_Arena"] = 1,
-				},
-				["CritReceived"] = {
-					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
-				["StoneShard"] = {
-					["Show"] = false,
-					["Shards_Marks"] = 1,
-				},
-				["FPS"] = {
-					["Show"] = true,
-				},
-				["Holy"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ItemLevel"] = {
-					["Show"] = false,
-				},
-				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["rangedSpeed"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["BuffCounter"] = {
-					["Show"] = false,
-				},
-				["CritCap"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Parry"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Mitigation"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
 				["mDPS"] = {
 					["Show"] = false,
 					["Display_Average"] = false,
 					["Main_Off_Auto"] = 1,
 				},
+				["MeleeMiss"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["RangedHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
+					["Show"] = false,
+					["Dec_Ranged_Hit"] = 2,
+				},
+				["DebuffCounter"] = {
+					["Show"] = false,
+				},
+				["SpellPenetration"] = {
+					["Show"] = true,
+					["Dec_Spell_Pen"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Conquest"] = {
+					["Show"] = false,
+				},
+				["Nature"] = {
+					["Show"] = false,
+					["Dec_Spell_Nature"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Sidereal"] = {
+					["Show"] = false,
+				},
+				["RangedPen"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
+				},
+				["Armor"] = {
+					["Show"] = false,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
+					["Enhanced_Base"] = 1,
+				},
+				["GlobalCD"] = {
+					["Show"] = false,
+					["Dec_Misc_Gcd"] = 2,
+				},
+				["DefenseStat"] = {
+					["Dec_Def_Def"] = 1,
+					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
+					["Show"] = false,
+				},
+				["Triumph"] = {
+					["Show"] = false,
+				},
+				["PvP"] = {
+					["Show"] = false,
+					["Honor_Arena"] = 1,
+				},
+				["CritCap"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
+				},
+				["CritReceived"] = {
+					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
+				},
+				["HasteRanged"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
+				},
+				["Holy"] = {
+					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ItemLevel"] = {
+					["Show"] = false,
+					["Dec_Misc_Ilvl"] = 1,
+				},
+				["BuffCounter"] = {
+					["Show"] = false,
+				},
+				["rangedSpeed"] = {
+					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["StoneShard"] = {
+					["Show"] = false,
+					["Shards_Marks"] = 1,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
+				},
+				["Parry"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
+				},
+				["FPS"] = {
+					["Show"] = true,
+				},
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = false,
+					["Cap_Def_Mit"] = 75,
+				},
 				["RangedMiss"] = {
 					["Show"] = false,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
 					["Level_Same_Boss"] = 1,
 				},
 				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
 					["Show"] = false,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
 				},
 				["FireResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
-				["NPCArmor"] = {
+				["petSpell"] = {
 					["Show"] = false,
-					["Enhanced_Base"] = 1,
 				},
 				["Crit"] = {
-					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Dec_Melee_Crit"] = 2,
 					["Display_Basic"] = false,
-					["Show"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
 				},
-				["Honor"] = {
+				["Intellect"] = {
 					["Show"] = false,
+					["Dec_Spell_Int"] = 0,
 				},
 			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
+			["StatWidth"] = 150,
 			["StatAlignment"] = "TOPLEFT",
-			["Vertical"] = false,
-			["HUDStrata"] = "HIGH",
+			["StatRows"] = 1,
+			["HUDPos"] = {
+				["y"] = 12.38897705078125,
+				["x"] = -16.44364929199219,
+				["point"] = "TOP",
+				["scale"] = 1,
+			},
 			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "HIGH",
 			["StatTextCaps"] = false,
-			["StatIcons"] = true,
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
+			["StatOrder"] = 1,
+			["StatSpacingV"] = 1,
+			["HideHUD"] = false,
+			["StatFontFlags"] = "",
+			["NewColumns"] = {
+				["Durability"] = true,
+				["SpellPenetration"] = true,
+				["SpellHit"] = true,
+				["SpellCrit"] = true,
+				["Lag"] = true,
+				["GearScore"] = true,
+				["Frost"] = true,
+				["ManaRegen"] = true,
+				["HasteCaster"] = true,
+				["Speed"] = true,
+				["Fire"] = true,
+				["SpellMiss"] = true,
+				["FPS"] = true,
+			},
 			["Minimap"] = {
 				["Show"] = false,
+				["minimapPos"] = 73.7761187575602,
 			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
-			["StatSpacingH"] = 7,
+			["ResetPosition"] = false,
+			["StatIcons"] = true,
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
 			["StatFontSize"] = 12,
-			["StatFontFlags"] = "",
-			["StatRows"] = 1,
-			["StatSpacingV"] = 1,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["CustomOrderList"] = {
+				"Fire", -- [1]
+				"Frost", -- [2]
+				"SpellCrit", -- [3]
+				"SpellHit", -- [4]
+				"HasteCaster", -- [5]
+				"SpellPenetration", -- [6]
+				"SpellMiss", -- [7]
+				"ManaRegen", -- [8]
+				"Speed", -- [9]
+				"Durability", -- [10]
+				"Lag", -- [11]
+				"FPS", -- [12]
+				"GearScore", -- [13]
+			},
+			["StatSpacingH"] = 7,
+			["IconAlignment"] = "TOPLEFT",
+			["Vertical"] = false,
 		},
 		["PRIEST"] = {
 			["Stats"] = {
 				["Shadow"] = {
 					["Show"] = true,
+					["Dec_Spell_Shadow"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["ArcaneResist"] = {
@@ -1214,12 +1828,17 @@ SinStatsDB = {
 					["Show"] = false,
 				},
 				["Expertise"] = {
-					["Percent_Rating"] = 1,
 					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
 					["Display_MainHand"] = false,
 				},
 				["HitReduction"] = {
 					["Show"] = false,
+					["Dec_Def_Hit"] = 2,
 				},
 				["RepairCost"] = {
 					["Show"] = false,
@@ -1228,11 +1847,16 @@ SinStatsDB = {
 				["petAtkSpeed"] = {
 					["Show"] = false,
 				},
+				["Strength"] = {
+					["Show"] = false,
+					["Dec_Melee_Str"] = 0,
+				},
 				["ArmorPen"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
 					["Display_Basic"] = false,
 					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
 				},
 				["petAP"] = {
 					["Show"] = false,
@@ -1240,6 +1864,7 @@ SinStatsDB = {
 				["weaponSpeed"] = {
 					["Show"] = false,
 					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
 				},
 				["NatureResist"] = {
 					["Show"] = false,
@@ -1248,11 +1873,15 @@ SinStatsDB = {
 				["Resilience"] = {
 					["Show"] = false,
 					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
 				},
 				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
 				},
 				["petMood"] = {
 					["Show"] = false,
@@ -1262,18 +1891,28 @@ SinStatsDB = {
 					["Show"] = true,
 					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
 				},
 				["Dodge"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
 				},
 				["Speed"] = {
 					["Show"] = true,
+					["Speed_Static"] = 1,
 				},
 				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = true,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["Threat"] = {
+					["Show"] = false,
+					["Percent_Rating"] = 1,
 				},
 				["TargetSpeed"] = {
 					["Show"] = false,
@@ -1283,12 +1922,14 @@ SinStatsDB = {
 				},
 				["Healing"] = {
 					["Show"] = true,
+					["Dec_Spell_Healing"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["MP5"] = {
 					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
 				},
 				["AP"] = {
 					["Show"] = false,
@@ -1296,7 +1937,13 @@ SinStatsDB = {
 				},
 				["SpellCritBoss"] = {
 					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
 					["Enhanced_Base"] = 1,
+				},
+				["Stamina"] = {
+					["Show"] = false,
+					["Dec_Def_Stamina"] = 0,
 				},
 				["Durability"] = {
 					["Show"] = true,
@@ -1307,6 +1954,7 @@ SinStatsDB = {
 				},
 				["Crushing"] = {
 					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["FrostResist"] = {
@@ -1316,6 +1964,10 @@ SinStatsDB = {
 				["petDPS"] = {
 					["Show"] = false,
 				},
+				["Agility"] = {
+					["Show"] = false,
+					["Dec_Melee_Agi"] = 0,
+				},
 				["DMG"] = {
 					["Show"] = false,
 					["Display_Average"] = false,
@@ -1323,11 +1975,20 @@ SinStatsDB = {
 				},
 				["Arcane"] = {
 					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
 					["Enhanced_Base"] = 1,
+				},
+				["GearScore"] = {
+					["Show"] = true,
+					["Score_Color"] = true,
 				},
 				["petDMG"] = {
 					["Show"] = false,
 					["Max_Average_Damage"] = 1,
+				},
+				["Spirit"] = {
+					["Show"] = false,
+					["Dec_Spell_Spir"] = 0,
 				},
 				["RAP"] = {
 					["Show"] = false,
@@ -1335,18 +1996,39 @@ SinStatsDB = {
 				},
 				["RangedCrit"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
 					["Percent_Rating"] = 1,
+				},
+				["Honor"] = {
+					["Show"] = false,
 				},
 				["BossReduc"] = {
 					["Show"] = false,
+					["Dec_Melee_Dmg"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Frost"] = {
+					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Fire"] = {
+					["Show"] = false,
+					["Dec_Spell_Fire"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["SpellHit"] = {
-					["Show"] = true,
 					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = true,
+					["Dec_Spell_Hit"] = 2,
 				},
 				["RangedCritBoss"] = {
 					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["Lag"] = {
@@ -1358,12 +2040,17 @@ SinStatsDB = {
 					["Max_Average_Damage"] = 1,
 				},
 				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = true,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
 				},
 				["CritBoss"] = {
 					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
 					["Enhanced_Base"] = 1,
 				},
 				["RDMG"] = {
@@ -1372,32 +2059,43 @@ SinStatsDB = {
 				},
 				["Avoidance"] = {
 					["Show"] = false,
+					["Dec_Def_Avoidance"] = 2,
 					["Enhanced_Base"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
 				},
-				["Fire"] = {
+				["mDPS"] = {
 					["Show"] = false,
-					["Enhanced_Base"] = 1,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
 				},
 				["SpellMiss"] = {
 					["Show"] = true,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
 					["Level_Same_Boss"] = 1,
 				},
 				["petCrit"] = {
 					["Show"] = false,
 				},
-				["petSpell"] = {
+				["ShadowResist"] = {
 					["Show"] = false,
+					["Player_Pet"] = 1,
 				},
 				["MeleeMiss"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
 					["Level_Same_Boss"] = 1,
 				},
 				["CritCap"] = {
 					["Show"] = false,
 					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
 				},
 				["SpellPenetration"] = {
 					["Show"] = true,
+					["Dec_Spell_Pen"] = 1,
 					["Enhanced_Base"] = 1,
 				},
 				["DebuffCounter"] = {
@@ -1406,138 +2104,221 @@ SinStatsDB = {
 				["Conquest"] = {
 					["Show"] = false,
 				},
-				["Frost"] = {
+				["NPCArmor"] = {
 					["Show"] = false,
 					["Enhanced_Base"] = 1,
 				},
 				["Nature"] = {
 					["Show"] = false,
+					["Dec_Spell_Nature"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["RangedPen"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
 					["Enhanced_Base"] = 1,
-				},
-				["ShadowResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["Block"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
+				},
+				["FPS"] = {
+					["Show"] = true,
+				},
+				["Triumph"] = {
+					["Show"] = false,
 				},
 				["DefenseStat"] = {
-					["Total_Rating"] = 1,
+					["Dec_Def_Def"] = 1,
 					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
 					["Show"] = false,
 				},
 				["Armor"] = {
 					["Show"] = false,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
 					["Enhanced_Base"] = 1,
 				},
 				["PvP"] = {
 					["Show"] = false,
 					["Honor_Arena"] = 1,
 				},
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = false,
+					["Cap_Def_Mit"] = 75,
+				},
 				["StoneShard"] = {
 					["Show"] = false,
 					["Shards_Marks"] = 1,
 				},
-				["CritReceived"] = {
+				["RangedHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
 					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
-				["FPS"] = {
-					["Show"] = true,
+					["Dec_Ranged_Hit"] = 2,
 				},
 				["Holy"] = {
 					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["ItemLevel"] = {
 					["Show"] = false,
+					["Dec_Misc_Ilvl"] = 1,
 				},
-				["RangedHit"] = {
+				["HasteRanged"] = {
 					["Show"] = false,
+					["Display_Basic"] = false,
 					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
 				},
 				["rangedSpeed"] = {
 					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
 					["Enhanced_Base"] = 1,
 				},
-				["HasteRanged"] = {
+				["CritReceived"] = {
+					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
+				},
+				["Block"] = {
 					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
-				},
-				["Mitigation"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
 				},
 				["Parry"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
+				},
+				["Sidereal"] = {
+					["Show"] = false,
 				},
 				["BuffCounter"] = {
 					["Show"] = false,
 				},
-				["NPCArmor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
 				["RangedMiss"] = {
 					["Show"] = false,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
 					["Level_Same_Boss"] = 1,
 				},
 				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
 					["Show"] = false,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
 				},
 				["FireResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
-				["mDPS"] = {
+				["petSpell"] = {
 					["Show"] = false,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
 				},
 				["Crit"] = {
-					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Dec_Melee_Crit"] = 2,
 					["Display_Basic"] = false,
-					["Show"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
 				},
-				["Honor"] = {
+				["Intellect"] = {
 					["Show"] = false,
+					["Dec_Spell_Int"] = 0,
 				},
 			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
-			["StatAlignment"] = "TOPLEFT",
-			["Vertical"] = false,
-			["HUDStrata"] = "HIGH",
-			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
-			["StatTextCaps"] = false,
-			["StatIcons"] = true,
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
 			["Minimap"] = {
 				["Show"] = false,
 				["minimapPos"] = 257.8081146036485,
 			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
-			["StatSpacingH"] = 11,
-			["StatFontSize"] = 12,
-			["StatFontFlags"] = "",
+			["StatAlignment"] = "TOPLEFT",
 			["StatRows"] = 1,
-			["StatSpacingV"] = 1,
+			["Vertical"] = false,
+			["StatOrder"] = 1,
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "HIGH",
+			["StatTextAbreviate"] = false,
+			["CustomOrderList"] = {
+				"Shadow", -- [1]
+				"Healing", -- [2]
+				"SpellCrit", -- [3]
+				"SpellHit", -- [4]
+				"HasteCaster", -- [5]
+				"SpellPenetration", -- [6]
+				"SpellMiss", -- [7]
+				"ManaRegen", -- [8]
+				"Speed", -- [9]
+				"Durability", -- [10]
+				"Lag", -- [11]
+				"FPS", -- [12]
+				"GearScore", -- [13]
+			},
+			["StatSpacingV"] = 0,
+			["StatSpacingH"] = 1,
+			["HideHUD"] = false,
+			["StatFontFlags"] = "",
+			["NewColumns"] = {
+				["Durability"] = true,
+				["SpellPenetration"] = true,
+				["Healing"] = true,
+				["Lag"] = true,
+				["GearScore"] = true,
+				["ManaRegen"] = true,
+				["FPS"] = true,
+				["SpellCrit"] = true,
+				["Speed"] = true,
+				["HasteCaster"] = true,
+				["SpellMiss"] = true,
+				["SpellHit"] = true,
+			},
+			["StatTextCaps"] = false,
+			["ResetPosition"] = false,
+			["StatIcons"] = true,
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatFontSize"] = 12,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
+			["StatWidth"] = 84.36000061035156,
+			["IconAlignment"] = "TOPLEFT",
+			["HUDPos"] = {
+				["y"] = 13.27777099609375,
+				["x"] = -34.93557739257813,
+				["point"] = "TOP",
+				["scale"] = 1,
+			},
 		},
 		["WARLOCK"] = {
 			["Stats"] = {
 				["Shadow"] = {
 					["Show"] = true,
+					["Dec_Spell_Shadow"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["ArcaneResist"] = {
@@ -1553,6 +2334,7 @@ SinStatsDB = {
 				},
 				["HitReduction"] = {
 					["Show"] = false,
+					["Dec_Def_Hit"] = 2,
 				},
 				["RepairCost"] = {
 					["Show"] = false,
@@ -1561,11 +2343,16 @@ SinStatsDB = {
 				["petAtkSpeed"] = {
 					["Show"] = false,
 				},
+				["Strength"] = {
+					["Show"] = false,
+					["Dec_Melee_Str"] = 0,
+				},
 				["ArmorPen"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
 					["Display_Basic"] = false,
 					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
 				},
 				["petAP"] = {
 					["Show"] = false,
@@ -1573,6 +2360,7 @@ SinStatsDB = {
 				["weaponSpeed"] = {
 					["Show"] = false,
 					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
 				},
 				["NatureResist"] = {
 					["Show"] = false,
@@ -1581,617 +2369,15 @@ SinStatsDB = {
 				["Resilience"] = {
 					["Show"] = false,
 					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
 				},
 				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
+					["Show"] = false,
 					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["petMood"] = {
-					["Show"] = false,
-					["Mood_Damage"] = 1,
-				},
-				["ManaRegen"] = {
-					["Show"] = true,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["Dodge"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
-				},
-				["Speed"] = {
-					["Show"] = true,
-				},
-				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = true,
-				},
-				["TargetSpeed"] = {
-					["Show"] = false,
-				},
-				["Mitigation"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Healing"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["MP5"] = {
-					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["AP"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Durability"] = {
-					["Show"] = true,
-				},
-				["Emblems"] = {
-					["Show"] = false,
-					["Heroism_Valor"] = 1,
-				},
-				["Crushing"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["FrostResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["petDPS"] = {
-					["Show"] = false,
-				},
-				["DMG"] = {
-					["Show"] = false,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["Arcane"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["petDMG"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["RAP"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedCrit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["BossReduc"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["NPCArmor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Lag"] = {
-					["Show"] = false,
-					["World_Realm"] = 1,
-				},
-				["rDPS"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = true,
-				},
-				["CritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RDMG"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["Avoidance"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Fire"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellMiss"] = {
-					["Show"] = true,
-					["Level_Same_Boss"] = 1,
-				},
-				["petCrit"] = {
-					["Show"] = false,
-				},
-				["mDPS"] = {
-					["Show"] = false,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["MeleeMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["CritCap"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["SpellPenetration"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["Conquest"] = {
-					["Show"] = false,
-				},
-				["Frost"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Nature"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Enhanced_Base"] = 1,
-				},
-				["Expertise"] = {
-					["Percent_Rating"] = 1,
-					["Show"] = false,
-					["Display_MainHand"] = false,
-				},
-				["Block"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["DefenseStat"] = {
-					["Total_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Armor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["PvP"] = {
-					["Show"] = false,
-					["Honor_Arena"] = 1,
-				},
-				["CritReceived"] = {
-					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
-				["StoneShard"] = {
-					["Show"] = false,
-					["Shards_Marks"] = 1,
-				},
-				["DebuffCounter"] = {
-					["Show"] = false,
-				},
-				["Holy"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ItemLevel"] = {
-					["Show"] = false,
-				},
-				["RangedHit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["rangedSpeed"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellHit"] = {
-					["Show"] = true,
-					["Percent_Rating"] = 1,
-				},
-				["Money"] = {
-					["Show"] = false,
-				},
-				["Parry"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["FPS"] = {
-					["Show"] = false,
-				},
-				["BuffCounter"] = {
-					["Show"] = false,
-				},
-				["RangedMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
-					["Show"] = false,
-				},
-				["FireResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["RangedCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Crit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["petSpell"] = {
-					["Show"] = false,
-				},
-			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
-			["StatAlignment"] = "TOPLEFT",
-			["Vertical"] = false,
-			["HUDStrata"] = "MEDIUM",
-			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
-			["StatTextCaps"] = false,
-			["StatIcons"] = true,
-			["Minimap"] = {
-				["Show"] = false,
-				["minimapPos"] = 250.2928431696905,
-			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
-			["StatSpacingH"] = 7,
-			["StatFontSize"] = 12,
-			["StatFontFlags"] = "",
-			["StatRows"] = 1,
-			["StatSpacingV"] = 1,
-		},
-		["HUNTER"] = {
-			["Stats"] = {
-				["Durability"] = {
-					["Show"] = true,
-				},
-				["Shadow"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ArcaneResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["Crushing"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["FrostResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["RangedCrit"] = {
-					["Show"] = true,
-					["Percent_Rating"] = 1,
-				},
-				["Expertise"] = {
-					["Percent_Rating"] = 1,
-					["Show"] = false,
-					["Display_MainHand"] = false,
-				},
-				["DMG"] = {
-					["Show"] = false,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["Arcane"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ArmorPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["weaponSpeed"] = {
-					["Show"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["RAP"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["BuffCounter"] = {
-					["Show"] = false,
-				},
-				["Fire"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["BossReduc"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["SpellHit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = true,
-				},
-				["Lag"] = {
-					["Show"] = false,
-					["World_Realm"] = 1,
-				},
-				["rDPS"] = {
-					["Show"] = true,
-					["Max_Average_Damage"] = 1,
-				},
-				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["CritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RDMG"] = {
-					["Show"] = true,
-					["Max_Average_Damage"] = 1,
-				},
-				["Avoidance"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["NatureResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["SpellMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["Resilience"] = {
-					["Show"] = false,
-					["Crit_Damage_Taken"] = 1,
-				},
-				["AP"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["MeleeMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["RangedHit"] = {
-					["Show"] = true,
-					["Percent_Rating"] = 1,
-				},
-				["Dodge"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["DebuffCounter"] = {
-					["Show"] = false,
-				},
-				["Healing"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["rangedSpeed"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Nature"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedPen"] = {
-					["Show"] = true,
-					["Percent_Rating"] = 1,
-					["Enhanced_Base"] = 1,
-				},
-				["Frost"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Armor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["DefenseStat"] = {
-					["Total_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Speed"] = {
-					["Show"] = true,
-				},
-				["Block"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["NPCArmor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["CritReceived"] = {
-					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
-				["SpellPenetration"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Holy"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ManaRegen"] = {
-					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Money"] = {
-					["Show"] = false,
-				},
-				["FPS"] = {
-					["Show"] = false,
-				},
-				["MP5"] = {
-					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["Parry"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Mitigation"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["CritCap"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedMiss"] = {
-					["Show"] = true,
-					["Level_Same_Boss"] = 1,
-				},
-				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
-					["Show"] = false,
-				},
-				["FireResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["mDPS"] = {
-					["Show"] = false,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["Crit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["ShadowResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
-			["StatAlignment"] = "TOPLEFT",
-			["Vertical"] = true,
-			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
-			["StatTextCaps"] = false,
-			["StatIcons"] = true,
-			["Minimap"] = {
-				["Show"] = true,
-			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
-			["StatSpacingH"] = 7,
-			["StatFontSize"] = 12,
-			["StatFontFlags"] = "",
-			["StatRows"] = 3,
-			["StatSpacingV"] = 1,
-		},
-		["DRUID"] = {
-			["Stats"] = {
-				["Shadow"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ArcaneResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["petArmor"] = {
-					["Show"] = false,
-				},
-				["ShadowResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["HitReduction"] = {
-					["Show"] = false,
-				},
-				["RepairCost"] = {
-					["Show"] = false,
-					["Total_Equipped_Bags"] = 1,
-				},
-				["petAtkSpeed"] = {
-					["Show"] = false,
-				},
-				["ArmorPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["petAP"] = {
-					["Show"] = false,
-				},
-				["weaponSpeed"] = {
-					["Show"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["NatureResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["Resilience"] = {
-					["Show"] = false,
-					["Crit_Damage_Taken"] = 1,
-				},
-				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
 				},
 				["petMood"] = {
 					["Show"] = false,
@@ -2201,700 +2387,63 @@ SinStatsDB = {
 					["Show"] = false,
 					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
 				},
 				["Dodge"] = {
-					["Show"] = false,
 					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
 				},
 				["Speed"] = {
 					["Show"] = true,
+					["Speed_Static"] = 1,
 				},
 				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
+					["Show"] = true,
+					["Dec_Spell_Haste"] = 2,
 					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["Threat"] = {
 					["Show"] = false,
+					["Percent_Rating"] = 1,
 				},
 				["TargetSpeed"] = {
 					["Show"] = false,
-				},
-				["Money"] = {
-					["Show"] = false,
-				},
-				["FPS"] = {
-					["Show"] = true,
-				},
-				["MP5"] = {
-					["Show"] = true,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["AP"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Durability"] = {
-					["Show"] = true,
-				},
-				["Emblems"] = {
-					["Show"] = false,
-					["Heroism_Valor"] = 1,
-				},
-				["Crushing"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["FrostResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["petDPS"] = {
-					["Show"] = false,
-				},
-				["DMG"] = {
-					["Show"] = false,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["Arcane"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["petDMG"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["RAP"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedCrit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["BossReduc"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["NPCArmor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Lag"] = {
-					["Show"] = true,
-					["World_Realm"] = 1,
-				},
-				["rDPS"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = true,
-				},
-				["CritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RDMG"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["Avoidance"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellMiss"] = {
-					["Show"] = true,
-					["Level_Same_Boss"] = 1,
-				},
-				["petCrit"] = {
-					["Show"] = false,
-				},
-				["petSpell"] = {
-					["Show"] = false,
-				},
-				["MeleeMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["CritCap"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Fire"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellPenetration"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Conquest"] = {
-					["Show"] = false,
-				},
-				["Expertise"] = {
-					["Percent_Rating"] = 1,
-					["Show"] = false,
-					["Display_MainHand"] = false,
-				},
-				["Nature"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellHit"] = {
-					["Show"] = true,
-					["Percent_Rating"] = 1,
-				},
-				["Block"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["DefenseStat"] = {
-					["Total_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Armor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["PvP"] = {
-					["Show"] = false,
-					["Honor_Arena"] = 1,
-				},
-				["StoneShard"] = {
-					["Show"] = false,
-					["Shards_Marks"] = 1,
-				},
-				["CritReceived"] = {
-					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
-				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Holy"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ItemLevel"] = {
-					["Show"] = false,
-				},
-				["mDPS"] = {
-					["Show"] = false,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["rangedSpeed"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
 				},
 				["Mitigation"] = {
-					["Show"] = true,
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
 					["Enhanced_Base"] = 1,
-				},
-				["RangedHit"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Parry"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Healing"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["DebuffCounter"] = {
-					["Show"] = false,
-				},
-				["RangedMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
-					["Show"] = false,
-				},
-				["FireResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["Frost"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Crit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = true,
-				},
-				["BuffCounter"] = {
-					["Show"] = false,
-				},
-			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
-			["StatAlignment"] = "TOPLEFT",
-			["Vertical"] = false,
-			["HUDStrata"] = "MEDIUM",
-			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
-			["StatTextCaps"] = false,
-			["StatIcons"] = true,
-			["Minimap"] = {
-				["Show"] = false,
-				["minimapPos"] = 187.8211568275733,
-			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
-			["StatSpacingH"] = 7,
-			["StatFontSize"] = 12,
-			["StatFontFlags"] = "",
-			["StatRows"] = 1,
-			["StatSpacingV"] = 1,
-		},
-		["ROGUE"] = {
-			["Stats"] = {
-				["Shadow"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ArcaneResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["petArmor"] = {
-					["Show"] = false,
-				},
-				["ShadowResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["HitReduction"] = {
-					["Show"] = false,
-				},
-				["RepairCost"] = {
-					["Show"] = false,
-					["Total_Equipped_Bags"] = 1,
-				},
-				["petAtkSpeed"] = {
-					["Show"] = false,
-				},
-				["ArmorPen"] = {
-					["Show"] = true,
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["petAP"] = {
-					["Show"] = false,
-				},
-				["weaponSpeed"] = {
-					["Show"] = true,
-					["Main_Off_Auto"] = 1,
-				},
-				["NatureResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["Resilience"] = {
-					["Show"] = false,
-					["Crit_Damage_Taken"] = 1,
-				},
-				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = true,
-				},
-				["petMood"] = {
-					["Show"] = false,
-					["Mood_Damage"] = 1,
-				},
-				["ManaRegen"] = {
-					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["Dodge"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Speed"] = {
-					["Show"] = true,
-				},
-				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["TargetSpeed"] = {
-					["Show"] = false,
-				},
-				["Money"] = {
-					["Show"] = false,
+					["Cap_Def_Mit"] = 75,
 				},
 				["Healing"] = {
 					["Show"] = false,
+					["Dec_Spell_Healing"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["MP5"] = {
 					["Show"] = false,
-					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
 				},
 				["AP"] = {
-					["Show"] = true,
+					["Show"] = false,
 					["Enhanced_Base"] = 1,
 				},
 				["SpellCritBoss"] = {
 					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
 					["Enhanced_Base"] = 1,
 				},
-				["Durability"] = {
-					["Show"] = true,
-				},
-				["Emblems"] = {
+				["Stamina"] = {
 					["Show"] = false,
-					["Heroism_Valor"] = 1,
-				},
-				["Crushing"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["FrostResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["petDPS"] = {
-					["Show"] = false,
-				},
-				["DMG"] = {
-					["Show"] = true,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["Arcane"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["petDMG"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["RAP"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["BuffCounter"] = {
-					["Show"] = false,
-				},
-				["BossReduc"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellHit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Lag"] = {
-					["Show"] = false,
-					["World_Realm"] = 1,
-				},
-				["rDPS"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["CritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RDMG"] = {
-					["Show"] = false,
-					["Max_Average_Damage"] = 1,
-				},
-				["Avoidance"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Fire"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["petCrit"] = {
-					["Show"] = false,
-				},
-				["Honor"] = {
-					["Show"] = false,
-				},
-				["MeleeMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["RangedHit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["SpellPenetration"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Frost"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["NPCArmor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Nature"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["RangedPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Enhanced_Base"] = 1,
-				},
-				["mDPS"] = {
-					["Show"] = true,
-					["Display_Average"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["PvP"] = {
-					["Show"] = false,
-					["Honor_Arena"] = 1,
-				},
-				["DefenseStat"] = {
-					["Total_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Armor"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Block"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["RangedCrit"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["CritReceived"] = {
-					["Show"] = false,
-					["Chance_Reduction"] = 1,
-				},
-				["Mitigation"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Holy"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ItemLevel"] = {
-					["Show"] = false,
-				},
-				["CritCap"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["rangedSpeed"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["FPS"] = {
-					["Show"] = false,
-				},
-				["DebuffCounter"] = {
-					["Show"] = false,
-				},
-				["Parry"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["RangedCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["StoneShard"] = {
-					["Show"] = false,
-					["Shards_Marks"] = 1,
-				},
-				["RangedMiss"] = {
-					["Show"] = false,
-					["Level_Same_Boss"] = 1,
-				},
-				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
-					["Show"] = true,
-				},
-				["FireResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["Expertise"] = {
-					["Percent_Rating"] = 1,
-					["Show"] = true,
-					["Display_MainHand"] = false,
-				},
-				["Crit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = true,
-				},
-				["petSpell"] = {
-					["Show"] = false,
-				},
-			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
-			["StatAlignment"] = "TOPLEFT",
-			["Vertical"] = true,
-			["HUDStrata"] = "MEDIUM",
-			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
-			["StatTextCaps"] = false,
-			["StatIcons"] = true,
-			["Minimap"] = {
-				["Show"] = true,
-			},
-			["LockHUD"] = false,
-			["GroupOrder"] = false,
-			["StatSpacingH"] = 7,
-			["StatFontSize"] = 12,
-			["StatFontFlags"] = "",
-			["StatRows"] = 3,
-			["StatSpacingV"] = 1,
-		},
-		["PALADIN"] = {
-			["Stats"] = {
-				["Shadow"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["ArcaneResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["petArmor"] = {
-					["Show"] = false,
-				},
-				["ShadowResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["HitReduction"] = {
-					["Show"] = false,
-				},
-				["RepairCost"] = {
-					["Show"] = false,
-					["Total_Equipped_Bags"] = 1,
-				},
-				["petAtkSpeed"] = {
-					["Show"] = false,
-				},
-				["ArmorPen"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["petAP"] = {
-					["Show"] = false,
-				},
-				["weaponSpeed"] = {
-					["Show"] = false,
-					["Main_Off_Auto"] = 1,
-				},
-				["NatureResist"] = {
-					["Show"] = false,
-					["Player_Pet"] = 1,
-				},
-				["Resilience"] = {
-					["Show"] = false,
-					["Crit_Damage_Taken"] = 1,
-				},
-				["HasteMelee"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["petMood"] = {
-					["Show"] = false,
-					["Mood_Damage"] = 1,
-				},
-				["Frost"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
-				},
-				["Dodge"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["Speed"] = {
-					["Show"] = true,
-				},
-				["HasteCaster"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["TargetSpeed"] = {
-					["Show"] = false,
-				},
-				["Money"] = {
-					["Show"] = false,
-				},
-				["FPS"] = {
-					["Show"] = true,
-				},
-				["MP5"] = {
-					["Show"] = true,
-					["Regen_Normal_Casting"] = 1,
-					["Display_Basic"] = false,
-				},
-				["AP"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["SpellCritBoss"] = {
-					["Show"] = false,
-					["Enhanced_Base"] = 1,
+					["Dec_Def_Stamina"] = 0,
 				},
 				["Durability"] = {
 					["Show"] = true,
@@ -2905,6 +2454,7 @@ SinStatsDB = {
 				},
 				["Crushing"] = {
 					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["FrostResist"] = {
@@ -2914,6 +2464,10 @@ SinStatsDB = {
 				["petDPS"] = {
 					["Show"] = false,
 				},
+				["Agility"] = {
+					["Show"] = false,
+					["Dec_Melee_Agi"] = 0,
+				},
 				["DMG"] = {
 					["Show"] = false,
 					["Display_Average"] = false,
@@ -2921,11 +2475,19 @@ SinStatsDB = {
 				},
 				["Arcane"] = {
 					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
 					["Enhanced_Base"] = 1,
+				},
+				["petSpell"] = {
+					["Show"] = false,
 				},
 				["petDMG"] = {
 					["Show"] = false,
 					["Max_Average_Damage"] = 1,
+				},
+				["Spirit"] = {
+					["Show"] = false,
+					["Dec_Spell_Spir"] = 0,
 				},
 				["RAP"] = {
 					["Show"] = false,
@@ -2933,17 +2495,517 @@ SinStatsDB = {
 				},
 				["RangedCrit"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
 					["Percent_Rating"] = 1,
+				},
+				["Intellect"] = {
+					["Show"] = false,
+					["Dec_Spell_Int"] = 0,
 				},
 				["BossReduc"] = {
 					["Show"] = false,
+					["Dec_Melee_Dmg"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["BuffCounter"] = {
+					["Show"] = false,
+				},
+				["RangedCritBoss"] = {
+					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
 					["Enhanced_Base"] = 1,
 				},
 				["NPCArmor"] = {
 					["Show"] = false,
 					["Enhanced_Base"] = 1,
 				},
+				["mDPS"] = {
+					["Show"] = false,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
+				},
+				["Lag"] = {
+					["Show"] = true,
+					["World_Realm"] = 1,
+				},
+				["rDPS"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["SpellCrit"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
+				},
+				["CritBoss"] = {
+					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
+					["Enhanced_Base"] = 1,
+				},
+				["RDMG"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["Avoidance"] = {
+					["Show"] = false,
+					["Dec_Def_Avoidance"] = 2,
+					["Enhanced_Base"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
+				},
+				["Fire"] = {
+					["Show"] = false,
+					["Dec_Spell_Fire"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellMiss"] = {
+					["Show"] = true,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["petCrit"] = {
+					["Show"] = false,
+				},
+				["Expertise"] = {
+					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
+					["Display_MainHand"] = false,
+				},
+				["MeleeMiss"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["CritCap"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
+				},
+				["FPS"] = {
+					["Show"] = true,
+				},
+				["SpellPenetration"] = {
+					["Show"] = true,
+					["Dec_Spell_Pen"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Conquest"] = {
+					["Show"] = false,
+				},
+				["Nature"] = {
+					["Show"] = false,
+					["Dec_Spell_Nature"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Sidereal"] = {
+					["Show"] = false,
+				},
+				["RangedPen"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
+				},
+				["PvP"] = {
+					["Show"] = false,
+					["Honor_Arena"] = 1,
+				},
+				["GlobalCD"] = {
+					["Show"] = false,
+					["Dec_Misc_Gcd"] = 2,
+				},
+				["DefenseStat"] = {
+					["Dec_Def_Def"] = 1,
+					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
+					["Show"] = false,
+				},
+				["Triumph"] = {
+					["Show"] = false,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
+				},
+				["Money"] = {
+					["Show"] = false,
+				},
+				["CritReceived"] = {
+					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
+				},
+				["SpellHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = true,
+					["Dec_Spell_Hit"] = 2,
+				},
+				["Holy"] = {
+					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ItemLevel"] = {
+					["Show"] = false,
+					["Dec_Misc_Ilvl"] = 1,
+				},
+				["RangedHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
+					["Show"] = false,
+					["Dec_Ranged_Hit"] = 2,
+				},
+				["rangedSpeed"] = {
+					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["DebuffCounter"] = {
+					["Show"] = false,
+				},
+				["StoneShard"] = {
+					["Show"] = false,
+					["Shards_Marks"] = 1,
+				},
+				["Parry"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
+				},
+				["Armor"] = {
+					["Show"] = false,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
+					["Enhanced_Base"] = 1,
+				},
+				["HasteRanged"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
+				},
+				["RangedMiss"] = {
+					["Show"] = false,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
+					["Level_Same_Boss"] = 1,
+				},
+				["Hit"] = {
+					["Show"] = false,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
+				},
+				["FireResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Frost"] = {
+					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Crit"] = {
+					["Show"] = false,
+					["Dec_Melee_Crit"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
+				},
+				["GearScore"] = {
+					["Show"] = true,
+					["Score_Color"] = true,
+				},
+			},
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
+			["StatWidth"] = 150,
+			["StatAlignment"] = "TOPLEFT",
+			["StatRows"] = 1,
+			["HUDPos"] = {
+				["y"] = 13.27764892578125,
+				["x"] = 11.55557250976563,
+				["point"] = "TOP",
+				["scale"] = 1,
+			},
+			["StatTextAbreviate"] = false,
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "MEDIUM",
+			["StatTextCaps"] = false,
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
+			["StatOrder"] = 1,
+			["StatSpacingV"] = 1,
+			["HideHUD"] = false,
+			["StatFontFlags"] = "",
+			["NewColumns"] = {
+				["Durability"] = true,
+				["Shadow"] = true,
+				["SpellPenetration"] = true,
+				["SpellHit"] = true,
+				["Lag"] = true,
+				["GearScore"] = true,
+				["SpellCrit"] = true,
+				["Speed"] = true,
+				["HasteCaster"] = true,
+				["SpellMiss"] = true,
+				["FPS"] = true,
+			},
+			["Minimap"] = {
+				["Show"] = false,
+				["minimapPos"] = 250.2928431696905,
+			},
+			["ResetPosition"] = false,
+			["StatIcons"] = true,
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatFontSize"] = 12,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["CustomOrderList"] = {
+				"Shadow", -- [1]
+				"SpellCrit", -- [2]
+				"SpellHit", -- [3]
+				"HasteCaster", -- [4]
+				"SpellPenetration", -- [5]
+				"SpellMiss", -- [6]
+				"Speed", -- [7]
+				"Durability", -- [8]
+				"Lag", -- [9]
+				"FPS", -- [10]
+				"GearScore", -- [11]
+			},
+			["StatSpacingH"] = 7,
+			["IconAlignment"] = "TOPLEFT",
+			["Vertical"] = false,
+		},
+		["PALADIN"] = {
+			["Stats"] = {
+				["Shadow"] = {
+					["Show"] = false,
+					["Dec_Spell_Shadow"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ArcaneResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["petArmor"] = {
+					["Show"] = false,
+				},
+				["ShadowResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["HitReduction"] = {
+					["Show"] = false,
+					["Dec_Def_Hit"] = 2,
+				},
+				["RepairCost"] = {
+					["Show"] = false,
+					["Total_Equipped_Bags"] = 1,
+				},
+				["petAtkSpeed"] = {
+					["Show"] = false,
+				},
+				["Strength"] = {
+					["Show"] = false,
+					["Dec_Melee_Str"] = 0,
+				},
+				["ArmorPen"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
+				},
+				["petAP"] = {
+					["Show"] = false,
+				},
+				["weaponSpeed"] = {
+					["Show"] = false,
+					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
+				},
+				["NatureResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Resilience"] = {
+					["Show"] = false,
+					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
+				},
+				["HasteMelee"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
+				},
+				["petMood"] = {
+					["Show"] = false,
+					["Mood_Damage"] = 1,
+				},
+				["Frost"] = {
+					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Dodge"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
+				},
+				["Speed"] = {
+					["Show"] = true,
+					["Speed_Static"] = 1,
+				},
+				["HasteCaster"] = {
+					["Show"] = false,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["Threat"] = {
+					["Show"] = false,
+					["Percent_Rating"] = 1,
+				},
+				["TargetSpeed"] = {
+					["Show"] = false,
+				},
+				["Money"] = {
+					["Show"] = false,
+				},
+				["FPS"] = {
+					["Show"] = true,
+				},
+				["MP5"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
+				},
+				["AP"] = {
+					["Show"] = true,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellCritBoss"] = {
+					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["Stamina"] = {
+					["Show"] = false,
+					["Dec_Def_Stamina"] = 0,
+				},
+				["Durability"] = {
+					["Show"] = true,
+				},
+				["Emblems"] = {
+					["Show"] = false,
+					["Heroism_Valor"] = 3,
+				},
+				["Crushing"] = {
+					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["FrostResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["petDPS"] = {
+					["Show"] = false,
+				},
+				["Agility"] = {
+					["Show"] = false,
+					["Dec_Melee_Agi"] = 0,
+				},
+				["DMG"] = {
+					["Show"] = false,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
+				},
+				["Arcane"] = {
+					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["petDMG"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["Spirit"] = {
+					["Show"] = false,
+					["Dec_Spell_Spir"] = 0,
+				},
+				["RAP"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedCrit"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
+					["Percent_Rating"] = 1,
+				},
+				["BossReduc"] = {
+					["Show"] = false,
+					["Dec_Melee_Dmg"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Intellect"] = {
+					["Show"] = false,
+					["Dec_Spell_Int"] = 0,
+				},
 				["petSpell"] = {
+					["Show"] = false,
+				},
+				["NPCArmor"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["Honor"] = {
 					["Show"] = false,
 				},
 				["Lag"] = {
@@ -2955,12 +3017,17 @@ SinStatsDB = {
 					["Max_Average_Damage"] = 1,
 				},
 				["SpellCrit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
 				},
 				["CritBoss"] = {
 					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
 					["Enhanced_Base"] = 1,
 				},
 				["RDMG"] = {
@@ -2969,7 +3036,10 @@ SinStatsDB = {
 				},
 				["Avoidance"] = {
 					["Show"] = true,
+					["Dec_Def_Avoidance"] = 2,
 					["Enhanced_Base"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
 				},
 				["mDPS"] = {
 					["Show"] = false,
@@ -2978,162 +3048,1557 @@ SinStatsDB = {
 				},
 				["SpellMiss"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
 					["Level_Same_Boss"] = 1,
 				},
 				["petCrit"] = {
 					["Show"] = false,
 				},
-				["Honor"] = {
+				["Expertise"] = {
 					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
+					["Display_MainHand"] = false,
 				},
 				["MeleeMiss"] = {
 					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
 					["Level_Same_Boss"] = 1,
 				},
 				["CritCap"] = {
 					["Show"] = false,
 					["Enhanced_Base"] = 1,
-				},
-				["Expertise"] = {
-					["Percent_Rating"] = 1,
-					["Show"] = false,
-					["Display_MainHand"] = false,
+					["Dec_Melee_Cap"] = 1,
 				},
 				["SpellPenetration"] = {
 					["Show"] = false,
+					["Dec_Spell_Pen"] = 1,
 					["Enhanced_Base"] = 1,
+				},
+				["HasteRanged"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
 				},
 				["Conquest"] = {
 					["Show"] = false,
 				},
 				["Fire"] = {
 					["Show"] = false,
+					["Dec_Spell_Fire"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["Nature"] = {
 					["Show"] = false,
+					["Dec_Spell_Nature"] = 0,
 					["Enhanced_Base"] = 1,
 				},
 				["RangedPen"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
 					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
 				},
-				["RangedCritBoss"] = {
+				["RangedHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
 					["Show"] = false,
+					["Dec_Ranged_Hit"] = 2,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
+				},
+				["DefenseStat"] = {
+					["Dec_Def_Def"] = 1,
+					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
+					["Show"] = false,
+				},
+				["Armor"] = {
+					["Show"] = true,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
 					["Enhanced_Base"] = 1,
 				},
 				["PvP"] = {
 					["Show"] = false,
 					["Honor_Arena"] = 1,
 				},
-				["DefenseStat"] = {
-					["Total_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
-				},
-				["Armor"] = {
-					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["Block"] = {
-					["Show"] = false,
-					["Percent_Rating"] = 1,
-				},
-				["CritReceived"] = {
-					["Show"] = true,
-					["Chance_Reduction"] = 1,
-				},
 				["StoneShard"] = {
 					["Show"] = false,
 					["Shards_Marks"] = 1,
 				},
-				["BuffCounter"] = {
-					["Show"] = false,
-				},
-				["Holy"] = {
+				["CritReceived"] = {
 					["Show"] = true,
-					["Enhanced_Base"] = 1,
-				},
-				["ItemLevel"] = {
-					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
 				},
 				["DebuffCounter"] = {
 					["Show"] = false,
 				},
-				["rangedSpeed"] = {
-					["Show"] = false,
+				["Holy"] = {
+					["Show"] = true,
+					["Dec_Spell_Holy"] = 0,
 					["Enhanced_Base"] = 1,
 				},
-				["SpellHit"] = {
+				["ItemLevel"] = {
 					["Show"] = false,
-					["Percent_Rating"] = 1,
+					["Dec_Misc_Ilvl"] = 1,
 				},
 				["ManaRegen"] = {
 					["Show"] = false,
 					["Regen_Normal_Casting"] = 1,
 					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
 				},
-				["Parry"] = {
+				["rangedSpeed"] = {
 					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellHit"] = {
 					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = false,
+					["Dec_Spell_Hit"] = 2,
 				},
 				["Healing"] = {
 					["Show"] = true,
+					["Dec_Spell_Healing"] = 0,
 					["Enhanced_Base"] = 1,
 				},
-				["RangedHit"] = {
-					["Show"] = false,
+				["Parry"] = {
 					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
+				},
+				["BuffCounter"] = {
+					["Show"] = false,
+				},
+				["RangedCritBoss"] = {
+					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
+					["Enhanced_Base"] = 1,
 				},
 				["RangedMiss"] = {
 					["Show"] = false,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
 					["Level_Same_Boss"] = 1,
 				},
 				["Hit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Decimals"] = "2",
 					["Show"] = false,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
 				},
 				["FireResist"] = {
 					["Show"] = false,
 					["Player_Pet"] = 1,
 				},
-				["HasteRanged"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
-					["Show"] = false,
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = true,
+					["Cap_Def_Mit"] = 75,
 				},
 				["Crit"] = {
-					["Percent_Rating"] = 1,
-					["Display_Basic"] = false,
 					["Show"] = false,
+					["Dec_Melee_Crit"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
 				},
-				["Mitigation"] = {
+				["GearScore"] = {
 					["Show"] = true,
-					["Enhanced_Base"] = 1,
+					["Score_Color"] = true,
 				},
 			},
-			["StatFont"] = "Fonts/ARIALN.ttf",
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
+			["StatWidth"] = 150,
 			["StatAlignment"] = "TOPLEFT",
+			["StatRows"] = 1,
 			["Vertical"] = false,
-			["HUDStrata"] = "HIGH",
 			["StatTextAbreviate"] = false,
-			["HideHUD"] = false,
-			["ResetPosition"] = false,
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "HIGH",
 			["StatTextCaps"] = false,
-			["StatIcons"] = true,
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
+			["StatSpacingV"] = 1,
+			["HUDPos"] = {
+				["y"] = 11.49981689453125,
+				["x"] = -50.66619873046875,
+				["point"] = "TOP",
+				["scale"] = 1,
+			},
+			["HideHUD"] = false,
+			["StatSpacingH"] = 7,
+			["NewColumns"] = {
+				["Durability"] = true,
+				["Holy"] = true,
+				["Mitigation"] = true,
+				["Healing"] = true,
+				["MP5"] = true,
+				["AP"] = true,
+				["FPS"] = true,
+				["Armor"] = true,
+				["Avoidance"] = true,
+				["Speed"] = true,
+				["Lag"] = true,
+				["CritReceived"] = true,
+			},
 			["Minimap"] = {
 				["Show"] = false,
 				["minimapPos"] = 236.3683626775267,
 			},
+			["ResetPosition"] = false,
+			["StatIcons"] = true,
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatFontFlags"] = "",
 			["LockHUD"] = false,
-			["GroupOrder"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["CustomOrderList"] = {
+				"AP", -- [1]
+				"Holy", -- [2]
+				"Healing", -- [3]
+				"Avoidance", -- [4]
+				"CritReceived", -- [5]
+				"MP5", -- [6]
+				"Mitigation", -- [7]
+				"Armor", -- [8]
+				"Speed", -- [9]
+				"Durability", -- [10]
+				"Lag", -- [11]
+				"FPS", -- [12]
+			},
+			["StatOrder"] = 1,
+			["IconAlignment"] = "TOPLEFT",
+			["StatFontSize"] = 12,
+		},
+		["DRUID"] = {
+			["Stats"] = {
+				["Shadow"] = {
+					["Show"] = false,
+					["Dec_Spell_Shadow"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ArcaneResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["petArmor"] = {
+					["Show"] = false,
+				},
+				["ShadowResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["HitReduction"] = {
+					["Show"] = false,
+					["Dec_Def_Hit"] = 2,
+				},
+				["RepairCost"] = {
+					["Show"] = false,
+					["Total_Equipped_Bags"] = 1,
+				},
+				["petAtkSpeed"] = {
+					["Show"] = false,
+				},
+				["Strength"] = {
+					["Show"] = false,
+					["Dec_Melee_Str"] = 0,
+				},
+				["ArmorPen"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
+				},
+				["petAP"] = {
+					["Show"] = false,
+				},
+				["weaponSpeed"] = {
+					["Show"] = false,
+					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
+				},
+				["NatureResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Resilience"] = {
+					["Show"] = false,
+					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
+				},
+				["HasteMelee"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
+				},
+				["petMood"] = {
+					["Show"] = false,
+					["Mood_Damage"] = 1,
+				},
+				["ManaRegen"] = {
+					["Show"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
+				},
+				["Dodge"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
+				},
+				["Speed"] = {
+					["Show"] = true,
+					["Speed_Static"] = 1,
+				},
+				["HasteCaster"] = {
+					["Show"] = false,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["Threat"] = {
+					["Show"] = false,
+					["Percent_Rating"] = 1,
+				},
+				["TargetSpeed"] = {
+					["Show"] = false,
+				},
+				["Money"] = {
+					["Show"] = false,
+				},
+				["FPS"] = {
+					["Show"] = true,
+				},
+				["MP5"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
+				},
+				["AP"] = {
+					["Show"] = true,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellCritBoss"] = {
+					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["Stamina"] = {
+					["Show"] = false,
+					["Dec_Def_Stamina"] = 0,
+				},
+				["Durability"] = {
+					["Show"] = true,
+				},
+				["Emblems"] = {
+					["Show"] = false,
+					["Heroism_Valor"] = 1,
+				},
+				["Crushing"] = {
+					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["FrostResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["petDPS"] = {
+					["Show"] = false,
+				},
+				["Agility"] = {
+					["Show"] = false,
+					["Dec_Melee_Agi"] = 0,
+				},
+				["DMG"] = {
+					["Show"] = false,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
+				},
+				["Arcane"] = {
+					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["petDMG"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["Spirit"] = {
+					["Show"] = false,
+					["Dec_Spell_Spir"] = 0,
+				},
+				["RAP"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedCrit"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
+					["Percent_Rating"] = 1,
+				},
+				["BossReduc"] = {
+					["Show"] = false,
+					["Dec_Melee_Dmg"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["NPCArmor"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["Intellect"] = {
+					["Show"] = false,
+					["Dec_Spell_Int"] = 0,
+				},
+				["Lag"] = {
+					["Show"] = true,
+					["World_Realm"] = 1,
+				},
+				["rDPS"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["SpellCrit"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
+				},
+				["CritBoss"] = {
+					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
+					["Enhanced_Base"] = 1,
+				},
+				["RDMG"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["Avoidance"] = {
+					["Show"] = false,
+					["Dec_Def_Avoidance"] = 2,
+					["Enhanced_Base"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
+				},
+				["RangedCritBoss"] = {
+					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellMiss"] = {
+					["Show"] = true,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["petCrit"] = {
+					["Show"] = false,
+				},
+				["BuffCounter"] = {
+					["Show"] = false,
+				},
+				["MeleeMiss"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["CritCap"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
+				},
+				["Fire"] = {
+					["Show"] = false,
+					["Dec_Spell_Fire"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellPenetration"] = {
+					["Show"] = false,
+					["Dec_Spell_Pen"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Conquest"] = {
+					["Show"] = false,
+				},
+				["Frost"] = {
+					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Nature"] = {
+					["Show"] = true,
+					["Dec_Spell_Nature"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedPen"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
+				},
+				["SpellHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = true,
+					["Dec_Spell_Hit"] = 2,
+				},
+				["PvP"] = {
+					["Show"] = false,
+					["Honor_Arena"] = 1,
+				},
+				["DefenseStat"] = {
+					["Dec_Def_Def"] = 1,
+					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
+					["Show"] = false,
+				},
+				["Armor"] = {
+					["Show"] = false,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
+					["Enhanced_Base"] = 1,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
+				},
+				["StoneShard"] = {
+					["Show"] = false,
+					["Shards_Marks"] = 1,
+				},
+				["CritReceived"] = {
+					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
+				},
+				["DebuffCounter"] = {
+					["Show"] = false,
+				},
+				["Holy"] = {
+					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ItemLevel"] = {
+					["Show"] = false,
+					["Dec_Misc_Ilvl"] = 1,
+				},
+				["Healing"] = {
+					["Show"] = true,
+					["Dec_Spell_Healing"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["rangedSpeed"] = {
+					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = true,
+					["Cap_Def_Mit"] = 75,
+				},
+				["RangedHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
+					["Show"] = false,
+					["Dec_Ranged_Hit"] = 2,
+				},
+				["Parry"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
+				},
+				["mDPS"] = {
+					["Show"] = false,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
+				},
+				["HasteRanged"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
+				},
+				["RangedMiss"] = {
+					["Show"] = false,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
+					["Level_Same_Boss"] = 1,
+				},
+				["Hit"] = {
+					["Show"] = false,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
+				},
+				["FireResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Expertise"] = {
+					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
+					["Display_MainHand"] = false,
+				},
+				["Crit"] = {
+					["Show"] = true,
+					["Dec_Melee_Crit"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
+				},
+				["petSpell"] = {
+					["Show"] = false,
+				},
+			},
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
+			["StatAlignment"] = "TOPLEFT",
+			["Vertical"] = false,
+			["Minimap"] = {
+				["Show"] = false,
+				["minimapPos"] = 187.8211568275733,
+			},
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "MEDIUM",
+			["StatTextAbreviate"] = false,
+			["StatRows"] = 1,
+			["StatWidth"] = 150,
+			["StatSpacingV"] = 1,
+			["HideHUD"] = false,
+			["StatFontSize"] = 12,
+			["StatSpacingH"] = 7,
+			["StatFontFlags"] = "",
+			["ResetPosition"] = false,
+			["StatIcons"] = true,
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatTextCaps"] = false,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
+			["HUDPos"] = {
+				["y"] = 11.4998779296875,
+				["x"] = -34.66656494140625,
+				["point"] = "TOP",
+				["scale"] = 1,
+			},
+			["IconAlignment"] = "TOPLEFT",
+			["StatOrder"] = 1,
+		},
+		["ROGUE"] = {
+			["Stats"] = {
+				["Shadow"] = {
+					["Show"] = false,
+					["Dec_Spell_Shadow"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ArcaneResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["petArmor"] = {
+					["Show"] = false,
+				},
+				["ShadowResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["HitReduction"] = {
+					["Show"] = false,
+					["Dec_Def_Hit"] = 2,
+				},
+				["RepairCost"] = {
+					["Show"] = false,
+					["Total_Equipped_Bags"] = 1,
+				},
+				["petAtkSpeed"] = {
+					["Show"] = false,
+				},
+				["Strength"] = {
+					["Show"] = false,
+					["Dec_Melee_Str"] = 0,
+				},
+				["ArmorPen"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
+				},
+				["petAP"] = {
+					["Show"] = false,
+				},
+				["weaponSpeed"] = {
+					["Show"] = true,
+					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
+				},
+				["NatureResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Resilience"] = {
+					["Show"] = false,
+					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
+				},
+				["HasteMelee"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
+				},
+				["petMood"] = {
+					["Show"] = false,
+					["Mood_Damage"] = 1,
+				},
+				["ManaRegen"] = {
+					["Show"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
+				},
+				["Dodge"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
+				},
+				["Speed"] = {
+					["Show"] = true,
+					["Speed_Static"] = 1,
+				},
+				["HasteCaster"] = {
+					["Show"] = false,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["Threat"] = {
+					["Show"] = false,
+					["Percent_Rating"] = 1,
+				},
+				["TargetSpeed"] = {
+					["Show"] = false,
+				},
+				["Money"] = {
+					["Show"] = false,
+				},
+				["Healing"] = {
+					["Show"] = false,
+					["Dec_Spell_Healing"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["MP5"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
+				},
+				["AP"] = {
+					["Show"] = true,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellCritBoss"] = {
+					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["Stamina"] = {
+					["Show"] = false,
+					["Dec_Def_Stamina"] = 0,
+				},
+				["Durability"] = {
+					["Show"] = true,
+				},
+				["Emblems"] = {
+					["Show"] = false,
+					["Heroism_Valor"] = 1,
+				},
+				["Crushing"] = {
+					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["FrostResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["petDPS"] = {
+					["Show"] = false,
+				},
+				["Agility"] = {
+					["Show"] = false,
+					["Dec_Melee_Agi"] = 0,
+				},
+				["DMG"] = {
+					["Show"] = true,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
+				},
+				["Arcane"] = {
+					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["petDMG"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["Spirit"] = {
+					["Show"] = false,
+					["Dec_Spell_Spir"] = 0,
+				},
+				["RAP"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["BuffCounter"] = {
+					["Show"] = false,
+				},
+				["BossReduc"] = {
+					["Show"] = false,
+					["Dec_Melee_Dmg"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Expertise"] = {
+					["Show"] = true,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
+					["Display_MainHand"] = false,
+				},
+				["SpellHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = false,
+					["Dec_Spell_Hit"] = 2,
+				},
+				["Intellect"] = {
+					["Show"] = false,
+					["Dec_Spell_Int"] = 0,
+				},
+				["Lag"] = {
+					["Show"] = false,
+					["World_Realm"] = 1,
+				},
+				["rDPS"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["SpellCrit"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
+				},
+				["CritBoss"] = {
+					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
+					["Enhanced_Base"] = 1,
+				},
+				["RDMG"] = {
+					["Show"] = false,
+					["Max_Average_Damage"] = 1,
+				},
+				["Avoidance"] = {
+					["Show"] = false,
+					["Dec_Def_Avoidance"] = 2,
+					["Enhanced_Base"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
+				},
+				["Fire"] = {
+					["Show"] = false,
+					["Dec_Spell_Fire"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellMiss"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["petCrit"] = {
+					["Show"] = false,
+				},
+				["petSpell"] = {
+					["Show"] = false,
+				},
+				["MeleeMiss"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["RangedHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
+					["Show"] = false,
+					["Dec_Ranged_Hit"] = 2,
+				},
+				["SpellPenetration"] = {
+					["Show"] = false,
+					["Dec_Spell_Pen"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["HasteRanged"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
+				},
+				["Conquest"] = {
+					["Show"] = false,
+				},
+				["NPCArmor"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["Nature"] = {
+					["Show"] = false,
+					["Dec_Spell_Nature"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedPen"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
+				},
+				["mDPS"] = {
+					["Show"] = true,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
+				},
+				["DefenseStat"] = {
+					["Dec_Def_Def"] = 1,
+					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
+					["Show"] = false,
+				},
+				["Armor"] = {
+					["Show"] = false,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
+					["Enhanced_Base"] = 1,
+				},
+				["PvP"] = {
+					["Show"] = false,
+					["Honor_Arena"] = 1,
+				},
+				["CritReceived"] = {
+					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
+				},
+				["StoneShard"] = {
+					["Show"] = false,
+					["Shards_Marks"] = 1,
+				},
+				["RangedCritBoss"] = {
+					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["Holy"] = {
+					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ItemLevel"] = {
+					["Show"] = false,
+					["Dec_Misc_Ilvl"] = 1,
+				},
+				["CritCap"] = {
+					["Show"] = true,
+					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
+				},
+				["rangedSpeed"] = {
+					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["DebuffCounter"] = {
+					["Show"] = false,
+				},
+				["FPS"] = {
+					["Show"] = false,
+				},
+				["Parry"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
+				},
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = false,
+					["Cap_Def_Mit"] = 75,
+				},
+				["RangedCrit"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
+					["Percent_Rating"] = 1,
+				},
+				["RangedMiss"] = {
+					["Show"] = false,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
+					["Level_Same_Boss"] = 1,
+				},
+				["Hit"] = {
+					["Show"] = true,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
+				},
+				["FireResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Frost"] = {
+					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Crit"] = {
+					["Show"] = true,
+					["Dec_Melee_Crit"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
+				},
+				["Honor"] = {
+					["Show"] = false,
+				},
+			},
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
+			["StatAlignment"] = "TOPLEFT",
+			["Vertical"] = true,
+			["Minimap"] = {
+				["Show"] = true,
+				["minimapPos"] = 245.109862925545,
+			},
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "MEDIUM",
+			["StatTextAbreviate"] = false,
+			["StatRows"] = 3,
+			["StatWidth"] = 150,
+			["StatSpacingV"] = 1,
+			["HideHUD"] = false,
+			["StatFontSize"] = 12,
+			["StatSpacingH"] = 7,
+			["StatFontFlags"] = "",
+			["ResetPosition"] = false,
+			["StatIcons"] = true,
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatTextCaps"] = false,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
+			["HUDPos"] = {
+				["y"] = -8.94439697265625,
+				["x"] = -202.721923828125,
+				["point"] = "TOPRIGHT",
+				["scale"] = 1,
+			},
+			["IconAlignment"] = "TOPLEFT",
+			["StatOrder"] = 1,
+		},
+		["HUNTER"] = {
+			["Stats"] = {
+				["Durability"] = {
+					["Show"] = true,
+				},
+				["Shadow"] = {
+					["Show"] = false,
+					["Dec_Spell_Shadow"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["ArcaneResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Crushing"] = {
+					["Show"] = false,
+					["Dec_Def_Crush"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["FrostResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["Expertise"] = {
+					["Show"] = false,
+					["Display_Expertise"] = false,
+					["Dec_Melee_Exp"] = 2,
+					["Display_Simulate"] = false,
+					["Cap_Melee_Exp"] = 6.5,
+					["Percent_Rating"] = 1,
+					["Display_MainHand"] = false,
+				},
+				["ShadowResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["DMG"] = {
+					["Show"] = false,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
+				},
+				["Arcane"] = {
+					["Show"] = false,
+					["Dec_Spell_Arcane"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["NatureResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["RangedCritBoss"] = {
+					["Show"] = false,
+					["Cap_Ranged_CritBoss"] = 104.8,
+					["Dec_Ranged_CritBoss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["Avoidance"] = {
+					["Show"] = false,
+					["Dec_Def_Avoidance"] = 2,
+					["Enhanced_Base"] = 1,
+					["Add_Block"] = false,
+					["Cap_Def_Avo"] = 102.4,
+				},
+				["RAP"] = {
+					["Show"] = true,
+					["Enhanced_Base"] = 1,
+				},
+				["BuffCounter"] = {
+					["Show"] = false,
+				},
+				["mDPS"] = {
+					["Show"] = false,
+					["Display_Average"] = false,
+					["Main_Off_Auto"] = 1,
+				},
+				["BossReduc"] = {
+					["Show"] = false,
+					["Dec_Melee_Dmg"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedMiss"] = {
+					["Show"] = true,
+					["Dec_Ranged_Miss"] = 2,
+					["Display_Simulate"] = false,
+					["Level_Same_Boss"] = 1,
+				},
+				["HasteMelee"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Haste"] = 2,
+					["Cap_Melee_Haste"] = 200,
+					["Add_AtkSpeed"] = true,
+				},
+				["SpellHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Spell_Hit"] = 17,
+					["Show"] = false,
+					["Dec_Spell_Hit"] = 2,
+				},
+				["Money"] = {
+					["Show"] = false,
+				},
+				["Lag"] = {
+					["Show"] = false,
+					["World_Realm"] = 1,
+				},
+				["rDPS"] = {
+					["Show"] = true,
+					["Max_Average_Damage"] = 1,
+				},
+				["SpellCrit"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Display_Simulate"] = false,
+					["Cap_Spell_Crit"] = 100,
+					["Percent_Rating"] = 1,
+					["Dec_Spell_Crit"] = 2,
+				},
+				["CritBoss"] = {
+					["Show"] = false,
+					["Dec_Melee_Boss"] = 2,
+					["Cap_Melee_CritBoss"] = 100,
+					["Enhanced_Base"] = 1,
+				},
+				["RDMG"] = {
+					["Show"] = true,
+					["Max_Average_Damage"] = 1,
+				},
+				["weaponSpeed"] = {
+					["Show"] = false,
+					["Main_Off_Auto"] = 1,
+					["Dec_Melee_AttSp"] = 2,
+				},
+				["Fire"] = {
+					["Show"] = false,
+					["Dec_Spell_Fire"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["SpellMiss"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Spell_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["Resilience"] = {
+					["Show"] = false,
+					["Crit_Damage_Taken"] = 1,
+					["Dec_Def_Res"] = 2,
+				},
+				["Parry"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Parry"] = 2,
+				},
+				["MeleeMiss"] = {
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Melee_Miss"] = 2,
+					["Level_Same_Boss"] = 1,
+				},
+				["RangedHit"] = {
+					["Percent_Rating"] = 1,
+					["Cap_Ranged_Hit"] = 8,
+					["Show"] = true,
+					["Dec_Ranged_Hit"] = 2,
+				},
+				["DefenseStat"] = {
+					["Dec_Def_Def"] = 1,
+					["Display_Basic"] = false,
+					["Cap_Def_Def"] = 540,
+					["Total_Rating"] = 1,
+					["Show"] = false,
+				},
+				["DebuffCounter"] = {
+					["Show"] = false,
+				},
+				["FPS"] = {
+					["Show"] = false,
+				},
+				["Mitigation"] = {
+					["Dec_Def_Mit"] = 2,
+					["Total_Modifiers"] = 1,
+					["Enhanced_Base"] = 1,
+					["Show"] = false,
+					["Cap_Def_Mit"] = 75,
+				},
+				["Nature"] = {
+					["Show"] = false,
+					["Dec_Spell_Nature"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["RangedPen"] = {
+					["Show"] = true,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Pen"] = 2,
+					["Cap_Ranged_ArP"] = 1440,
+				},
+				["Frost"] = {
+					["Show"] = false,
+					["Dec_Spell_Frost"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Block"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Block"] = 2,
+				},
+				["Dodge"] = {
+					["Percent_Rating"] = 1,
+					["Show"] = false,
+					["Display_Simulate"] = false,
+					["Dec_Def_Dodge"] = 2,
+				},
+				["Speed"] = {
+					["Show"] = true,
+					["Speed_Static"] = 1,
+				},
+				["HasteCaster"] = {
+					["Show"] = false,
+					["Dec_Spell_Haste"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Add_Speed"] = true,
+				},
+				["ManaRegen"] = {
+					["Show"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Display_Basic"] = false,
+					["Dec_Spell_MP2"] = 1,
+				},
+				["CritReceived"] = {
+					["Show"] = false,
+					["Chance_Reduction"] = 1,
+					["Dec_Def_Crit"] = 2,
+					["Display_Simulate"] = false,
+				},
+				["SpellPenetration"] = {
+					["Show"] = false,
+					["Dec_Spell_Pen"] = 1,
+					["Enhanced_Base"] = 1,
+				},
+				["Holy"] = {
+					["Show"] = false,
+					["Dec_Spell_Holy"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["NPCArmor"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["Armor"] = {
+					["Show"] = false,
+					["Dec_Def_Armor"] = 0,
+					["Cap_Def_Armor"] = 49905,
+					["Enhanced_Base"] = 1,
+				},
+				["rangedSpeed"] = {
+					["Show"] = false,
+					["Dec_Ranged_AttSp"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["Healing"] = {
+					["Show"] = false,
+					["Dec_Spell_Healing"] = 0,
+					["Enhanced_Base"] = 1,
+				},
+				["MP5"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Regen_Normal_Casting"] = 1,
+					["Dec_Spell_MP5"] = 1,
+				},
+				["AP"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+				},
+				["HasteRanged"] = {
+					["Show"] = true,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Dec_Ranged_Haste"] = 2,
+					["Cap_Ranged_Haste"] = 200,
+				},
+				["CritCap"] = {
+					["Show"] = false,
+					["Enhanced_Base"] = 1,
+					["Dec_Melee_Cap"] = 1,
+				},
+				["SpellCritBoss"] = {
+					["Show"] = false,
+					["Cap_Spell_CritBoss"] = 100,
+					["Dec_Spell_Crit_Boss"] = 2,
+					["Enhanced_Base"] = 1,
+				},
+				["Hit"] = {
+					["Show"] = false,
+					["Cap_Melee_Hit"] = 8,
+					["Dec_Melee_Hit"] = 2,
+					["Display_Decimals"] = "2",
+					["Percent_Rating"] = 1,
+				},
+				["FireResist"] = {
+					["Show"] = false,
+					["Player_Pet"] = 1,
+				},
+				["ArmorPen"] = {
+					["Show"] = false,
+					["Display_Basic"] = false,
+					["Enhanced_Base"] = 1,
+					["Percent_Rating"] = 1,
+					["Dec_Melee_Pen"] = 2,
+				},
+				["Crit"] = {
+					["Show"] = false,
+					["Dec_Melee_Crit"] = 2,
+					["Display_Basic"] = false,
+					["Percent_Rating"] = 1,
+					["Cap_Melee_Crit"] = 71,
+					["Display_Simulate"] = false,
+				},
+				["RangedCrit"] = {
+					["Show"] = true,
+					["Display_Simulate"] = false,
+					["Dec_Ranged_Crit"] = 2,
+					["Cap_Ranged_Crit"] = 104.8,
+					["Percent_Rating"] = 1,
+				},
+			},
+			["StatFont"] = "Arial Narrow",
+			["CompButton"] = true,
+			["StatAlignment"] = "TOPLEFT",
+			["Vertical"] = true,
+			["HUDBgAlpha"] = 0,
+			["HUDStrata"] = "MEDIUM",
+			["StatTextAbreviate"] = false,
+			["StatTextCaps"] = false,
+			["StatRows"] = 3,
+			["StatWidth"] = 150,
+			["HideHUD"] = false,
 			["StatSpacingH"] = 7,
 			["StatFontSize"] = 12,
 			["StatFontFlags"] = "",
-			["StatRows"] = 1,
+			["ResetPosition"] = false,
+			["Minimap"] = {
+				["Show"] = true,
+			},
+			["TextSeparator"] = ":",
+			["DataColor"] = {
+				["b"] = 1,
+				["g"] = 1,
+				["r"] = 1,
+			},
+			["StatIcons"] = true,
+			["LockHUD"] = false,
+			["StatTextColor"] = {
+				["r"] = 1,
+				["g"] = 1,
+				["b"] = 1,
+			},
+			["HUDBgColor"] = {
+				["r"] = 0.1,
+				["g"] = 0.1,
+				["b"] = 0.1,
+			},
 			["StatSpacingV"] = 1,
+			["IconAlignment"] = "TOPLEFT",
+			["StatOrder"] = 1,
 		},
 	},
 }

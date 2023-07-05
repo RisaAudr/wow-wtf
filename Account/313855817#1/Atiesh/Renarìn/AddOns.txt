@@ -85,3 +85,4 @@ DBM-VPVEM: enabled
 DBM-ZulAman: enabled
 DBM-ZG: enabled
 WeakAurasCompanion: enabled
+TidyPlates_ThreatPlates: enabled
